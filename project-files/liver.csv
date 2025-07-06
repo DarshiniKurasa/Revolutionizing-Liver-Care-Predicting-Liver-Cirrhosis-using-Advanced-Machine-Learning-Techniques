@@ -1,0 +1,951 @@
+S.NO,Age,Gender,Place(location where the patient lives),Duration of alcohol consumption(years),Quantity of alcohol consumption (quarters/day),Type of alcohol consumed,Hepatitis B infection,Hepatitis C infection,Diabetes Result,Blood pressure (mmhg),Obesity,Family history of cirrhosis/ hereditary,TCH,TG,LDL,HDL,Hemoglobin  (g/dl),PCV  (%),RBC  (million cells/microliter),MCV   (femtoliters/cell),MCH  (picograms/cell),MCHC  (grams/deciliter),Total Count,Polymorphs  (%) ,Lymphocytes  (%),Monocytes   (%),Eosinophils   (%),Basophils  (%),Platelet Count  (lakhs/mm),Total Bilirubin    (mg/dl),Direct    (mg/dl),Indirect     (mg/dl),Total Protein     (g/dl),Albumin   (g/dl),Globulin  (g/dl),A/G Ratio,AL.Phosphatase      (U/L),SGOT/AST      (U/L),SGPT/ALT (U/L),USG Abdomen (diffuse liver or  not),Predicted Value(Out Come-Patient suffering from liver  cirrosis or not)
+1,55,male,rural,12,2,branded liquor,negative,negative,YES,138/90,yes,no,205,115,120,35,12,40,,88,,,11000,60,35,2,3,0,1.5,7,4,3,6,3,4,0.75,150,56,34,YES,YES
+2,55,male,rural,12,2,branded liquor,negative,negative,YES,138/90,yes,no,205,115,120,35,9.2,40,,88,,,11000,60,35,2,3,0,1.5,7,4,3,6,3,4,0.75,150,56,34,YES,YES
+3,55,male,rural,12,2,branded liquor,negative,negative,YES,138/90,no,no,205,115,120,35,10.2,40,,88,,,11000,60,35,2,3,0,1.5,7,4,3,6,3,4,0.75,150,56,34,YES,YES
+4,55,male,rural,12,2,branded liquor,negative,negative,NO,138/90,no,no,,,,,7.2,40,,88,,,11000,60,35,2,3,0,1.5,7,4,3,6,3,4,0.75,150,56,34,YES,YES
+5,55,female,rural,12,2,branded liquor,negative,negative,YES,138/90,no,no,205,115,120,35,10.2,40,,88,,,11000,60,35,2,3,0,1.5,7,4,3,6,3,4,0.75,150,56,34,YES,YES
+6,55,male,urban,12,2,branded liquor,negative,negative,YES,138/90,yes,no,205,115,120,35,8.4,40,,88,,,11000,60,35,2,3,0,1.5,7,4,3,6,3,4,0.75,150,56,34,YES,YES
+7,55,male,urban,12,2,branded liquor,negative,negative,YES,138/90,yes,no,205,115,120,35,7.2,40,,88,,,11000,60,35,2,3,0,1.67,7,4,3,6,3,4,0.75,150,56,34,YES,YES
+8,55,male,rural,12,2,branded liquor,negative,negative,YES,138/90,yes,no,205,115,120,35,8.8,40,,88,,,11000,60,35,2,3,0,1.5,7,4,3,6,3,4,0.75,150,56,34,YES,YES
+9,55,male,rural,12,2,branded liquor,negative,negative,YES,138/90,yes,no,205,115,120,35,8,40,,88,,,11000,60,35,2,3,0,1.5,7,4,3,6,3,4,0.75,150,56,34,YES,YES
+10,55,male,rural,12,2,branded liquor,negative,negative,YES,138/90,yes,no,205,115,120,35,7,40,1,88,,,11000,60,35,2,3,0,1.5,7,4,3,6,3,4,0.75,150,56,34,YES,YES
+11,45,male,urban,15,3,both,negative,negative,YES,140/100,yes,no,180,170,108,30,9,35,,72,,,11800,62,28,6,3,1,1.55,6,3.8,0.4,,2.3,4,0.575,139,56,48,YES,NO
+12,44,male,urban,15,2,branded liquor,negative,negative,YES,138/90,yes,no,168,120,115,45,9,40,,98,,,12000,60,35,2,3,0,1.56,7,4,3,6,3,4,0.75,115,55,35,YES,NO
+13,45,male,urban,15,3,both,Positive,Positive,YES,140/100,yes,no,180,170,108,30,8.8,35,,72,,,11800,62,28,6,3,1,1.55,6,3.8,0.4,,2.3,4,0.575,139,56,48,YES,NO
+14,44,male,urban,15,2,branded liquor,negative,negative,YES,138/90,yes,no,168,120,115,45,9.9,40,,98,,,12000,60,35,2,3,0,1.56,7,4,3,6,3,4,0.75,115,55,35,YES,NO
+15,45,male,urban,15,3,both,negative,negative,YES,140/100,yes,no,180,170,108,30,8.2,35,,72,,,11800,62,28,6,3,1,1.55,6,3.8,0.4,,2.3,4,0.575,139,56,48,YES,NO
+16,44,male,urban,15,2,branded liquor,negative,negative,YES,138/90,no,no,168,120,115,45,10,40,,98,,,12000,60,35,2,3,0,1.56,7,4,3,6,3,4,0.75,115,55,35,YES,YES
+17,45,male,urban,15,3,both,negative,negative,NO,140/100,no,no,180,170,108,30,11,35,,72,,,11800,62,28,6,3,1,1.55,6,3.8,0.4,,2.3,4,0.575,139,56,48,YES,YES
+18,44,male,urban,15,2,branded liquor,negative,negative,NO,138/90,no,no,168,120,115,45,4,40,,98,,,12000,60,35,2,3,0,1.56,7,4,3,6,3,4,0.75,115,55,35,YES,YES
+19,45,male,urban,15,3,both,negative,negative,NO,140/100,no,no,180,170,108,30,5.9,35,,72,,,11800,62,28,6,3,1,1.55,6,3.8,0.4,,2.3,4,0.575,139,56,48,YES,YES
+20,42,male,urban,15,2,branded liquor,Positive,Positive,NO,138/90,yes,no,168,120,115,45,12,40,,98,,,12000,60,35,2,3,0,1.56,7,4,3,6,3,4,0.75,115,55,35,YES,YES
+21,45,male,urban,15,3,both,negative,negative,YES,140/100,yes,no,180,170,108,30,10,35,,72,,,11800,62,28,6,3,1,1.55,6,3.8,0.4,,2.3,4,0.575,139,56,48,YES,YES
+22,44,male,rural,15,2,branded liquor,negative,negative,YES,138/90,yes,no,168,120,115,45,10,40,,98,,,12000,60,35,2,3,0,1.56,7,4,3,6,3,4,0.75,115,55,35,YES,YES
+23,45,male,urban,15,3,both,negative,negative,YES,140/100,yes,no,180,170,108,30,11.9,35,,72,,,11800,62,28,6,3,1,1.55,6,3.8,0.4,,2.3,4,0.575,139,56,48,YES,YES
+24,44,male,rural,15,2,branded liquor,negative,negative,YES,138/90,yes,no,168,120,115,45,10,40,,98,,,12000,60,35,4,3,0,1.56,7,4,3,6,3,4,0.75,115,55,35,YES,YES
+25,45,male,urban,15,3,both,negative,negative,YES,140/100,yes,no,180,170,108,30,9,35,,72,,,11800,62,28,6,3,1,1.55,6,3.8,0.4,,2.3,4,0.575,139,56,48,YES,YES
+26,44,male,rural,12,2,branded liquor,negative,negative,YES,138/90,yes,no,168,120,115,45,9,40,,98,,,12000,60,35,2,3,0,1.56,7,4,3,6,3,4,0.75,115,55,35,YES,YES
+27,45,male,urban,15,3,both,negative,negative,YES,140/100,yes,no,180,170,108,30,11,35,,80,,,11800,62,28,6,3,1,1.55,6,3.8,0.4,,2.3,4,0.575,139,56,48,YES,YES
+28,44,male,urban,15,2,branded liquor,negative,negative,YES,140/90,yes,no,168,120,115,45,9.9,40,,98,,,12000,60,35,2,3,0,1.56,7,4,3,6,3,4,0.75,115,55,35,YES,YES
+29,45,male,urban,15,3,both,negative,negative,YES,140/100,yes,no,180,170,108,30,9.1,35,,72,31,,11800,62,28,6,3,1,1.55,6,3.8,0.4,,2.3,4,0.575,139,56,48,YES,YES
+30,44,male,urban,15,2,branded liquor,negative,negative,YES,138/90,yes,no,168,120,115,45,8.8,40,,98,,,12000,60,35,2,3,0,1.56,7,4,3,6,3,4,0.75,115,55,35,YES,YES
+31,62,male,rural,40,2,both,negative,negative,YES,160/100,yes,no,190,162,110,45,9.1,37,,70,,,12200,60,32,6,3,0,1.4,5.2,3.4,,,2.1,4.2,0.5,140,84,55,YES,NO
+32,62,male,rural,40,2,both,negative,negative,YES,160/100,yes,no,190,162,110,45,12,37,,70,,,12200,60,32,6,3,0,1.4,5.2,3.4,,,2.1,4.2,0.5,140,84,55,YES,YES
+33,62,male,rural,40,2,both,negative,negative,YES,160/100,yes,no,190,162,110,45,11,37,,70,,,12200,60,32,6,3,0,1.4,5.2,3.4,,,2.1,4.2,0.5,140,84,55,YES,YES
+34,62,male,rural,40,2,both,negative,negative,YES,160/100,no,no,190,162,110,45,10.2,37,,70,,,12200,60,32,6,3,0,1.4,5.2,3.4,,,2.1,4.2,0.5,140,84,55,YES,YES
+35,62,male,rural,40,2,both,Positive,Positive,NO,160/100,no,no,,,,,8,37,,70,,,12200,60,32,6,3,0,1.4,5.2,3.4,,,2.1,4.2,0.5,140,84,55,YES,YES
+36,62,male,urban,40,2,both,negative,negative,YES,160/100,yes,no,190,162,110,45,12.9,37,,70,,,12200,60,32,6,3,0,1.4,5.2,3.4,,,2.1,4.2,0.5,140,84,55,YES,YES
+37,62,male,urban,40,2,both,negative,negative,YES,140/100,yes,no,190,162,110,45,10.9,37,,70,,,12200,60,32,6,3,0,1.4,5.2,3.4,,,2.1,4.2,0.5,140,84,55,YES,YES
+38,62,male,rural,40,2,both,negative,negative,YES,160/100,yes,yes,190,162,110,45,12,37,,70,,,12200,60,32,6,3,0,1.4,5.2,3.4,,,2.1,4.2,0.5,140,84,55,YES,YES
+39,62,male,rural,40,2,both,negative,negative,YES,160/100,yes,no,190,162,110,45,9.8,37,,70,,,12000,60,32,6,3,0,1.4,5.2,3.4,,,2.1,4.2,0.5,140,84,55,YES,YES
+40,62,male,rural,40,2,both,negative,negative,YES,160/100,yes,no,190,162,110,45,11.3,37,3,70,28,,12200,60,32,6,3,0,1.4,5.2,3.4,,,2.1,4.2,0.5,140,84,55,YES,YES
+41,43,male,urban,12,2,both,negative,negative,YES,130/80,yes,no,198,166,79,36,10.9,36,,84,,,9905,72,26,0,2,0,1.76,8.4,5.4,3,6.3,3.4,2.8,1.214,156,45,37,YES,YES
+42,43,male,urban,12,2,both,negative,negative,YES,130/80,yes,no,198,166,79,36,11.9,36,,84,,,9905,72,26,0,2,0,1.76,8.4,5.4,3,6.3,3.4,2.8,1.214,156,45,37,YES,YES
+43,43,male,urban,12,2,both,Positive,Positive,YES,130/80,no,no,198,166,79,36,9.8,36,,84,,,9905,72,26,0,2,0,1.76,8.4,5.4,3,6.3,3.4,2.8,1.214,156,45,37,YES,YES
+44,43,male,urban,12,2,both,negative,negative,YES,130/80,yes,no,198,166,79,36,11.9,36,,84,,,9905,72,26,0,2,0,1.76,8.4,5.4,3,6.3,3.4,2.8,1.214,156,45,37,YES,YES
+45,43,male,urban,12,2,both,negative,negative,YES,130/80,yes,no,198,166,79,36,9.2,36,,84,,,9905,72,26,0,2,0,1.76,8.4,5.4,3,6.3,3.4,2.8,1.214,156,45,37,YES,YES
+46,43,male,rural,12,2,both,negative,negative,YES,130/80,yes,no,198,166,79,36,9.69,36,,84,,,9905,72,26,0,2,0,1.76,8.4,5.4,3,6.3,3.4,2.8,1.214,156,45,37,YES,NO
+47,43,male,urban,12,2,both,negative,negative,YES,130/80,yes,no,198,166,79,36,9.7,36,,84,,,9905,72,26,0,2,0,1.76,8.4,5.4,3,6.3,3.4,2.8,1.214,156,45,37,YES,YES
+48,43,male,urban,12,2,both,negative,negative,YES,130/80,yes,no,200,166,79,36,12.9,36,,84,,,9905,72,26,0,2,0,1.76,8.4,5.4,3,6.3,3.4,2.8,1.214,156,45,37,YES,YES
+49,43,male,urban,12,4,both,negative,negative,YES,130/80,yes,no,198,166,79,36,10.2,36,,84,,,9905,72,26,0,2,0,1.76,8.4,5.4,3,6.3,3.4,2.8,1.214,156,45,37,YES,YES
+50,48,male,rural,14,2,both,negative,negative,YES,130/80,yes,no,198,166,79,36,8,36,,84,,,9905,72,26,0,2,0,1.76,8.4,5.4,3,6.3,3.4,2.8,1.214,156,45,37,YES,YES
+51,49,female,rural,20,2,country liquor,Positive,negative,YES,110/70,yes,no,202,188,88,36,8,35,,81,,,11800,81,17,1,1,0,1.32,4.4,2.7,1.7,6.5,3.2,2.8,1.214,151,48,88,YES,YES
+52,50,female,rural,20,2,country liquor,Positive,negative,YES,110/70,yes,no,202,188,88,36,9.29,35,,81,,,11800,81,17,1,1,0,1.32,4.4,2.7,1.7,6.5,3.2,2.8,1.214,151,48,88,YES,YES
+53,49,female,rural,20,2,country liquor,Positive,Positive,YES,110/70,no,no,202,188,88,36,8.2,35,,81,,,11800,81,17,1,1,0,1.32,4.4,2.7,1.7,6.5,3.2,2.8,1.214,151,48,88,YES,YES
+54,49,female,rural,20,2,country liquor,Positive,negative,YES,110/70,no,no,202,188,88,36,9.2,35,,81,,,11800,81,17,1,1,0,1.32,4.4,2.7,1.7,6.5,3.2,2.8,1.214,151,48,88,YES,YES
+55,49,female,rural,20,2,country liquor,negative,negative,YES,110/70,yes,no,202,188,88,36,8.79,35,,81,,,11800,81,17,1,1,0,1.32,4.4,2.7,1.7,6.5,3.2,2.8,1.214,151,48,88,YES,YES
+56,49,female,rural,20,2,country liquor,Positive,negative,YES,110/70,yes,no,202,188,88,36,14.9,35,,81,,,11800,81,17,1,1,0,1.32,4.4,2.7,1.7,6.5,3.2,2.8,1.214,151,48,88,YES,YES
+57,49,female,rural,20,2,country liquor,Positive,negative,YES,110/70,yes,no,202,188,88,36,15.9,35,,81,,,12003,81,17,1,1,0,1.32,4.4,2.7,1.7,6.5,3.2,2.8,1.214,151,48,88,YES,YES
+58,49,female,rural,20,2,country liquor,Positive,negative,YES,110/70,yes,no,202,188,88,36,15,35,,81,,,11800,81,17,1,1,0,1.32,4.4,2.7,1.7,6.5,3.2,2.8,1.214,151,48,88,YES,YES
+59,49,female,urban,20,2,country liquor,Positive,negative,YES,110/70,yes,no,202,188,88,36,15,35,,81,,,11800,81,17,1,1,0,1.32,4.4,2.7,1.7,6.5,3.2,2.8,1.214,151,48,88,YES,YES
+60,49,female,rural,15,2,country liquor,Positive,negative,YES,110/70,yes,no,202,188,88,36,13,35,,81,,,11800,81,17,1,1,0,1.32,4.4,2.7,1.7,6.5,3.2,2.8,1.214,151,48,88,YES,YES
+61,38,male,urban,10,2,country liquor,negative,negative,YES,110/70,yes,no,180,120,116,40,10.7,38,,86,,,8000,60,36,2,2,0,1,9,7,2,5,1.2,3.8,0.31,116,77,40,YES,NO
+62,53,male,urban,12,2,country liquor,negative,negative,YES,130/78,yes,no,180,86,120,40,11.3,36,,88,,,7000,60,34,3,3,0,1.16,7,5,2,6,2,4,0.5.,110,60,73,YES,NO
+63,40,male,urban,10,1,country liquor,negative,negative,YES,120/78,yes,no,200,130,120,40,9.8,38,,80,,,7000,65,30,2,3,0,1,10,8,2,6,1.2,4.8,0.25,108,79,56,YES,NO
+64,38,male,urban,10,2,country liquor,negative,negative,YES,110/70,yes,no,180,120,116,40,11.8,38,,86,,,8000,60,36,2,2,0,1,9,7,2,5,1.2,3.8,0.31,116,77,40,YES,NO
+65,53,male,urban,12,2,country liquor,negative,negative,YES,130/78,yes,no,180,86,120,40,8,36,,88,,,7000,60,34,3,3,0,1.16,7,5,2,6,2,4,0.5,110,60,73,YES,YES
+66,42,male,urban,10,1,country liquor,negative,negative,YES,120/78,yes,no,200,130,120,40,12,38,,80,,,7000,65,30,2,3,0,1,10,8,2,6,1.2,4.8,0.5.,108,79,56,YES,YES
+67,38,male,urban,10,2,country liquor,negative,negative,NO,110/70,yes,no,180,120,116,40,8.8,38,,86,,,8000,60,36,2,2,0,1,9,7,2,5,1.2,3.8,0.31,116,77,40,YES,YES
+68,53,male,urban,12,2,country liquor,negative,negative,NO,130/78,yes,no,,,,,10.2,36,,88,,,7000,60,34,3,3,0,1.16,7,5,2,6,2,4,0.5,110,60,73,YES,YES
+69,40,male,urban,10,1,country liquor,negative,negative,YES,120/78,yes,no,200,130,120,40,9.8,38,,80,,,7000,65,30,2,3,0,1,10,8,2,6,1.2,4.8,0.5.,108,79,56,YES,YES
+70,38,male,urban,10,2,country liquor,negative,negative,YES,110/70,yes,no,180,120,116,40,10.12,38,,86,,,8000,60,36,2,2,0,1,9,7,2,5,1.2,3.8,0.31,116,77,40,YES,YES
+71,53,male,urban,12,2,country liquor,negative,negative,YES,130/78,yes,no,180,86,120,40,9.8,36,,88,,,7000,60,34,3,3,0,1.16,7,5,2,6,2,4,0.5,110,60,73,YES,YES
+72,40,male,urban,10,1,country liquor,Positive,Positive,YES,120/78,yes,no,200,130,120,40,8.5,38,,80,,,7000,65,30,2,3,0,1,10,8,2,6,1.2,4.8,0.5.,108,79,56,YES,YES
+73,38,female,urban,10,2,country liquor,negative,negative,YES,110/70,no,no,,,,,9.9,38,,86,,,8000,60,36,2,2,0,1,9,7,2,5,1.2,3.8,0.31,116,77,40,YES,YES
+74,53,male,urban,12,2,country liquor,negative,negative,YES,130/78,no,no,180,86,120,40,9.7,36,,88,,,7000,60,34,3,3,0,1.16,7,5,2,6,2,4,0.5,110,60,73,YES,YES
+75,40,male,urban,10,1,country liquor,negative,negative,YES,120/78,no,no,200,130,120,40,9.8,38,,80,,,7000,65,30,2,3,0,1,10,8,2,6,1.2,4.8,0.5.,108,79,56,YES,YES
+76,38,male,rural,10,2,country liquor,negative,negative,YES,110/70,yes,no,180,120,116,40,10.4,38,,86,,,8000,60,36,2,2,0,1,9,7,2,5,1.2,3.8,0.31,116,77,40,YES,YES
+77,53,male,urban,12,2,country liquor,negative,negative,YES,130/78,yes,no,180,86,120,40,10.9,36,,88,,,7000,60,34,3,3,0,1.16,7,5,2,6,2,4,0.5,110,60,73,YES,YES
+78,40,male,rural,10,1,country liquor,negative,negative,YES,120/78,yes,no,200,130,120,40,8.6,38,,80,,,7000,65,30,2,3,0,1,10,8,2,6,1.2,4.8,0.5.,108,79,56,YES,YES
+79,38,male,rural,10,2,country liquor,negative,negative,YES,110/70,yes,no,180,120,116,40,9.7,38,,86,,,8000,60,36,2,2,0,1,9,7,2,5,1.2,3.8,0.31,116,77,40,YES,YES
+80,53,male,urban,12,2,country liquor,negative,negative,YES,130/78,yes,no,180,86,120,40,11.8,36,,88,,,6000,60,34,3,3,0,1.16,7,5,2,6,2,4,0.5,110,60,73,YES,YES
+81,40,male,rural,10,3,country liquor,negative,negative,YES,120/78,yes,no,200,130,120,40,9.8,38,,80,,,7000,65,30,2,3,0,1,10,8,2,6,1.2,4.8,0.5.,108,79,56,YES,YES
+82,38,male,urban,10,2,country liquor,negative,negative,YES,110/70,yes,no,180,120,116,40,10.6,38,,86,,,8000,60,36,3,2,0,1,9,7,2,5,1.2,3.8,,116,77,40,YES,YES
+83,53,male,urban,12,2,country liquor,negative,negative,YES,130/78,yes,no,180,86,120,40,9.6,36,,88,,,7000,60,32,3,3,0,1.16,7,5,2,6,2,4,0.5,110,60,73,YES,YES
+84,40,male,urban,10,1,country liquor,negative,negative,YES,120/78,yes,no,200,130,120,40,10.5,36,,80,,,7000,65,30,2,3,0,1,10,8,2,6,1.2,4.8,0.5.,108,79,56,YES,YES
+85,38,male,urban,10,2,country liquor,negative,negative,YES,110/70,yes,no,180,120,116,40,11,38,,86,,,8000,60,36,2,2,0,1,10,7,2,5,1.2,3.8,0.31,116,77,40,YES,YES
+86,53,male,urban,12,2,country liquor,negative,negative,YES,130/78,yes,no,180,86,120,40,12.6,36,,88,,,7000,60,34,3,3,0,1.16,6,5,2,6,2,4,0.5,110,60,73,YES,YES
+87,40,male,urban,10,1,country liquor,negative,negative,YES,120/78,yes,no,200,130,120,40,12.6,38,,80,,,7000,65,30,14,3,0,1,10,8,2,6,1.2,4.8,0.5.,108,79,56,YES,YES
+88,38,male,urban,10,2,country liquor,negative,negative,YES,120/79,yes,no,180,120,116,40,13.6,38,1,86,,,8000,60,36,2,2,0,1,9,7,2,5,1.2,3.8,0.31,116,77,40,YES,YES
+89,53,male,urban,12,2,country liquor,negative,negative,YES,130/78,no,no,180,86,120,40,11.8,36,,88,,,7000,60,34,3,3,0,1.16,7,5,2,6,2,4,0.5,110,60,73,YES,YES
+90,40,male,urban,10,1,country liquor,negative,negative,YES,120/78,yes,no,200,130,120,40,13.7,34,,80,,,7000,65,30,2,3,0,1,10,8,2,6,1.2,4.8,,108,79,56,YES,YES
+91,68,male,rural,38,2,both,negative,negative,YES,160/100,yes,no,190,170,120,40,10.6,40,,70,,,,60,35,3,2,0,1.67,4.8,3.9,,,2.5,4.1,0.6,160,98,46,YES,NO
+92,68,male,rural,38,2,both,negative,negative,YES,160/100,yes,no,190,170,120,40,11,40,,70,,,,60,35,3,2,0,1.67,4.8,3.9,,,2.5,4.1,0.6,160,98,46,YES,YES
+93,68,male,rural,38,2,both,negative,negative,YES,160/100,yes,no,190,170,120,40,9.5,40,,70,,,,60,35,3,2,0,1.67,4.8,3.9,,,2.5,4.1,0.6,160,98,46,YES,YES
+94,68,male,rural,38,2,both,negative,negative,YES,160/100,yes,no,,,,,8.3,40,,70,,,,60,35,3,2,0,1.67,4.8,3.9,,,2.5,4.1,0.6,160,98,46,YES,YES
+95,68,male,rural,38,2,both,negative,negative,NO,160/100,no,no,190,170,120,40,11,40,,70,,,,60,35,3,2,0,1.67,4.8,3.9,,,2.5,4.1,0.6,160,98,46,YES,YES
+96,68,male,rural,38,2,both,negative,negative,YES,160/100,yes,no,190,170,120,40,12,40,,70,,,,60,35,3,2,0,1.67,4.8,3.9,,,2.5,4.1,0.6,160,98,46,YES,YES
+97,68,male,rural,38,2,both,negative,negative,YES,160/100,yes,no,190,170,120,40,12,40,,70,,,,60,35,3,2,0,1.67,4.8,3.9,,,2.5,4.1,0.6,160,98,46,YES,YES
+98,68,male,rural,38,2,both,negative,negative,YES,160/100,yes,no,188,168,108,37,9.2,40,,70,,,,60,35,3,2,0,1.67,4.8,3.9,,,2.5,4.1,0.6,160,98,46,YES,YES
+99,68,male,rural,38,2,both,negative,negative,YES,160/100,yes,no,190,170,120,40,10.2,40,,70,,,,72,35,3,2,0,1.67,4.8,3.9,,,2.5,4.1,0.6,160,98,46,YES,YES
+100,68,male,rural,38,2,both,negative,negative,YES,160/100,yes,no,190,170,120,40,7.2,40,,70,25,,,60,35,3,2,0,1.67,4.8,3.9,,,2.5,4.1,0.6,160,98,46,YES,YES
+101,46,male,urban,12,2,country liquor,negative,negative,YES,130/76,yes,no,182,118,120,35,10.2,36,,80,,,7000,61,35,2,1,0,2,7,5,1,8,5,3,1.66,130,110,90,YES,NO
+102,50,male,urban,15,1,country liquor,negative,negative,YES,120/86,yes,no,182,184,110,35,8.4,36,,90,,,6000,60,35,2,3,0,1.55,8,6,2,7,3,4,0.75,120,79,84,YES,NO
+103,52,male,rural,20,2,country liquor,negative,negative,YES,130/76,yes,no,100,160,110,30,7.2,,,80,,,8660,80,18,1,1,0,1.6,10.9,7.9,3.9,5,2,3,,110,86,79,YES,NO
+104,45,male,urban,15,2,country liquor,negative,negative,YES,110/70,yes,no,180,151,90,32,8.8,,,76,,,7660,72,23,4,1,0,1.4,7.2,5.2,2,5.3,2.5,2.8,,,90,84,YES,NO
+105,46,male,urban,12,2,country liquor,negative,negative,YES,130/76,yes,no,182,118,120,35,8,36,,80,,,7000,61,35,2,1,0,2,7,5,1,8,5,3,1.66,130,110,90,YES,NO
+106,52,male,urban,15,1,country liquor,negative,negative,YES,120/86,yes,no,182,184,110,35,7,36,,90,,,6000,60,35,2,3,0,1.55,8,6,2,7,3,4,0.75,120,79,84,YES,NO
+107,54,male,rural,20,2,country liquor,negative,negative,YES,130/76,yes,no,100,160,110,30,9,,,80,,,8660,80,18,1,1,0,1.6,10.9,7.9,3.9,5,2,3,,110,86,79,YES,NO
+108,45,male,rural,15,2,country liquor,negative,negative,YES,110/70,yes,no,180,151,90,32,9,,,76,,,7660,72,23,4,1,0,1.4,7.2,5.2,2,5.3,2.5,2.8,,,90,84,YES,YES
+109,46,male,rural,12,2,country liquor,negative,negative,YES,130/76,yes,no,182,118,120,35,8.8,36,,80,,,7000,61,35,2,1,0,2,7,5,1,8,5,3,1.66,130,110,90,YES,YES
+110,50,male,rural,15,1,country liquor,negative,negative,YES,120/86,yes,no,182,184,110,35,9.9,36,,90,,,6000,60,35,2,3,0,1.55,8,6,2,7,3,4,,120,79,84,YES,YES
+111,52,male,rural,20,2,country liquor,negative,negative,YES,130/76,yes,no,100,160,110,30,8.2,,,80,,,8660,80,18,1,1,0,1.6,10.9,7.9,3.9,5,2,3,,110,86,79,YES,YES
+112,45,male,rural,15,2,country liquor,negative,negative,YES,110/70,yes,no,180,151,90,32,10,,,76,,,7660,72,23,4,1,0,1.4,7.2,5.2,2,5.3,2.5,2.8,,,90,84,YES,YES
+113,46,male,urban,12,2,country liquor,negative,negative,YES,130/76,yes,no,182,118,120,35,11,36,,80,,,7000,61,35,2,1,0,2,7,5,1,8,5,3,1.66,130,110,90,YES,YES
+114,50,female,urban,15,1,country liquor,negative,negative,YES,120/86,yes,no,182,184,110,35,4,36,,90,,,6000,60,35,2,3,0,1.55,8,6,2,7,3,4,0.75,120,79,84,YES,YES
+115,52,male,rural,20,2,country liquor,negative,negative,YES,130/76,yes,no,100,160,110,30,5.9,,,80,,,8660,80,18,1,1,0,1.6,10.9,7.9,3.9,5,2,3,,110,86,79,YES,YES
+116,45,male,urban,15,2,country liquor,negative,negative,YES,110/70,yes,no,180,151,90,32,12,,,76,,,7660,72,23,4,1,0,1.4,7.2,5.2,2,5.3,2.5,2.8,,,90,84,YES,YES
+117,46,male,urban,12,2,country liquor,negative,negative,YES,130/76,yes,no,182,118,120,35,10,36,,80,,,7000,61,35,2,1,0,2,7,5,1,8,5,3,1.66,130,110,90,YES,YES
+118,50,female,urban,15,1,country liquor,negative,negative,YES,120/86,yes,no,182,184,110,35,10,36,,90,,,6000,60,35,2,3,0,1.55,8,6,2,7,3,4,0.75,120,79,84,YES,YES
+119,52,male,rural,20,2,country liquor,negative,negative,YES,130/76,yes,no,100,160,110,30,11.9,,,80,,,8660,80,18,1,1,0,1.6,10.9,7.9,3.9,5,2,3,,110,86,79,YES,YES
+120,45,male,urban,15,2,country liquor,negative,negative,YES,110/70,yes,no,180,151,90,32,10,,,76,,,7660,72,23,4,1,0,1.4,7.2,5.2,2,5.3,2.5,2.8,,,90,84,YES,YES
+121,46,male,urban,12,2,country liquor,negative,negative,YES,130/76,yes,no,182,118,120,35,9,36,,80,,,7000,61,35,2,1,0,2,7,5,1,8,5,3,1.66,130,110,90,YES,YES
+122,50,male,rural,15,1,country liquor,negative,negative,YES,120/86,yes,no,182,184,110,35,9,36,,90,,,6000,60,35,2,3,0,1.55,8,6,2,7,3,4,0.75,120,79,84,YES,YES
+123,52,male,rural,20,2,country liquor,negative,negative,YES,130/76,yes,no,100,160,110,30,11,,,80,,,8660,80,18,1,1,0,1.6,10.9,7.9,3.9,5,2,3,,110,86,79,YES,YES
+124,45,male,rural,15,2,country liquor,negative,negative,YES,110/70,yes,no,180,151,90,32,9.9,,,76,,,7660,72,23,4,1,0,1.4,7.2,5.2,2,5.3,2.5,2.8,,,90,84,YES,YES
+125,46,male,urban,12,2,country liquor,negative,negative,YES,130/76,yes,no,182,118,120,35,9.1,36,,80,,,7000,61,35,2,1,0,2,7,5,1,8,5,3,1.66,130,110,90,YES,YES
+126,50,male,rural,18,1,country liquor,negative,negative,YES,120/86,yes,no,182,184,110,35,8.8,36,,90,,,6000,60,35,2,3,0,1.55,8,6,2,7,3,4,0.75,120,79,84,YES,YES
+127,52,male,rural,20,3,country liquor,negative,negative,YES,130/76,yes,no,100,160,110,30,9.1,,,80,,,8660,80,18,1,1,0,1.6,10.9,7.9,3.9,5,2,3,,110,86,79,YES,YES
+128,45,male,rural,15,2,both,negative,negative,YES,110/70,yes,no,180,151,90,32,12,,,76,,,7660,72,23,4,1,0,1.4,7.2,5.2,2,5.3,2.5,2.8,,,90,84,YES,YES
+129,46,male,urban,12,2,country liquor,negative,negative,YES,130/76,yes,no,182,118,120,35,11,36,,80,,,7000,61,35,4,1,0,2,7,5,1,8,5,3,1.66,130,110,90,YES,YES
+130,50,male,urban,15,1,country liquor,negative,negative,YES,120/86,yes,no,182,184,110,35,10.2,36,,90,,,6000,60,35,2,2,0,1.55,8,6,2,7,3,4,0.75,120,79,84,YES,YES
+131,52,male,rural,20,2,country liquor,negative,negative,YES,130/76,yes,no,100,160,110,30,8,,,80,,,8660,80,18,1,1,1,1.2,10.9,7.9,3.9,5,2,3,,110,86,79,YES,YES
+132,45,male,urban,15,2,country liquor,negative,negative,YES,110/70,yes,no,180,151,90,32,12.9,,,76,,,7660,72,23,4,1,0,1.4,7,5.2,2,5.3,2.5,2.8,,,90,84,YES,YES
+133,46,male,urban,12,2,country liquor,negative,negative,YES,130/76,yes,no,182,118,120,35,10.9,36,,80,,,7000,64,35,2,1,0,2,7,5,1,8,5,3,1.66,130,110,90,YES,YES
+134,50,male,urban,15,1,country liquor,negative,negative,YES,120/86,yes,no,182,184,110,35,12,36,,90,,,6000,60,30,2,3,0,1.55,8,6,2,7,3,4,0.75,120,79,84,YES,YES
+135,52,male,rural,20,2,country liquor,negative,negative,YES,130/76,yes,no,100,160,110,30,9.8,,,80,,,8660,80,18,6,1,0,1.6,10.9,7.9,3.9,5,2,3,,110,86,79,YES,YES
+136,45,male,urban,15,2,country liquor,negative,negative,YES,110/70,yes,no,180,151,90,32,11.3,,,76,,,7660,72,23,4,3,0,1.4,7.2,5.2,2,5.3,2.5,2.8,,,90,84,YES,YES
+137,46,male,urban,12,2,country liquor,negative,negative,YES,130/76,yes,yes,182,118,120,35,10.9,36,,80,,,7000,61,35,1,0.6,0,2,7,5,1,8,5,3,1.66,130,110,90,YES,YES
+138,50,male,urban,15,1,country liquor,negative,negative,YES,120/86,yes,no,182,184,110,35,11.9,36,1,90,,,6000,60,35,2,3,1,0.55,8,6,2,7,3,4,0.75,120,79,84,YES,YES
+139,52,female,rural,20,2,country liquor,negative,negative,YES,130/76,yes,no,100,160,110,30,9.8,,,80,,,8660,80,18,1,1,0,1.6,10.9,7.9,3.9,5,2,3,,110,86,79,YES,YES
+140,45,male,urban,15,2,country liquor,negative,negative,YES,110/70,yes,no,180,151,90,32,11.9,,1,76,,,7660,72,23,4,1,0,1.4,7.2,5.2,2,5.3,2.5,2.8,,,90,84,YES,NO
+141,64,male,rural,30,2,country liquor,negative,negative,YES,130/90,yes,no,180,100,116,46,9.2,34,,84,,,8763,81,17,1,1,0,1.2,11,7,4,8.3,2.3,6,,110,76,54,YES,NO
+142,40,male,urban,20,3,both,negative,negative,YES,130/90,yes,no,190,160,94,38,9.69,34,,70,,,12410,60,28,6,3,1,1.036,5.1,3.2,,,2.1,4.3,,140,76,49,YES,NO
+143,60,male,rural,12,1,country liquor,negative,negative,YES,140/80,yes,no,190,156,120,30,9.7,40,,90,,,6000,60,35,2,3,0,1.45,7,4,3,6,3,4,0.75,112,50,30,YES,YES
+144,45,male,rural,15,1,country liquor,Positive,negative,YES,130/80,yes,no,201,186,79,29,12.9,34,,82,,,6700,73,25,2,3,0,1.21,6.4,3.6,2.8,2.5,2.8,,,156,47,35,YES,YES
+145,37,male,urban,13,1,both,negative,negative,YES,120/80,yes,no,210,197,96,31,10.2,38,,86,,,7800,65,30,2,3,0,1.35,5.7,4.2,1.5,6.6,2.7,30,,136,86,45,YES,YES
+146,64,male,rural,30,2,country liquor,negative,negative,YES,130/90,yes,no,180,100,116,46,8,34,,84,,,8763,81,17,1,1,0,1.2,11,7,4,8.3,2.3,6,,110,76,54,YES,YES
+147,40,male,urban,20,3,both,Positive,Positive,YES,130/90,yes,no,190,160,94,38,8,34,,70,,,12410,60,28,6,3,1,1.036,5.1,3.2,,,2.1,4.3,,140,76,49,YES,YES
+148,60,male,rural,12,1,country liquor,negative,negative,YES,140/80,yes,no,190,156,120,30,9.29,40,,90,,,6000,60,35,2,3,0,1.45,7,4,3,6,3,4,0.75,112,50,30,YES,YES
+149,45,male,rural,15,1,country liquor,Positive,Positive,YES,130/80,yes,no,201,186,79,29,8.2,34,,82,,,6700,73,25,2,3,0,1.21,6.4,3.6,2.8,2.5,2.8,,,156,47,35,YES,YES
+150,37,male,urban,13,1,both,negative,negative,YES,120/80,yes,no,210,197,96,31,9.2,38,,86,,,7800,65,30,2,3,0,1.35,5.7,4.2,1.5,6.6,2.7,3,,136,86,45,YES,YES
+151,64,male,rural,30,2,country liquor,negative,negative,YES,130/90,yes,no,180,100,116,46,8.79,34,,84,,,8763,81,17,1,1,0,1.2,11,7,4,8.3,2.3,6,,110,76,54,YES,YES
+152,40,male,urban,20,3,both,negative,negative,YES,130/90,yes,no,190,160,94,38,14.9,34,,70,,,12410,60,28,6,3,1,1.036,5.1,3.2,,,2.1,4.3,,140,76,49,YES,YES
+153,60,male,rural,12,1,country liquor,negative,negative,YES,140/80,no,no,190,156,120,30,15.9,40,,90,,,6000,60,35,2,3,0,1.45,7,4,3,6,3,4,0.75,112,50,30,YES,YES
+154,45,male,rural,15,1,country liquor,Positive,Positive,YES,130/80,no,no,201,186,79,29,15,34,,82,,,6700,73,25,2,3,0,1.21,6.4,3.6,2.8,2.5,2.8,,,156,47,35,YES,YES
+155,37,male,urban,13,1,both,Positive,Positive,YES,120/80,no,no,210,197,96,31,15,38,,86,,,7800,65,30,2,3,0,1.35,5.7,4.2,1.5,6.6,2.7,3,,136,86,45,YES,YES
+156,64,male,rural,30,2,country liquor,negative,negative,YES,130/90,yes,no,,,,,13,34,,84,,,8763,81,17,1,1,0,1.2,11,7,4,8.3,2.3,6,,110,76,54,YES,YES
+157,40,male,urban,20,3,both,negative,negative,YES,130/90,yes,no,190,160,94,38,10.7,34,,70,,,12410,60,28,6,3,1,1.036,5.1,3.2,,,2.1,4.3,,140,76,49,YES,YES
+158,60,male,rural,12,1,country liquor,Positive,Positive,NO,140/80,no,no,190,156,120,30,11.3,40,,90,,,6000,60,35,2,3,0,1.45,7,4,3,6,3,4,0.75,112,50,30,YES,YES
+159,45,male,rural,15,1,country liquor,Positive,negative,YES,130/80,no,no,201,186,79,29,9.8,34,,82,,,6700,73,25,2,3,0,1.21,6.4,3.6,2.8,2.5,2.8,,,156,47,35,YES,YES
+160,37,female,urban,13,1,both,negative,negative,YES,120/80,no,no,210,197,96,31,11.8,38,,86,,,7800,65,30,2,3,0,1.35,5.7,4.2,1.5,6.6,2.7,3,,136,86,45,YES,YES
+161,64,male,rural,30,2,country liquor,negative,negative,YES,130/90,yes,no,180,100,116,46,8,34,,84,,,8763,81,17,1,1,0,1.2,11,7,4,8.3,2.3,6,,110,76,54,YES,YES
+162,40,female,urban,20,3,both,negative,negative,YES,130/90,no,no,190,160,94,38,12,34,,70,,,12410,60,28,6,3,1,1.036,5.1,3.2,,,2.1,4.3,,140,76,49,YES,YES
+163,60,male,rural,12,1,country liquor,Positive,Positive,NO,140/80,no,no,190,156,120,30,8.8,40,,90,,,6000,60,35,2,3,0,1.45,7,4,3,6,3,4,0.75,112,50,30,YES,YES
+164,45,male,rural,15,1,country liquor,negative,negative,YES,130/80,yes,no,201,186,79,29,10.2,34,,82,,,6700,73,25,2,3,0,1.21,6.4,3.6,2.8,2.5,2.8,,,156,47,35,YES,YES
+165,37,male,urban,13,1,both,negative,negative,YES,120/80,yes,no,210,197,96,31,9.8,38,,86,,,7800,65,30,2,3,0,1.35,5.7,4.2,1.5,6.6,2.7,3,,136,86,45,YES,YES
+166,64,male,rural,30,2,country liquor,negative,negative,YES,130/90,yes,no,180,100,116,46,10.12,34,,84,,,8763,81,17,1,1,0,1.2,11,7,4,8.3,2.3,6,,110,76,54,YES,YES
+167,40,male,rural,20,3,both,negative,negative,YES,130/90,yes,no,190,160,94,38,9.8,34,,70,,,12410,60,28,6,3,1,1.036,5.1,3.2,,,2.1,4.3,,140,76,49,YES,YES
+168,60,male,rural,12,1,country liquor,negative,negative,YES,140/80,yes,no,190,156,120,30,8.5,40,,90,,,6000,60,35,2,3,0,1.45,7,4,3,6,3,4,0.75,112,50,30,YES,YES
+169,45,male,urban,15,1,country liquor,Positive,negative,YES,130/80,yes,no,201,186,79,29,9.9,34,,82,,,6700,73,25,2,3,0,1.21,6.4,3.6,2.8,2.5,2.8,,,156,47,35,YES,YES
+170,37,male,rural,13,1,both,negative,negative,YES,120/80,yes,no,210,197,96,31,9.7,38,,86,,,7800,65,30,2,3,0,1.35,5.7,4.2,1.5,6.6,2.7,3,,136,86,45,YES,YES
+171,64,male,rural,30,3,country liquor,negative,negative,YES,120/80,yes,no,180,100,116,46,9.8,34,,84,,,8763,81,17,1,1,0,1.2,11,7,4,8.3,2.3,6,,110,76,54,YES,YES
+172,40,male,rural,20,3,both,Positive,Positive,YES,130/90,yes,no,190,160,94,38,10.4,34,,70,,,12410,60,28,6,3,1,1.036,5.1,3.2,,,2.1,4.3,,140,76,49,YES,YES
+173,60,male,rural,12,1,country liquor,negative,negative,YES,140/80,yes,no,190,156,120,30,10.9,40,,90,,,6000,80,35,2,3,0,1.45,7,4,3,6,3,4,0.75,112,50,30,YES,YES
+174,45,male,rural,15,1,country liquor,Positive,negative,YES,130/80,yes,no,201,186,79,29,8.6,34,,82,,,6700,73,25,5,3,0,1.21,6.4,3.6,2.8,2.5,2.8,,,156,47,35,YES,YES
+175,37,male,rural,13,1,both,negative,negative,YES,120/80,yes,no,210,197,96,31,9.7,38,,80,,,7800,65,30,2,3,0,1.35,5.7,4.2,1.5,6.6,2.7,3,,136,86,45,YES,YES
+176,64,male,rural,30,2,country liquor,negative,negative,YES,130/90,yes,no,180,100,116,46,11.8,34,,84,,,8763,81,17,1,1,0,1.1,11,7,4,8.3,2.3,6,,110,76,54,YES,YES
+177,40,male,urban,20,3,both,negative,negative,YES,130/90,yes,no,190,160,94,38,9.8,34,,70,,,12410,60,28,6,3,1,1.036,5.1,3.2,,,2.1,4.3,,140,76,49,YES,YES
+178,60,male,rural,12,1,country liquor,negative,negative,YES,140/80,yes,no,190,156,120,30,10.6,40,,90,,,6000,60,35,2,3,0,1.45,7,4,3,6,3,4,0.75,112,50,30,YES,YES
+179,45,male,rural,15,3,country liquor,Positive,positive,YES,130/80,yes,no,201,186,79,29,9.6,34,,82,,,6700,73,25,2,3,0,1.21,6.4,3.6,2.8,2.5,2.8,,,156,47,35,YES,YES
+180,37,male,urban,13,1,both,negative,negative,YES,120/80,yes,no,210,197,96,31,10.5,38,,86,,,7800,65,30,2,3,0,1.35,5.7,4.2,1.5,6.6,2.7,3,,136,86,45,YES,YES
+181,64,male,rural,30,2,country liquor,negative,negative,YES,130/90,yes,no,180,100,116,46,11,34,,84,,,8763,81,17,1,1,1,1.2,11,7,4,8.3,2.3,6,,110,76,54,YES,YES
+182,40,male,urban,20,3,both,negative,negative,YES,130/90,yes,no,190,160,94,38,12.6,34,,70,,,12410,60,25,6,3,1,1.036,5.1,3.2,,,2.1,4.3,,140,76,49,YES,YES
+183,60,male,rural,12,1,country liquor,negative,negative,YES,140/80,yes,yes,190,156,120,30,12.6,40,,90,,,6000,60,35,2,3,0,1.45,7,4,3,6,3,4,0.75,112,50,30,YES,YES
+184,45,male,rural,18,1,country liquor,Positive,negative,YES,130/80,yes,no,201,186,79,29,13.6,34,,82,,,6700,73,25,2,3,0,1.21,6.4,3.6,2.8,2.5,2.8,,,156,47,35,YES,YES
+185,37,female,rural,13,1,both,negative,negative,YES,120/80,yes,no,210,197,96,31,11.8,38,,86,,,7800,65,30,2,3,0,1.35,5.7,4.2,1.5,6.6,2.7,3,,136,86,45,YES,YES
+186,64,male,rural,26,2,country liquor,negative,negative,YES,130/90,yes,no,180,100,116,46,13.7,34,,84,,,8763,81,17,1,1,0,1.2,11,7,4,8.3,2.3,6,,110,76,54,YES,YES
+187,40,male,urban,20,3,both,negative,negative,YES,130/90,yes,no,190,160,94,38,10.6,34,4,74,,,12410,60,28,6,3,1,1.036,5.1,3.2,,,2.1,4.3,,140,76,49,YES,YES
+188,60,male,rural,12,1,country liquor,negative,negative,YES,140/80,yes,no,190,156,120,30,11,40,2,90,,,6000,60,28,3,3,0,1.45,7,4,3,6,3,4,0.75,112,50,30,YES,YES
+189,45,male,urban,13,1,country liquor,Positive,negative,YES,130/80,yes,no,201,186,79,29,9.5,34,,82,,,6700,73,25,2,3,0,1.21,6.4,3.6,2.8,2.5,2.8,,,156,47,35,YES,YES
+190,37,male,urban,15,1,branded liquor,negative,negative,YES,120/80,yes,no,210,197,96,31,8.3,38,2,86,,,7800,65,30,2,3,0,1.35,5.7,4.2,1.5,6.6,2.7,3,,136,86,45,YES,YES
+191,50,male,,28,3,both,Positive,Positive,YES,112/70,no,no,,,,,11,27,2,105,31,33,7000,72,23,2,2,1,1,6,2.5,3.5,3,1.4,1.6,,114,204,108,YES,NO
+192,51,male,rural,28,3,both,Positive,Positive,YES,112/70,no,no,,,,,12,27,2,105,,,7000,72,23,2,2,1,1,6,2.5,3.5,3,1.4,1.6,,114,204,108,YES,YES
+193,50,male,rural,28,3,both,Positive,Positive,YES,112/70,no,no,,,,,12,27,2,105,31,33,7000,72,23,2,2,1,1,6,2.5,3.5,3,1.4,1.6,,114,204,108,YES,YES
+194,50,male,rural,28,3,both,Positive,Positive,YES,112/70,no,no,,,,,9.2,27,2,105,,,7000,72,23,2,2,1,1,6,2.5,3.5,3,1.4,1.6,,114,204,108,YES,YES
+195,50,female,rural,28,3,both,Positive,Positive,YES,112/70,no,no,,,,,10.2,27,2,105,,,7000,72,23,2,2,1,1,6,2.5,3.5,3,1.4,1.6,,114,204,108,YES,YES
+196,50,male,urban,28,3,both,Positive,Positive,YES,112/70,no,no,,,,,7.2,27,2,105,31,33,7000,72,23,2,2,1,1,6,2.5,3.5,3,1.4,1.6,,114,204,108,YES,YES
+197,50,male,urban,28,5,both,Positive,Positive,YES,112/70,no,no,,,,,10.2,27,2,105,31,33,7000,72,23,2,2,1,1,6,2.5,3.5,3,1.4,1.6,,114,204,108,YES,YES
+198,50,male,urban,28,3,both,Positive,Positive,YES,114/70,no,no,,,,,8.4,27,2,105,31,33,7000,72,23,2,2,1,1,6,2.5,3.5,3,1.4,1.6,,114,204,108,YES,YES
+199,50,male,,28,3,both,Positive,Positive,YES,112/70,no,no,202,177,91,81,7.2,27,2,105,31,33,7000,72,23,2,2,1,1,6,2.5,3.5,3,1.4,1.6,,114,204,108,YES,YES
+200,44,male,,25,3,both,Positive,Positive,YES,112/70,no,no,,,,,8.8,27,2,105,31,33,7000,72,23,2,2,1,1,6,2.5,3.5,3,1.4,1.6,,114,204,108,YES,YES
+201,38,male,urban,14,4,both,negative,negative,YES,120/80,yes,no,180,172,90,37,8,35,,70,,,11050,68,25,4,2,1,1.38,9.2,2.1,3,6.2,2.5,3.1,0.8,128,60,54,YES,YES
+202,38,male,urban,14,4,both,Positive,Positive,YES,120/80,yes,no,180,172,90,37,7,35,,70,,,11050,68,25,4,2,1,1.38,9.2,2.1,3,6.2,2.5,3.1,0.8,128,60,54,YES,YES
+203,38,male,urban,14,4,both,negative,negative,YES,120/80,yes,no,,,,,9,35,,70,,,11050,68,25,4,2,1,1.38,9.2,2.1,3,6.2,2.5,3.1,0.8,128,60,54,YES,YES
+204,38,female,urban,14,4,both,negative,negative,NO,120/80,no,no,180,172,90,37,9,35,,70,,,11050,68,25,4,2,1,1.38,9.2,2.1,3,6.2,2.5,3.1,0.8,128,60,54,YES,YES
+205,38,male,urban,14,4,both,Positive,Positive,YES,120/80,no,no,180,172,90,37,8.8,35,,70,,,11050,68,25,4,2,1,1.38,9.2,2.1,3,6.2,2.5,3.1,0.8,128,60,54,YES,YES
+206,38,male,rural,14,4,both,negative,negative,YES,120/80,yes,no,180,172,90,37,9.9,35,,70,,,11050,68,25,4,2,1,1.38,9.2,2.1,3,6.2,2.5,3.1,0.8,128,60,54,YES,YES
+207,38,male,rural,14,4,both,negative,negative,YES,120/80,yes,no,180,172,90,37,8.2,37,,70,,,11050,68,25,4,2,1,1.38,9.2,2.1,3,6.2,2.5,3.1,0.8,128,60,54,YES,YES
+208,38,male,urban,14,4,both,negative,negative,YES,120/80,yes,no,180,172,90,37,10,35,,70,,,11050,68,25,4,2,1,1.38,9.2,2.1,3,6.2,2.5,3.1,0.8,128,60,54,YES,YES
+209,38,male,urban,14,4,both,negative,negative,YES,120/80,yes,no,180,160,100,37,11,35,,70,,,11050,68,25,4,2,1,1.38,9.2,2.1,3,6.2,2.5,3.1,0.8,128,60,54,YES,YES
+210,38,male,urban,14,4,both,negative,negative,YES,120/80,yes,no,180,172,90,37,4,35,,70,,,10000,68,25,4,2,1,1.38,9.2,2.1,3,6.2,2.5,3.1,0.8,128,60,54,YES,YES
+211,58,male,rural,15,3,country liquor,negative,negative,YES,130/90,yes,no,190,173,180,32,5.9,33,,71,,,13000,65,30,3,2,0,1.23,7.2,7.2,1.8,7.2,3.1,3.3,,142,56,42,YES,NO
+212,38,male,urban,12,3,both,negative,negative,YES,140/90,yes,no,188,168,108,37,12,35,,68,,,10890,63,31,3,2,1,1.8,8.6,7.8,2,6.6,7.7,3.5,2.2,146,56,43,YES,NO
+213,58,male,rural,15,3,country liquor,negative,negative,YES,130/90,yes,no,190,173,180,32,10,33,,71,,,13000,65,30,3,2,0,1.23,7.2,7.2,1.8,7.2,3.1,3.3,,142,56,42,YES,YES
+214,38,male,urban,12,3,both,negative,negative,YES,140/90,yes,no,188,168,108,37,10,35,,68,,,10890,63,31,3,2,1,1.8,8.6,7.8,2,6.6,7.7,3.5,2.2,146,56,43,YES,YES
+215,58,male,rural,15,3,country liquor,negative,negative,NO,130/90,yes,no,190,173,180,32,11.9,33,,71,,,13000,65,30,3,2,0,1.23,7.2,7.2,1.8,7.2,3.1,3.3,,142,56,42,YES,YES
+216,38,male,urban,12,3,both,negative,negative,NO,140/90,yes,no,188,168,108,37,10,35,,68,,,10890,63,31,3,2,1,1.8,8.6,7.8,2,6.6,7.7,3.5,2.2,146,56,43,YES,YES
+217,58,male,rural,15,3,country liquor,Positive,Positive,YES,130/90,yes,no,,,,,9,33,,71,,,13000,65,30,3,2,0,1.23,7.2,7.2,1.8,7.2,3.1,3.3,,142,56,42,YES,YES
+218,38,female,urban,12,3,both,negative,negative,YES,140/90,yes,no,188,168,108,37,9,35,,68,,,10890,63,31,3,2,1,1.8,8.6,7.8,2,6.6,7.7,3.5,2.2,146,56,43,YES,YES
+219,58,male,rural,15,3,country liquor,negative,negative,YES,130/90,no,no,190,173,180,32,11,33,,71,,,13000,65,30,3,2,0,1.23,7.2,7.2,1.8,7.2,3.1,3.3,,142,56,42,YES,YES
+220,38,male,urban,12,3,both,Positive,Positive,YES,140/90,no,no,188,168,108,37,9.9,35,,68,,,10890,63,31,3,2,1,1.8,8.6,7.8,2,6.6,7.7,3.5,,146,56,43,YES,YES
+221,58,male,rural,15,3,country liquor,negative,negative,YES,130/90,yes,no,190,173,180,32,9.1,33,,71,,,13000,65,30,3,2,0,1.23,7.2,7.2,1.8,7.2,3.1,3.3,,142,56,42,YES,YES
+222,38,male,urban,12,3,both,negative,negative,YES,140/90,yes,no,188,168,108,37,8.8,35,,68,,,10890,63,31,3,2,1,1.8,8.6,7.8,2,6.6,7.7,3.5,2.2,146,56,43,YES,YES
+223,49,male,rural,15,3,country liquor,negative,negative,YES,130/90,yes,no,190,173,180,32,9.1,33,,71,,,13000,65,30,3,2,0,1.23,7.2,7.2,1.8,7.2,3.1,3.3,,142,56,42,YES,YES
+224,38,male,urban,10,3,both,negative,negative,YES,140/90,yes,no,188,168,108,37,12,35,,68,,,10890,63,31,3,2,1,1.8,8.6,7.8,2,6.6,7.7,3.5,2.2,146,56,43,YES,YES
+225,58,male,rural,15,3,country liquor,negative,negative,YES,130/90,yes,no,190,173,180,32,11,33,,71,,,13000,68,30,3,2,0,1.23,7.2,7.2,1.8,7.2,3.1,3.3,,142,56,42,YES,YES
+226,38,male,urban,12,3,both,negative,negative,YES,140/90,yes,no,188,168,108,37,10.2,35,,70,,,10890,63,31,3,2,1,1.8,8.6,7.8,2,6.6,7.7,3.5,2.2,146,56,43,YES,YES
+227,58,male,rural,15,3,country liquor,negative,negative,YES,130/90,yes,no,190,173,180,32,8,33,,71,,,13000,65,30,3,2,0,1.4,7.2,7.2,1.8,7.2,3.1,3.3,,142,56,42,YES,YES
+228,38,male,urban,12,3,both,negative,negative,YES,140/90,yes,no,188,168,108,37,12.9,35,,68,,,10890,63,31,3,3,1,1.8,8.6,7.8,2,6.6,7.7,3.5,2.2,146,56,43,YES,YES
+229,58,male,rural,15,3,country liquor,negative,negative,YES,130/90,yes,yes,190,173,180,32,10.9,33,,71,,,13000,65,30,3,2,0,1.23,7.2,7.2,1.8,7.2,3.1,3.3,,142,56,42,YES,YES
+230,38,male,urban,12,3,both,negative,negative,YES,140/90,yes,no,182,118,120,35,12,35,,68,,,10890,63,31,3,2,1,1.8,8.6,7.8,2,6.6,7.7,3.5,2.2,146,56,43,YES,YES
+231,65,female,rural,15,2,country liquor,negative,negative,YES,140/100,yes,husband,180,160,105,35,9.8,33,,69,,,11800,60,30,5,4,1,1.2,8.2,7.2,0.2,6.6,2.7,3.2,0.84,136,57,44,YES,NO
+232,62,female,rural,15,2,country liquor,negative,negative,YES,140/100,yes,husband,180,160,105,35,11.3,33,,69,,,11800,60,30,5,4,1,1.2,8.2,7.2,0.2,6.6,2.7,3.2,0.84,136,57,44,YES,YES
+233,65,female,rural,15,2,country liquor,negative,negative,NO,140/100,yes,husband,180,160,105,35,10.9,33,,69,,,11800,60,30,5,4,1,1.2,8.2,7.2,0.2,6.6,2.7,3.2,0.84,136,57,44,YES,YES
+234,65,female,rural,15,2,country liquor,negative,negative,YES,140/100,yes,husband,180,160,105,35,11.9,33,,69,,,11800,60,30,5,4,1,1.2,8.2,7.2,0.2,6.6,2.7,3.2,0.84,136,57,44,YES,YES
+235,65,female,rural,15,2,country liquor,negative,negative,YES,140/100,no,husband,180,160,105,35,9.8,33,,69,,,11800,60,30,5,4,1,1.2,8.2,7.2,0.2,6.6,2.7,3.2,0.84,136,57,44,YES,YES
+236,65,female,urban,15,2,branded liquor,negative,negative,NO,108/72,no,no,180,160,105,35,11.9,33,,69,,,11800,60,30,5,4,1,1.2,8.2,7.2,0.2,6.6,2.7,3.2,0.84,136,57,44,YES,YES
+237,65,female,urban,15,2,country liquor,negative,negative,YES,140/100,yes,husband,180,160,105,35,9.2,33,,69,,,11800,60,30,5,4,1,1.2,8.2,7.2,0.2,6.6,2.7,3.2,0.84,136,57,44,YES,YES
+238,65,female,rural,15,2,country liquor,negative,negative,YES,140/100,yes,husband,180,160,105,35,9.69,33,,69,,,12000,60,30,5,4,1,1.2,8.2,7.2,0.2,6.6,2.7,3.2,0.84,136,57,44,YES,YES
+239,65,female,rural,15,2,country liquor,negative,negative,YES,140/100,yes,husband,180,160,105,35,9.7,33,,69,,,11800,60,30,5,4,0,1.2,8.2,7.2,0.2,6.6,2.7,3.2,0.84,136,57,44,YES,YES
+240,65,female,rural,15,2,country liquor,negative,negative,YES,140/100,yes,husband,180,150,105,35,12.9,33,2,69,,,11800,60,30,5,4,1,1.2,8.2,7.2,0.2,6.6,2.7,3.2,0.84,136,57,44,YES,YES
+241,42,male,urban,20,1,country liquor,negative,negative,YES,140/84,yes,no,188,186,86,38,10.2,34,,98,,,10540,58,30,6,4,2,1.7,3.2,1.9,1.3,6.8,3,3.8,0.78,122,96,34,YES,YES
+242,43,male,urban,20,1,country liquor,negative,negative,YES,140/84,yes,no,188,186,86,38,8,34,,98,,,10540,58,30,6,4,2,1.7,3.2,1.9,1.3,6.8,3,3.8,0.78,122,96,34,YES,YES
+243,42,male,urban,20,1,country liquor,negative,negative,NO,140/84,yes,no,,,,,8,34,,98,,,10540,58,30,6,4,2,1.7,3.2,1.9,1.3,6.8,3,3.8,0.78,122,96,34,YES,YES
+244,42,male,urban,20,1,country liquor,negative,negative,NO,140/84,yes,no,188,186,86,38,9.29,34,,98,,,10540,58,30,6,4,2,1.7,3.2,1.9,1.3,6.8,3,3.8,0.78,122,96,34,YES,YES
+245,42,male,urban,20,1,country liquor,Positive,Positive,NO,140/84,no,no,188,186,86,38,8.2,34,,98,,,10540,58,30,6,4,2,1.7,3.2,1.9,1.3,6.8,3,3.8,0.78,122,96,34,YES,YES
+246,42,male,,20,1,country liquor,negative,negative,YES,140/84,yes,no,188,186,86,38,9.2,34,,98,,,10540,58,30,6,4,2,1.7,3.2,1.9,1.3,6.8,3,3.8,0.78,122,96,34,YES,YES
+247,42,male,rural,20,3,country liquor,negative,negative,YES,140/84,yes,no,188,186,86,38,8.79,34,,98,,,10540,58,30,6,4,2,1.7,3.2,1.9,1.3,6.8,3,3.8,0.78,122,96,34,YES,YES
+248,42,male,urban,20,1,country liquor,negative,negative,YES,140/84,yes,no,188,186,86,38,14.9,34,,98,,,10540,58,30,5,4,2,1.7,3.2,1.9,1.3,6.8,3,3.8,0.78,122,96,34,YES,YES
+249,42,male,urban,20,1,country liquor,negative,negative,YES,140/84,yes,no,188,186,86,38,15.9,34,,98,,,10540,58,25,6,4,2,1.7,3.2,1.9,1.3,6.8,3,3.8,0.78,122,96,34,YES,YES
+250,50,male,rural,20,4,country liquor,negative,negative,YES,130/90,yes,no,186,174,104,37,15,31,,70,,,10100,65,30,3,2,0,1.2,8.9,7.8,2,6.6,2.7,3.5,0.77,130,59,46,YES,YES
+251,50,male,rural,20,4,country liquor,negative,negative,YES,130/90,yes,no,186,174,104,37,15,31,,70,,,10100,65,30,3,2,0,1.2,8.9,7.8,2,6.6,2.7,3.5,0.77,130,59,46,YES,YES
+252,50,male,rural,20,4,country liquor,negative,negative,YES,130/90,no,no,,,,,13,31,,70,,,10100,65,30,3,2,0,1.2,8.9,7.8,2,6.6,2.7,3.5,0.77,130,59,46,YES,YES
+253,50,male,rural,20,4,country liquor,negative,negative,YES,130/90,yes,no,186,174,104,37,10.7,31,,70,,,10100,65,30,3,2,0,1.2,8.9,7.8,2,6.6,2.7,3.5,0.77,130,59,46,YES,YES
+254,50,male,rural,20,4,country liquor,negative,negative,YES,130/90,yes,no,186,174,104,37,11.3,31,,70,,,10100,65,30,3,2,0,1.2,8.9,7.8,2,6.6,2.7,3.5,0.77,130,59,46,YES,YES
+255,50,male,urban,20,4,country liquor,negative,negative,YES,130/90,yes,no,186,174,104,37,9.8,31,,70,,,10100,65,30,3,2,0,1.2,8.9,7.8,2,6.6,2.7,3.5,0.77,130,59,46,YES,YES
+256,50,male,urban,20,4,country liquor,Positive,negative,YES,130/90,yes,no,186,174,104,37,11.8,31,,70,,,10100,65,30,3,2,0,1.2,8.9,7.8,2,6.6,2.7,3.5,0.77,130,59,46,YES,YES
+257,50,male,rural,20,4,country liquor,negative,negative,YES,130/90,yes,no,186,174,104,37,8,31,,70,,,10100,65,28,3,2,0,1.2,8.9,7.8,2,6.6,2.7,3.5,0.77,130,59,46,YES,YES
+258,50,male,rural,20,4,country liquor,negative,negative,YES,130/90,yes,no,186,174,104,37,12,31,,70,,,10100,65,30,3,2,0,1.2,8.9,7.8,2,6.6,2.7,3.5,0.77,130,59,46,YES,YES
+259,49,male,urban,20,2,both,negative,negative,YES,130/70,yes,no,205,184,96,36,8.8,38,,77,,,11858,75,23,1,1,0,1.52,7.8,4.8,3,6.2,2.9,3.3,0.87,178,78,62,YES,YES
+260,49,male,urban,20,2,both,negative,negative,YES,130/70,yes,no,205,184,96,36,10.2,38,,77,,,11858,75,23,1,1,0,1.52,7.8,4.8,3,6.2,2.9,3.3,0.87,178,78,62,YES,YES
+261,49,male,urban,20,2,both,negative,negative,YES,130/70,yes,no,205,184,96,36,9.8,38,,77,,,11858,75,23,1,1,0,1.52,7.8,4.8,3,6.2,2.9,3.3,0.87,178,78,62,YES,YES
+262,49,male,urban,20,2,both,negative,negative,YES,130/70,yes,no,,,,,10.12,38,,77,,,11858,75,23,1,1,0,1.52,7.8,4.8,3,6.2,2.9,3.3,0.87,178,78,62,YES,YES
+263,49,male,urban,20,2,both,negative,negative,YES,130/70,no,no,,,,,9.8,38,,77,,,11858,75,23,1,1,0,1.52,7.8,4.8,3,6.2,2.9,3.3,0.87,178,78,62,YES,YES
+264,49,male,urban,20,2,both,negative,negative,YES,130/70,yes,no,205,184,96,36,8.5,38,,77,,,11858,75,23,1,1,0,1.52,7.8,4.8,3,6.2,2.9,3.3,0.87,178,78,62,YES,YES
+265,49,male,urban,20,2,both,negative,negative,YES,130/70,yes,no,205,184,96,36,9.9,38,,77,,,11858,75,23,1,1,0,1.52,7.8,4.8,3,6.2,2.9,3.3,0.87,178,78,62,YES,YES
+266,49,male,urban,20,2,both,negative,negative,YES,130/70,yes,no,205,184,96,36,9.7,38,,77,,,11858,75,23,1,1,0,1.52,7.8,4.8,3,6.2,2.9,3.3,0.87,178,78,62,YES,YES
+267,49,male,urban,20,2,both,negative,negative,YES,130/70,yes,no,205,190,80,27,9.8,38,,77,,,11858,75,23,1,1,0,1.52,7.8,4.8,3,6.2,2.9,3.3,0.87,178,78,62,YES,YES
+268,60,female,rural,10,3,both,negative,negative,YES,140/100,yes,no,175,160,108,38,10.4,37,,72,,,11800,72,22,4,2,0,1.34,8.4,7.6,1.8,6.4,2.9,3.7,0.87,144,54,41,YES,YES
+269,60,female,rural,10,3,both,negative,negative,YES,140/100,yes,no,175,160,108,38,10.9,37,,72,,,11800,72,22,4,2,0,1.34,8.4,7.6,1.8,6.4,2.9,3.7,0.87,144,54,41,YES,YES
+270,60,female,rural,10,3,both,negative,negative,YES,140/100,yes,no,175,160,108,38,8.6,37,,72,,,11800,72,22,4,2,0,1.34,8.4,7.6,1.8,6.4,2.9,3.7,0.87,144,54,41,YES,YES
+271,60,female,rural,10,3,both,Positive,Positive,YES,140/100,yes,no,175,160,108,38,9.7,37,,72,,,11800,72,22,4,2,0,1.34,8.4,7.6,1.8,6.4,2.9,3.7,0.87,144,54,41,YES,YES
+272,60,female,rural,10,3,both,negative,negative,YES,140/100,yes,no,175,160,108,38,11.8,37,,72,,,11800,72,22,4,2,0,1.34,8.4,7.6,1.8,6.4,2.9,3.7,0.87,144,54,41,YES,YES
+273,60,female,urban,10,3,both,negative,negative,YES,140/100,yes,no,175,160,108,38,9.8,37,,72,,,11800,72,22,4,2,0,1.34,8.4,7.6,1.8,6.4,2.9,3.7,0.87,144,54,41,YES,YES
+274,60,female,urban,10,2,both,negative,negative,YES,140/100,yes,no,175,160,108,38,10.6,37,,72,,,11800,72,22,4,2,0,1.34,8.4,7.6,1.8,6.4,2.9,3.7,0.87,144,54,41,YES,YES
+275,60,female,rural,10,3,both,negative,negative,YES,140/100,yes,no,175,160,108,38,9.6,37,,72,,,11800,72,22,4,1,0,1.34,8.4,7.6,1.8,6.4,2.9,3.7,0.87,144,54,41,YES,YES
+276,60,female,rural,10,3,both,negative,negative,YES,140/100,yes,no,175,160,108,38,10.5,37,,72,,,11800,72,22,4,2,0,1.34,8.4,7.6,1.8,6.4,2.9,3.7,0.87,144,54,41,YES,YES
+277,38,male,rural,22,2,country liquor,negative,negative,YES,130/84,yes,no,188,140,96,34,11,32,,88,30,,8420,65,24,,,,1.42,5.2,3.2,2,6.4,2.8,3.6,0.77,172,104,44,YES,YES
+278,38,male,rural,22,2,country liquor,negative,negative,YES,130/84,yes,no,188,140,96,34,12.6,32,,88,30,,8420,65,24,,,,1.42,5.2,3.2,2,6.4,2.8,3.6,0.77,172,104,44,YES,YES
+279,38,male,rural,22,2,country liquor,negative,negative,NO,130/84,yes,no,188,140,96,34,12.6,32,,88,30,,8420,65,24,,,,1.42,5.2,3.2,2,6.4,2.8,3.6,0.77,172,104,44,YES,YES
+280,38,male,rural,22,2,country liquor,negative,negative,NO,130/84,yes,no,,,,,13.6,32,,88,30,,8420,65,24,,,,1.42,5.2,3.2,2,6.4,2.8,3.6,0.77,172,104,44,YES,YES
+281,38,male,rural,22,2,country liquor,Positive,Positive,NO,130/84,no,no,188,140,96,34,11.8,32,,88,30,,8420,65,24,,,,1.42,5.2,3.2,2,6.4,2.8,3.6,0.77,172,104,44,YES,YES
+282,38,male,rural,22,2,country liquor,negative,negative,YES,130/84,yes,no,188,140,96,34,13.7,32,,88,30,,8420,65,24,,,,1.42,5.2,3.2,2,6.4,2.8,3.6,0.77,172,104,44,YES,YES
+283,38,male,rural,22,2,country liquor,positive,positive,YES,130/84,yes,no,188,140,96,34,10.6,32,,88,30,,8420,65,24,,,,1.42,5.2,3.2,2,6.4,2.8,3.6,0.77,172,104,44,YES,YES
+284,38,male,rural,22,2,country liquor,negative,negative,YES,130/84,yes,no,188,140,96,34,11,32,,88,30,,8420,68,24,,,,1.42,5.2,3.2,2,6.4,2.8,3.6,0.77,172,104,44,YES,YES
+285,38,male,rural,22,2,country liquor,negative,negative,YES,130/84,yes,no,188,140,96,34,9.5,32,,88,30,,8420,65,24,,2,,1.42,5.2,3.2,2,6.4,2.8,3.6,0.77,172,104,44,YES,YES
+286,46,male,rural,18,2,country liquor,negative,negative,YES,130/80,yes,no,219,136,98,33,8.3,42,,92,,,5600,60,35,2,3,0,1.6,7,4,3,6,3,4,0.75,115,68,35,YES,YES
+287,52,male,urban,12,1,country liquor,negative,negative,YES,130/70,yes,no,180,180,110,35,11,42,,92,,,9600,60,35,2,3,0,1.8,7,4,3,6,3,4,0.75,110,58,35,YES,YES
+288,46,male,rural,18,2,country liquor,negative,negative,YES,130/80,yes,no,219,136,98,33,12,42,,92,,,5600,60,35,2,3,0,1.6,7,4,3,6,3,4,0.75,115,68,35,YES,YES
+289,52,male,urban,12,1,country liquor,negative,negative,YES,130/70,yes,no,180,180,110,35,12,42,,92,,,9600,60,35,2,3,0,1.8,7,4,3,6,3,4,0.75,110,58,35,YES,YES
+290,46,male,rural,18,2,country liquor,negative,negative,NO,130/80,yes,no,,,,,9.2,42,,92,,,5600,60,35,2,3,0,1.6,7,4,3,6,3,4,0.75,115,68,35,YES,YES
+291,52,male,urban,12,1,country liquor,negative,negative,YES,130/70,no,no,180,180,110,35,10.2,42,,92,,,9600,60,35,2,3,0,1.8,7,4,3,6,3,4,0.75,110,58,35,YES,YES
+292,46,male,rural,18,2,country liquor,negative,negative,YES,130/80,yes,no,219,136,98,33,7.2,42,,92,,,5600,60,35,2,3,0,1.6,7,4,3,6,3,4,0.75,115,68,35,YES,YES
+293,52,male,urban,12,1,country liquor,negative,negative,YES,130/70,yes,no,,,,,10.2,42,,92,,,9600,60,35,2,3,0,1.8,7,4,3,6,3,4,0.75,110,58,35,YES,YES
+294,46,male,rural,18,2,country liquor,Positive,Positive,NO,130/80,no,no,219,136,98,33,8.4,42,,92,,,5600,60,35,2,3,0,1.6,7,4,3,6,3,4,0.75,115,68,35,YES,YES
+295,52,male,urban,12,1,country liquor,negative,negative,YES,130/70,yes,no,180,180,110,35,7.2,42,,92,,,9600,60,35,2,3,0,1.8,7,4,3,6,3,4,0.75,110,58,35,YES,YES
+296,46,male,,18,2,country liquor,negative,negative,YES,130/80,yes,no,219,136,98,33,8.8,42,,92,,,5600,60,35,2,3,0,1.6,7,4,3,6,3,4,0.75,115,68,35,YES,YES
+297,52,male,urban,12,2,branded liquor,negative,negative,NO,108/72,no,no,180,180,110,35,8,42,,92,,,9600,60,35,2,3,0,1.8,7,4,3,6,3,4,0.75,110,58,35,YES,YES
+298,46,male,,16,2,country liquor,negative,negative,YES,130/80,yes,no,219,136,98,33,7,42,,92,,,5600,60,35,2,3,0,1.6,7,4,3,6,3,4,0.75,115,68,35,YES,YES
+299,52,male,rural,12,1,country liquor,negative,negative,YES,130/70,yes,no,180,180,110,35,9,42,,92,,,9600,60,35,2,3,0,1.8,7,4,3,6,3,4,0.75,110,58,35,YES,YES
+300,46,male,rural,18,2,country liquor,negative,negative,YES,130/80,yes,no,219,136,98,33,9,42,,92,,,5600,60,35,2,2,0,1.6,7,4,3,6,3,4,0.75,115,68,35,YES,YES
+301,52,male,urban,12,1,country liquor,negative,negative,YES,130/70,yes,no,180,180,110,35,8.8,42,,92,,,9600,60,35,2,3,0,1.8,7,4,3,6,3,4,0.75,110,58,35,YES,YES
+302,46,male,rural,18,2,country liquor,negative,negative,YES,130/80,yes,no,219,136,98,33,9.9,42,,92,,,5600,74,35,2,3,0,1.6,7,4,3,6,3,4,0.75,115,68,35,YES,YES
+303,48,male,rural,18,3,country liquor,negative,negative,YES,130/90,yes,no,180,171,120,37,8.2,36,,71,,,12300,64,24,6,4,0,1.5,8.3,7.7,2,7,2.1,3.9,,140,56,42,YES,YES
+304,49,male,rural,20,2,country liquor,negative,negative,YES,134/84,yes,no,216,144,120,28,10,30,,90,,,7200,76,38,1,3,0,2.4,6,3.8,2.2,6.2,3.1,3.1,,160,64,40,YES,YES
+305,50,male,urban,20,3,branded liquor,negative,negative,YES,130/80,yes,no,200,176,108,33,11,37.4,,87,,,7400,70,32,1,4,0,1.7,5.8,4.2,1.6,7.4,2.6,4.8,,126,59,44,YES,YES
+306,52,male,urban,28,3,branded liquor,negative,negative,YES,130/70,yes,no,219,136,109,32,4,39,,95,,,6700,76,28,1,4,0,2.3,7.6,5.2,2.4,6.6,4.6,2,,158,86,38,YES,YES
+307,57,male,rural,27,2,country liquor,negative,negative,YES,140/90,yes,no,296,206,109,26,5.9,39,,98,,,7500,65,28,1,3,0,1.8,7.5,5.5,2,7.6,5.4,2.2,2.45,137,66,58,YES,YES
+308,48,male,rural,18,3,country liquor,negative,negative,YES,130/90,yes,no,180,171,120,37,12,36,,71,,,12300,64,24,6,4,0,1.5,8.3,7.7,2,7,2.1,3.9,,140,56,42,YES,YES
+309,49,female,rural,20,2,country liquor,Positive,Positive,NO,134/84,yes,no,216,144,120,28,10,30,,90,,,7200,76,38,1,3,0,2.4,6,3.8,2.2,6.2,3.1,3.1,,160,64,40,YES,YES
+310,50,male,urban,20,3,branded liquor,negative,negative,NO,130/80,yes,no,200,176,108,33,10,37.4,,87,,,7400,70,32,1,4,0,1.7,5.8,4.2,1.6,7.4,2.6,4.8,,126,59,44,YES,YES
+311,52,male,urban,28,3,branded liquor,Positive,Positive,NO,130/70,yes,no,219,136,109,32,11.9,39,,95,,,6700,76,28,1,4,0,2.3,7.6,5.2,2.4,6.6,4.6,2,,158,86,38,YES,YES
+312,57,male,rural,27,2,country liquor,Positive,Positive,NO,140/90,yes,no,296,206,109,26,10,39,,98,,,7500,65,28,1,3,0,1.8,7.5,5.5,2,7.6,5.4,2.2,2.45,137,66,58,YES,YES
+313,48,male,rural,18,3,country liquor,negative,negative,YES,130/90,yes,no,180,171,120,37,9,36,,71,,,12300,64,24,6,4,0,1.5,8.3,7.7,2,7,2.1,3.9,,140,56,42,YES,YES
+314,49,female,rural,20,2,country liquor,negative,negative,YES,134/84,yes,no,216,144,120,28,9,30,,90,,,7200,76,38,1,3,0,2.4,6,3.8,2.2,6.2,3.1,3.1,,160,64,40,YES,YES
+315,50,male,urban,20,3,branded liquor,negative,negative,YES,130/80,yes,no,200,176,108,33,11,37.4,,87,,,7400,70,32,1,4,0,1.7,5.8,4.2,1.6,7.4,2.6,4.8,,126,59,44,YES,YES
+316,52,male,urban,28,3,branded liquor,negative,negative,YES,130/70,yes,no,,,,,9.9,39,,95,,,6700,76,28,1,4,0,2.3,7.6,5.2,2.4,6.6,4.6,2,,158,86,38,YES,YES
+317,57,male,rural,27,2,country liquor,Positive,Positive,YES,140/90,no,no,,,,,9.1,39,,98,,,7500,65,28,1,3,0,1.8,7.5,5.5,2,7.6,5.4,2.2,2.45,137,66,58,YES,YES
+318,48,male,rural,18,3,country liquor,negative,negative,YES,130/90,yes,no,180,171,120,37,8.8,36,,71,,,12300,64,24,6,4,0,1.5,8.3,7.7,2,7,2.1,3.9,,140,56,42,YES,YES
+319,49,female,rural,20,2,country liquor,negative,negative,NO,134/84,yes,no,,,,,9.1,30,,90,,,7200,76,38,1,3,0,2.4,6,3.8,2.2,6.2,3.1,3.1,,160,64,40,YES,YES
+320,50,male,urban,20,3,branded liquor,negative,negative,NO,130/80,yes,no,200,176,108,33,12,37.4,,87,,,7400,70,32,1,4,0,1.7,5.8,4.2,1.6,7.4,2.6,4.8,,126,59,44,YES,YES
+321,52,male,urban,28,3,branded liquor,negative,negative,YES,130/70,yes,no,219,136,109,32,11,39,,95,,,6700,76,28,1,4,0,2.3,7.6,5.2,2.4,6.6,4.6,2,,158,86,38,YES,YES
+322,57,male,rural,27,2,country liquor,negative,negative,YES,140/90,yes,no,296,206,109,26,10.2,39,,98,,,7500,65,28,1,3,0,1.8,7.5,5.5,2,7.6,5.4,2.2,2.45,137,66,58,YES,YES
+323,48,male,rural,18,3,country liquor,negative,negative,YES,130/90,no,no,,,,,8,36,,71,,,12300,64,24,6,4,0,1.5,8.3,7.7,2,7,2.1,3.9,,140,56,42,YES,YES
+324,49,male,rural,20,2,country liquor,negative,negative,YES,134/84,no,no,,,,,12.9,30,,90,,,7200,76,38,1,3,0,2.4,6,3.8,2.2,6.2,3.1,3.1,,160,64,40,YES,YES
+325,50,male,urban,20,3,branded liquor,negative,negative,NO,130/80,no,no,,,,,10.9,37.4,,87,,,7400,70,32,1,4,0,1.7,5.8,4.2,1.6,7.4,2.6,4.8,,126,59,44,YES,YES
+326,52,male,urban,28,3,branded liquor,negative,negative,YES,130/70,no,no,219,136,109,32,12,39,,95,,,6700,76,28,1,4,0,2.3,7.6,5.2,2.4,6.6,4.6,2,,158,86,38,YES,YES
+327,57,male,rural,27,2,country liquor,negative,negative,NO,140/90,yes,no,296,206,109,26,9.8,39,,98,,,7500,65,28,1,3,0,1.8,7.5,5.5,2,7.6,5.4,2.2,2.45,137,66,58,YES,YES
+328,48,male,,18,3,country liquor,negative,negative,YES,130/90,yes,no,180,171,120,37,11.3,36,,71,,,12300,64,24,6,4,0,1.5,8.3,7.7,2,7,2.1,3.9,,140,56,42,YES,YES
+329,49,male,rural,20,2,country liquor,negative,negative,YES,134/84,yes,no,216,144,120,28,10.9,30,,90,,,7200,76,38,1,3,0,2.4,6,3.8,2.2,6.2,3.1,3.1,,160,64,40,YES,YES
+330,50,male,rural,20,3,branded liquor,negative,negative,YES,130/80,yes,no,200,176,108,33,11.9,37.4,,87,,,7400,70,32,1,4,0,1.7,5.8,4.2,1.6,7.4,2.6,4.8,,126,59,44,YES,YES
+331,52,male,rural,28,3,branded liquor,negative,negative,YES,130/70,yes,no,219,136,109,32,9.8,39,,95,,,6700,76,28,1,4,0,2.3,7.6,5.2,2.4,6.6,4.6,2,,158,86,38,YES,YES
+332,57,male,,27,2,country liquor,negative,negative,YES,140/90,yes,no,296,206,109,26,11.9,39,,98,,,7500,65,28,1,3,0,1.8,7.5,5.5,2,7.6,5.4,2.2,2.45,137,66,58,YES,YES
+333,48,male,urban,15,3,country liquor,negative,negative,YES,130/90,yes,no,180,171,120,37,9.2,36,,71,,,12300,64,24,6,4,0,1.5,8.3,7.7,2,7,2.1,3.9,,140,56,42,YES,YES
+334,49,male,urban,20,2,country liquor,negative,negative,YES,124/84,yes,no,216,144,120,28,9.69,30,,90,,,7200,76,38,1,3,0,2.4,6,3.8,2.2,6.2,3.1,3.1,,160,64,40,YES,YES
+335,50,male,,20,3,branded liquor,negative,negative,YES,130/80,yes,no,200,176,108,33,9.7,37.4,,87,,,7400,70,32,1,4,0,1.7,5.8,4.2,1.6,7.4,2.6,4.8,,126,59,44,YES,YES
+336,52,male,rural,28,3,branded liquor,negative,negative,YES,130/70,yes,no,220,139,111,32,12.9,39,,95,,,6700,76,28,1,4,0,2.3,7.6,5.2,2.4,6.6,4.6,2,,158,86,38,YES,YES
+337,57,male,urban,27,2,country liquor,negative,negative,YES,140/90,yes,no,296,206,109,26,10.2,42,,98,,,7500,65,28,1,3,0,1.8,7.5,5.5,2,7.6,5.4,2.2,2.45,137,66,58,YES,YES
+338,48,male,rural,18,3,country liquor,negative,negative,YES,130/90,yes,no,180,171,120,37,8,36,,71,,,12300,64,24,6,4,2,1.4,8.3,7.7,2,7,2.1,3.9,,140,56,42,YES,YES
+339,49,male,rural,20,2,country liquor,negative,negative,YES,134/84,yes,no,216,144,120,28,8,30,,87,,,7200,76,38,1,3,0,2.4,6,3.8,2.2,6.2,3.1,3.1,,160,64,40,YES,YES
+340,50,male,urban,20,3,branded liquor,negative,negative,YES,130/80,yes,no,200,176,108,33,9.29,36,,87,,,7400,70,32,1,4,0,1.7,5.8,4.2,1.6,7.4,2.6,4.8,,126,59,44,YES,YES
+341,52,male,urban,28,3,branded liquor,negative,negative,YES,130/70,yes,no,219,140,110,32,8.2,39,,95,,,6700,76,28,1,4,0,2.3,7.6,5.2,2.4,6.6,4.6,2,,158,86,38,YES,YES
+342,57,male,rural,27,2,country liquor,negative,negative,YES,120/80,yes,no,296,206,109,26,9.2,39,,98,,,7500,65,28,1,3,0,1.8,7.5,5.5,2,7.6,5.4,2.2,2.45,137,66,58,YES,YES
+343,48,male,rural,18,3,branded liquor,negative,negative,YES,130/80,yes,yes,180,171,120,37,8.79,36,,71,,,12300,64,24,6,4,0,1.5,8.3,7.7,2,7,2.1,3.9,,140,56,42,YES,YES
+344,49,male,rural,20,2,country liquor,negative,negative,YES,134/84,yes,no,216,144,120,28,14.9,30,,90,,,7200,76,38,1,3,0,2.4,6,3.8,2.2,6.2,3.1,3.1,,160,64,40,YES,YES
+345,60,male,urban,20,3,branded liquor,negative,negative,YES,130/80,yes,no,200,176,108,33,15.9,37.4,,87,,,7400,70,32,1,4,0,1.7,5.8,4.2,1.6,7.4,2.6,4.8,,126,59,44,YES,YES
+346,52,male,urban,28,4,branded liquor,negative,negative,YES,130/70,yes,yes,219,136,109,32,15,39,,95,,,6700,76,28,1,4,0,2.3,7.6,5.2,2.4,6.6,4.6,2,,158,86,38,YES,YES
+347,57,male,rural,27,2,country liquor,negative,negative,YES,140/90,yes,no,296,206,109,26,15,39,,98,,,7500,65,28,1,3,0,1.8,7.5,5.5,2,7.6,5.4,2.2,2.45,137,66,58,YES,YES
+348,48,male,urban,18,2,country liquor,negative,negative,YES,110/70,yes,no,192,174,99,32,13,33,,74,,,10500,69,34,4,2,1,1.5,9,6,3,6.2,2.5,3.1,,124,54,40,YES,YES
+349,48,male,rural,25,2,country liquor,negative,negative,YES,140/84,yes,no,211,120,96,,10.7,35,,98,,,9660,64,24,8,2,0,1.4,4.8,2.8,2,5.8,2.2,3.6,,140,120,44,YES,YES
+350,48,male,urban,18,2,country liquor,negative,negative,YES,110/70,yes,no,192,174,99,32,11.3,33,,74,,,10500,69,34,4,2,1,1.5,9,6,3,6.2,2.5,3.1,,124,54,40,YES,YES
+351,48,male,rural,25,2,country liquor,negative,negative,NO,140/84,yes,no,211,120,96,,9.8,35,,98,,,9660,64,24,8,2,0,1.4,4.8,2.8,2,5.8,2.2,3.6,,140,120,44,YES,YES
+352,48,male,urban,18,2,country liquor,negative,negative,NO,110/70,yes,no,192,174,99,32,11.8,33,,74,,,10500,69,34,4,2,1,1.5,9,6,3,6.2,2.5,3.1,,124,54,40,YES,YES
+353,48,male,rural,25,2,country liquor,negative,negative,YES,140/84,yes,no,211,120,96,,8,35,,98,,,9660,64,24,8,2,0,1.4,4.8,2.8,2,5.8,2.2,3.6,,140,120,44,YES,YES
+354,48,male,urban,18,2,country liquor,negative,negative,YES,110/70,yes,no,192,174,99,32,12,33,,74,,,10500,69,34,4,2,1,1.5,9,6,3,6.2,2.5,3.1,,124,54,40,YES,YES
+355,48,male,rural,25,2,country liquor,negative,negative,NO,140/84,yes,no,,,,,8.8,35,,98,,,9660,64,24,8,2,0,1.4,4.8,2.8,2,5.8,2.2,3.6,,140,120,44,YES,YES
+356,48,female,urban,18,2,country liquor,negative,negative,YES,110/70,no,no,192,174,99,32,10.2,33,,74,,,10500,69,34,4,2,1,1.5,9,6,3,6.2,2.5,3.1,,124,54,40,YES,YES
+357,48,male,rural,25,2,country liquor,negative,negative,YES,140/84,no,no,211,120,96,,9.8,35,,98,,,9660,64,24,8,2,0,1.4,4.8,2.8,2,5.8,2.2,3.6,,140,120,44,YES,YES
+358,48,male,,18,2,country liquor,negative,negative,YES,110/70,yes,no,192,174,99,32,10.12,33,,74,,,10500,69,34,4,2,1,1.5,9,6,3,6.2,2.5,3.1,,124,54,40,YES,YES
+359,48,male,rural,25,2,country liquor,negative,negative,YES,140/84,yes,no,211,120,96,,9.8,35,,98,,,9660,64,24,8,2,0,1.4,4.8,2.8,2,5.8,2.2,3.6,,140,120,44,YES,YES
+360,48,male,urban,18,2,country liquor,negative,negative,YES,110/70,yes,no,192,174,99,32,8.5,33,,74,,,10500,69,34,4,2,1,1.5,9,6,3,6.2,2.5,3.1,,124,54,40,YES,YES
+361,48,male,,25,2,country liquor,negative,negative,YES,140/84,yes,no,211,120,96,,9.9,35,,98,,,9660,64,24,8,2,0,1.4,4.8,2.8,2,5.8,2.2,3.6,,140,120,44,YES,YES
+362,48,male,urban,18,2,country liquor,negative,negative,YES,110/70,yes,no,192,174,99,32,9.7,33,,74,,,10500,69,34,4,2,0,1.5,9,6,3,6.2,2.5,3.1,,124,54,40,YES,YES
+363,48,male,rural,25,2,country liquor,negative,negative,YES,140/84,yes,no,211,120,96,,9.8,35,,98,,,10000,64,24,8,2,0,1.4,4.8,2.8,2,5.8,2.2,3.6,,140,120,44,YES,YES
+364,48,male,urban,18,2,country liquor,negative,negative,YES,110/70,yes,no,192,174,99,32,10.4,33,,74,,,11000,69,34,4,2,1,1.5,9,6,3,6.2,2.5,3.1,,124,54,40,YES,YES
+365,48,male,rural,25,2,country liquor,negative,negative,YES,140/84,yes,no,211,120,96,,10.9,35,,98,,,9660,64,24,8,2,1,1.4,4.8,2.8,2,5.8,2.2,3.6,,140,120,44,YES,YES
+366,65,male,urban,12,2,branded liquor,negative,negative,YES,140/90,yes,no,200,160,122,42,8.6,12,,88,,,7000,60,35,2,0,,1.5,9,3,6,6,3,4,0.75,110,55,32,YES,YES
+367,65,male,urban,12,2,branded liquor,Positive,Positive,YES,140/90,yes,no,200,160,122,42,9.7,12,,88,,,7000,60,35,2,0,,1.5,9,3,6,6,3,4,0.75,110,55,32,YES,YES
+368,65,male,urban,12,2,branded liquor,Positive,Positive,YES,140/90,no,no,200,160,122,42,11.8,12,,88,,,7000,60,35,2,0,,1.5,9,3,6,6,3,4,0.75,110,55,32,YES,YES
+369,65,male,urban,12,2,branded liquor,negative,negative,YES,140/90,no,no,200,160,122,42,9.8,12,,88,,,7000,60,35,2,0,,1.5,9,3,6,6,3,4,0.75,110,55,32,YES,YES
+370,65,male,urban,12,2,branded liquor,negative,negative,NO,140/90,yes,no,200,160,122,42,10.6,12,,88,,,7000,60,35,2,0,,1.5,9,3,6,6,3,4,0.75,110,55,32,YES,YES
+371,65,male,rural,12,2,branded liquor,negative,negative,YES,140/90,yes,no,200,160,122,42,9.6,12,,88,,,7000,60,35,2,0,,1.5,9,3,6,6,3,4,0.75,110,55,32,YES,YES
+372,65,male,rural,12,2,branded liquor,negative,negative,YES,140/90,yes,no,200,160,122,42,10.5,12,,88,,,7000,60,35,2,0,,1.5,9,3,6,6,3,4,0.75,110,55,32,YES,YES
+373,65,male,urban,14,2,branded liquor,negative,negative,YES,140/90,yes,no,200,160,122,42,11,12,,88,,,7000,60,35,2,0,,1.5,9,3,6,6,3,4,0.75,110,55,32,YES,YES
+374,65,male,urban,12,2,both,negative,negative,YES,140/90,yes,no,200,160,122,42,12.6,12,,88,,,7000,60,35,2,0,,1.5,9,3,6,6,3,4,0.75,110,55,32,YES,YES
+375,62,female,urban,12,2,branded liquor,negative,negative,YES,140/90,yes,no,200,160,122,42,12.6,12,,88,,,7000,60,35,2,0,,1.5,9,3,6,6,3,4,0.75,110,55,32,YES,YES
+376,56,female,,32,1,country liquor,Positive,Positive,NO,126/70,no,no,,,,,13.6,28,2.6,76,24,28,6200,64,16,12,6,0,0.78,5.4,3.3,2,6.4,1.9,4.6,01:02.2,206,142,116,YES,NO
+377,60,male,,36,2,both,negative,negative,NO,102/70,yes,no,,,,,11.8,38,3.8,96,29,30,4300,64,18,14,6,1,0.91,5.6,3.5,2.1,7,2.1,4.9,1:02,156,76,49,YES,NO
+378,56,female,,32,1,country liquor,Positive,Positive,NO,126/70,no,no,,,,,13.7,28,2.6,76,,,6200,64,16,12,6,0,0.78,5.4,3.3,2,6.4,1.9,4.6,,206,142,116,YES,YES
+379,60,male,,36,2,both,negative,negative,YES,102/70,yes,no,,,,,10.6,38,3.8,96,,,4300,64,18,14,6,1,0.91,5.6,3.5,2.1,7,2.1,4.9,,156,76,49,YES,YES
+380,56,female,rural,32,1,country liquor,Positive,Positive,NO,126/70,no,no,,,,,11,28,2.6,76,24,28,6200,64,16,12,6,0,0.78,5.4,3.3,2,6.4,1.9,4.6,,206,142,116,YES,YES
+381,60,male,rural,36,2,both,negative,negative,NO,102/70,yes,no,176,160,108,36,9.5,38,3.8,96,29,30,4300,64,18,14,6,1,0.91,5.6,3.5,2.1,7,2.1,4.9,,156,76,49,YES,YES
+382,56,female,rural,32,1,country liquor,Positive,Positive,NO,126/70,no,no,256,156,105,25,8.3,28,2.6,76,24,28,6200,64,16,12,6,0,0.78,5.4,3.3,2,6.4,1.9,4.6,,206,142,116,YES,YES
+383,60,male,rural,36,2,both,negative,negative,NO,102/70,yes,no,188,168,108,37,11,38,3.8,96,29,30,4300,64,18,14,6,1,0.91,5.6,3.5,2.1,7,2.1,4.9,,156,76,49,YES,YES
+384,56,female,rural,32,1,country liquor,Positive,Positive,NO,126/70,no,no,,,,,12,28,2.6,76,,,6200,64,16,12,6,0,0.78,5.4,3.3,2,6.4,1.9,4.6,,206,142,116,YES,YES
+385,60,male,rural,36,2,both,negative,negative,NO,102/70,yes,no,,,,,12,38,3.8,96,,,4300,64,18,14,6,1,0.91,5.6,3.5,2.1,7,2.1,4.9,,156,76,49,YES,YES
+386,56,female,urban,32,1,country liquor,Positive,Positive,NO,126/70,no,no,,,,,9.2,28,2.6,76,24,28,6200,64,16,12,6,0,0.78,5.4,3.3,2,6.4,1.9,4.6,01:02.2,206,142,116,YES,YES
+387,60,male,urban,36,2,both,negative,negative,NO,102/70,yes,no,,,,,10.2,38,3.8,96,29,30,4300,64,18,14,6,1,0.91,5.6,3.5,2.1,7,2.1,4.9,1:02,156,76,49,YES,YES
+388,56,female,urban,32,1,country liquor,Positive,Positive,NO,126/70,no,no,,,,,7.2,28,2.6,76,30,28,6200,64,16,12,6,0,0.78,5.4,3.3,2,6.4,1.9,4.6,01:02.2,206,142,116,YES,YES
+389,45,male,urban,36,2,both,negative,negative,NO,102/70,yes,no,,,,,10.2,38,3.8,96,29,30,4300,64,18,14,6,1,0.91,5.6,3.5,2.1,7,2.1,4.9,1:02,156,76,49,YES,YES
+390,56,female,urban,32,1,country liquor,Positive,Positive,NO,126/70,no,no,,,,,8.4,28,2.6,76,26,28,6200,64,16,12,6,0,0.78,5.4,3.3,2,6.4,1.9,4.6,01:02.2,206,142,116,YES,YES
+391,60,male,urban,36,2,both,negative,negative,NO,102/70,yes,no,,,,,7.2,38,3.8,96,29,32,4300,64,18,14,6,1,0.91,5.6,3.5,2.1,7,2.1,4.9,1:02,156,76,49,YES,YES
+392,56,female,,32,1,country liquor,Positive,Positive,NO,126/70,no,no,,,,,8.8,28,2,76,24,28,6200,64,16,12,6,0,0.78,5.4,3.3,2,6.4,1.9,4.6,01:02.2,206,142,116,YES,YES
+393,60,male,,36,2,both,negative,negative,NO,102/70,yes,no,,,,,8,38,3.8,100,29,30,4300,64,18,14,6,1,0.91,5.6,3.5,2.1,7,2.1,4.9,1:02,156,76,49,YES,YES
+394,56,female,,32,1,country liquor,Positive,Positive,NO,126/70,no,no,,,,,7,28,2.6,76,25,28,6200,64,16,12,6,0,0.78,5.4,3.3,2,6.4,1.9,4.6,01:02.2,206,142,116,YES,YES
+395,60,male,,36,2,both,negative,negative,NO,102/70,yes,no,,,,,9,38,3.8,96,29,29,4300,64,18,14,6,1,0.91,5.6,3.5,2.1,7,2.1,4.9,1:02,156,76,49,YES,YES
+396,55,female,,20,2,country liquor,Positive,Positive,NO,70/60,yes,yes,,,,,9,34,3.8,120,32,32.5,8000,45,20,10,0.5,0,2.2,4,2.5,1.5,5,2.5,2.5,1:01,152,172,180,YES,NO
+397,52,male,,30,2,country liquor,negative,negative,YES,90/60,no,yes,,,,,8.8,30,4,84,31,34,7000,65,20,0.6,0.1,0.01,1.2,5.6,3.2,2.4,4,2,2,1:01,111,104,74,YES,NO
+398,78,female,,40,4,country liquor,negative,negative,YES,80/60,yes,no,,,,,9.9,40,3.5,120,32,36,8500,75,25,5.6,0.1,0,1.8,5.2,3.2,2,6,3.2,2.8,01:00.9,160,75,82,YES,NO
+399,42,male,,18,2,country liquor,negative,negative,YES,130/90,no,no,,,,,8.2,39,3.8,86,27,29,7200,76,12,9,4,4,0.98,8.4,4,4.4,5.6,1.6,4,01:03.5,98,32,23,YES,NO
+400,55,male,,22,2,both,negative,negative,NO,114/70,no,yes,,,,,10,41,4,82,29,28,6200,72,14,8,2,0,1.1,7.1,4.1,3,6.1,1.6,4.4,1:03,106,66,41,YES,NO
+401,35,female,,16,2,country liquor,negative,negative,NO,116/80,no,no,,,,,11,19,1.8,126,26,24,1800,64,14,12,8,2,0.65,6.4,4.2,2.2,7.1,2,5.1,1:03,76,59,48,YES,NO
+402,62,male,,30,2,country liquor,negative,negative,NO,110/70,no,no,,,,,4,23,2.1,118,28,30,1200,74,12,12,1,1,0.52,7.6,3.6,4,4,0.9,3.1,1:03,184,112,97,YES,NO
+403,38,female,,16,1,country liquor,negative,negative,NO,116/70,no,no,,,,,5.9,35,5.5,86,32,33,6000,70,25,4,0.5,0.5,1.1,3,2,1,5,3,2,1.5:1,96,90,60,YES,NO
+404,56,male,,22,2,branded liquor,negative,negative,NO,118/70,no,no,,,,,12,38,4,84,29,27,7000,76,12,9,2,1,1.2,8.4,4,4.4,4,1.5,2.5,0.6:1,102,94,86,YES,NO
+405,38,male,,24,2,country liquor,negative,negative,NO,120/70,no,no,,,,,10,34,5,82,32,31,6000,75,20,4,0.8,0.2,2,3,2,1,4,2,2,1:01,100,94,106,YES,NO
+406,46,male,,22,2,both,negative,negative,NO,98/60,no,no,,,,,10,33,4,96,30,33,7000,80,18,1.5,0.5,,1.9,4,2.2,1.8,5,2,3,0.6:1,100,96,94,YES,NO
+407,48,male,,25,3,branded liquor,negative,negative,NO,110/70,no,no,,,,,11.9,32,4,88,31,34,8000,60,25,0.6,0.1,0.01,1.5,5,3.2,2.4,4,2,2,1:01,111,104,76,YES,NO
+408,62,male,,28,2,country liquor,negative,negative,NO,130/80,no,no,,,,,10,39,4.1,80,30,31,4300,64,12,10,6,,1.5,6.6,3.6,3,5,3,2,1.5:1,98,126,76,YES,NO
+409,51,female,,26,2,both,negative,negative,NO,126/86,no,no,,,,,9,30,3.2,82,38,32,7000,70,25,12,1,1,1.7,2,0.8,1.2,8,2,6,1:03,102,86,76,YES,NO
+410,48,male,,28,2,both,negative,negative,NO,112/70,no,no,,,,,9,39,3.1,115,41,36,7000,70.6,23.6,4.4,1.8,0,1.58,2,0.8,1.2,8,4,4,1:01,100,80,72,YES,NO
+411,62,female,,30,1,both,negative,negative,NO,98/60,no,no,,,,,11,30,4.1,120,41,36,6000,70.6,23.6,4.6,1.6,0,1.3,5,3,2,5,1.2,3.8,01:03.1,121,154,158,YES,NO
+412,39,male,,28,1,branded liquor,negative,negative,YES,102/60,no,no,,,,,9.9,38,3.9,102,28,30,8200,72,12,6,4,2,1.1,4.6,2.3,2.3,4.6,1.8,2.8,01:01.5,196,126,98,YES,NO
+413,48,female,,30,1,both,negative,negative,YES,116/80,no,no,,,,,9.1,32,2.9,116,28,30,7100,72,10,8,6,0,0.98,5.1,3.1,2,6.1,1.8,4.3,1:02,191,42,36,YES,NO
+414,42,male,,22,2,country liquor,negative,negative,YES,98/70,no,no,,,,,8.8,39,4.1,80,30,31,4300,64,12,10,6,,1.09,6.6,3.4,3.2,5,2,3,01:01.5,98,126,76,YES,NO
+415,56,female,,30,2,both,negative,negative,NO,116/80,no,no,,,,,9.1,32,3.8,90,31,34,8500,70,25,0.6,0.4,0,1.9,5.6,3.2,2.4,4,2,2,1:01,118,126,216,YES,NO
+416,55,female,urban,20,2,country liquor,Positive,Positive,NO,70/60,yes,yes,,,,,12,34,3.8,120,,,8000,45,20,10,0.5,0,2.2,4,2.5,1.5,5,2.5,2.5,,152,172,180,YES,YES
+417,52,male,,30,2,country liquor,negative,negative,YES,90/60,no,yes,,,,,11,30,4,84,,,7000,65,20,0.6,0.1,0.01,1.2,5.6,3.2,2.4,4,2,2,,111,104,74,YES,YES
+418,78,female,urban,40,4,country liquor,negative,negative,YES,80/60,yes,no,,,,,10.2,40,3.5,120,,,8500,75,25,5.6,0.1,0,1.8,5.2,3.2,2,6,3.2,2.8,,160,75,82,YES,YES
+419,42,male,urban,18,2,country liquor,negative,negative,YES,130/90,no,no,,,,,8,39,3.8,86,,,7200,76,12,9,4,4,0.98,8.4,4,4.4,5.6,1.6,4,,98,32,23,YES,YES
+420,55,male,rural,22,2,both,negative,negative,YES,114/70,no,yes,,,,,12.9,41,4,82,,,6200,72,14,8,2,0,1.1,7.1,4.1,3,6.1,1.6,4.4,,106,66,41,YES,YES
+421,35,female,,16,2,country liquor,negative,negative,YES,116/80,no,no,,,,,10.9,19,1.8,126,,,1800,64,14,12,8,2,0.65,6.4,4.2,2.2,7.1,2,5.1,,76,59,48,YES,YES
+422,61,male,,30,2,country liquor,negative,negative,YES,110/70,no,no,260,146,129,26,12,23,2.1,118,,,1200,74,12,12,1,1,0.52,7.6,3.6,4,4,0.9,3.1,,184,112,97,YES,YES
+423,38,female,,16,1,country liquor,negative,negative,NO,116/70,no,no,,,,,9.8,35,5.5,86,,,6000,70,25,4,0.5,0.5,1.1,3,2,1,5,3,2,,96,90,60,YES,YES
+424,56,male,rural,22,2,branded liquor,negative,negative,NO,118/70,no,no,200,184,85,30,11.3,38,4,84,,,7000,76,12,9,2,1,1.2,8.4,4,4.4,4,1.5,2.5,,102,94,86,YES,YES
+425,40,male,rural,24,2,country liquor,negative,negative,NO,120/70,no,no,,,,,10.9,34,5,82,,,6000,75,20,4,0.8,0.2,2,3,2,1,4,2,2,0:00,100,94,106,YES,YES
+426,46,male,rural,22,2,both,negative,negative,NO,98/60,no,no,,,,,11.9,33,4,96,,,7000,80,18,1.5,0.5,,1.9,4,2.2,1.8,5,2,3,,100,96,94,YES,YES
+427,48,male,rural,25,2,branded liquor,negative,negative,NO,110/70,no,no,,,,,9.8,32,4,88,,,8000,60,25,0.6,0.1,0.01,1.5,5,3.2,2.4,4,2,2,0:00,111,104,76,YES,YES
+428,60,male,rural,28,2,country liquor,negative,negative,NO,130/80,no,no,,,,,11.9,39,4.1,80,,,4300,64,12,10,6,,1.5,6.6,3.6,3,5,3,2,,98,126,76,YES,YES
+429,51,female,rural,26,2,both,negative,negative,NO,126/86,no,no,,,,,9.2,30,3.2,82,,,7000,70,25,12,1,1,1.7,2,0.8,1.2,8,2,6,,102,86,76,YES,YES
+430,48,male,rural,28,2,both,negative,negative,NO,112/70,no,no,176,160,108,36,9.69,39,3.1,115,,,7000,70.6,23.6,4.4,1.8,0,1.58,2,0.8,1.2,8,4,4,0:00,100,80,72,YES,YES
+431,60,female,rural,30,1,both,negative,negative,NO,98/60,no,no,,,,,9.7,30,4.1,120,,,6000,70.6,23.6,4.6,1.6,0,1.3,5,3,2,5,1.2,3.8,,121,154,158,YES,YES
+432,39,male,,28,1,branded liquor,negative,negative,YES,102/60,no,no,,,,,12.9,38,3.9,102,,,8200,72,12,6,4,2,1.1,4.6,2.3,2.3,4.6,1.8,2.8,,196,126,98,YES,YES
+433,50,female,,30,1,both,negative,negative,YES,116/80,no,no,260,146,129,26,10.2,32,2.9,116,,,7100,72,10,8,6,0,0.98,5.1,3.1,2,6.1,1.8,4.3,,191,42,36,YES,YES
+434,43,male,,22,2,country liquor,negative,negative,YES,98/70,no,no,,,,,8,39,4.1,80,,,4300,64,12,10,6,,1.09,6.6,3.4,3.2,5,2,3,,98,126,76,YES,YES
+435,56,female,urban,30,2,both,negative,negative,YES,116/80,no,no,,,,,8,32,3.8,90,,,8500,70,25,0.6,0.4,0,1.9,5.6,3.2,2.4,4,2,2,0:00,118,126,216,YES,YES
+436,55,female,rural,20,2,country liquor,Positive,Positive,YES,70/60,yes,yes,,,,,9.29,34,3.8,120,32,32.5,8000,45,20,10,0.5,0,2.2,4,2.5,1.5,5,2.5,2.5,,152,172,180,YES,YES
+437,52,male,urban,30,2,country liquor,negative,negative,YES,90/60,no,yes,,,,,8.2,30,4,84,,,7000,65,20,0.6,0.1,0.01,1.2,5.6,3.2,2.4,4,2,2,,111,104,74,YES,YES
+438,78,female,urban,40,4,country liquor,negative,negative,YES,80/60,yes,no,,,,,9.2,40,3.5,120,,,8500,75,25,5.6,0.1,0,1.8,5.2,3.2,2,6,3.2,2.8,,160,75,82,YES,YES
+439,42,male,,18,2,country liquor,negative,negative,YES,130/90,no,no,,,,,8.79,39,3.8,86,,,7200,76,12,9,4,4,0.98,8.4,4,4.4,5.6,1.6,4,,98,32,23,YES,YES
+440,55,male,rural,22,2,both,negative,negative,YES,114/70,no,yes,,,,,14.9,41,4,82,,,6200,72,14,8,2,0,1.1,7.1,4.1,3,6.1,1.6,4.4,1:03,106,66,41,YES,YES
+441,35,female,urban,16,2,country liquor,negative,negative,YES,116/80,no,no,,,,,15.9,19,1.8,126,,,1800,64,14,12,8,2,0.65,6.4,4.2,2.2,7.1,2,5.1,1:03,76,59,48,YES,YES
+442,62,male,,30,2,country liquor,negative,negative,NO,110/70,no,no,,,,,15,23,2.1,118,,,1200,74,12,12,1,1,0.52,7.6,3.6,4,4,0.9,3.1,1:03,184,112,97,YES,YES
+443,38,female,rural,16,1,country liquor,negative,negative,NO,116/70,no,no,176,160,108,36,15,35,5.5,86,32,33,6000,70,25,4,0.5,0.5,1.1,3,2,1,5,3,2,1.5:1,96,90,60,YES,YES
+444,56,male,urban,22,2,branded liquor,negative,negative,NO,118/70,no,no,,,,,13,38,4,84,29,27,7000,76,12,9,2,1,1.2,8.4,4,4.4,4,1.5,2.5,0.6:1,102,94,86,YES,YES
+445,38,male,rural,24,2,country liquor,negative,negative,NO,120/70,no,no,,,,,10.7,34,5,82,32,31,6000,75,20,4,0.8,0.2,2,3,2,1,4,2,2,,100,94,106,YES,YES
+446,46,male,,22,2,both,negative,negative,NO,98/60,no,no,,,,,11.3,33,4,96,30,33,7000,80,18,1.5,0.5,,1.9,4,2.2,1.8,5,2,3,,100,96,94,YES,YES
+447,48,male,urban,25,3,branded liquor,negative,negative,NO,110/70,no,no,180,180,110,35,9.8,32,4,88,31,34,8000,60,25,0.6,0.1,0.01,1.5,5,3.2,2.4,4,2,2,0:00,111,104,76,YES,YES
+448,62,male,,28,2,country liquor,negative,negative,NO,130/80,no,no,,,,,11.8,39,4.1,80,30,31,4300,64,12,10,6,,1.5,6.6,3.6,3,5,3,2,,98,126,76,YES,YES
+449,51,female,,26,2,both,negative,negative,NO,126/86,no,no,,,,,8,30,3.2,82,38,32,7000,70,25,12,1,1,1.7,2,0.8,1.2,8,2,6,,102,86,76,YES,YES
+450,48,male,rural,28,2,both,negative,negative,NO,112/70,no,no,200,184,85,30,12,39,3.1,115,41,36,7000,70.6,23.6,4.4,1.8,0,1.58,2,0.8,1.2,8,4,4,0:00,100,80,72,YES,YES
+451,62,female,,30,1,both,negative,negative,NO,98/60,no,no,,,,,8.8,30,4.1,120,41,36,6000,70.6,23.6,4.6,1.6,0,1.3,5,3,2,5,1.2,3.8,,121,154,158,YES,YES
+452,39,male,urban,28,1,branded liquor,negative,negative,YES,102/60,no,no,,,,,10.2,38,3.9,102,28,30,8200,72,12,6,4,2,1.1,4.6,2.3,2.3,4.6,1.8,2.8,,196,126,98,YES,YES
+453,48,female,rural,30,1,both,negative,negative,YES,116/80,no,no,,,,,9.8,32,2.9,116,28,30,7100,72,10,8,6,0,0.98,5.1,3.1,2,6.1,1.8,4.3,,191,42,36,YES,YES
+454,42,male,rural,22,2,country liquor,negative,negative,YES,98/70,no,no,,,,,10.12,39,4.1,80,30,31,4300,64,12,10,6,,1.09,6.6,3.4,3.2,5,2,3,,98,126,76,YES,YES
+455,56,female,rural,30,2,both,negative,negative,NO,116/80,no,no,,,,,9.8,32,3.8,90,31,34,8500,70,25,0.6,0.4,0,1.9,5.6,3.2,2.4,4,2,2,0:00,118,126,216,YES,YES
+456,55,female,rural,20,2,country liquor,Positive,Positive,NO,70/60,yes,yes,,,,,8.5,34,3.8,120,,,8000,45,20,10,0.5,0,2.2,4,2.5,1.5,5,2.5,2.5,,152,172,180,YES,YES
+457,52,male,rural,30,2,country liquor,negative,negative,YES,90/60,no,yes,,,,,9.9,30,4,84,,,7000,65,20,0.6,0.1,0.01,1.2,5.6,3.2,2.4,4,2,2,0:00,111,104,74,YES,YES
+458,78,female,rural,40,4,country liquor,negative,negative,YES,80/60,yes,no,188,168,108,37,9.7,40,3.5,120,,,8500,75,25,5.6,0.1,0,1.8,5.2,3.2,2,6,3.2,2.8,,160,75,82,YES,NO
+459,42,male,rural,18,2,country liquor,negative,negative,YES,130/90,no,no,,,,,9.8,39,3.8,86,,,7200,76,12,9,4,4,0.98,8.4,4,4.4,5.6,1.6,4,,98,32,23,YES,YES
+460,55,male,rural,22,2,both,negative,negative,NO,114/70,no,yes,,,,,10.4,41,4,82,,,6200,72,14,8,2,0,1.1,7.1,4.1,3,6.1,1.6,4.4,,106,66,41,YES,YES
+461,35,female,rural,16,2,country liquor,negative,negative,NO,116/80,no,no,256,156,105,25,10.9,19,1.8,126,,,1800,64,14,12,8,2,0.65,6.4,4.2,2.2,7.1,2,5.1,,76,59,48,YES,YES
+462,62,male,rural,30,2,country liquor,negative,negative,NO,110/70,no,no,,,,,8.6,23,2.1,118,,,1200,74,12,12,1,1,0.52,7.6,3.6,4,4,0.9,3.1,,184,112,97,YES,NO
+463,38,female,rural,16,1,country liquor,negative,negative,YES,116/70,no,no,,,,,9.7,35,5.5,86,,,6000,70,25,4,0.5,0.5,1.1,3,2,1,5,3,2,,96,90,60,YES,YES
+464,56,male,rural,22,2,branded liquor,negative,negative,YES,118/70,no,no,,,,,11.8,38,4,84,,,7000,76,12,9,2,1,1.2,8.4,4,4.4,4,1.5,2.5,,102,94,86,YES,YES
+465,50,male,rural,24,2,country liquor,negative,negative,YES,120/70,no,no,200,184,85,30,9.8,34,5,82,,,6000,75,20,4,0.8,0.2,2,3,2,1,4,2,2,0:00,100,94,106,YES,YES
+466,46,male,rural,22,2,both,negative,negative,YES,98/60,no,no,256,156,105,25,10.6,33,4,96,,,7000,80,18,1.5,0.5,,1.9,4,2.2,1.8,5,2,3,,100,96,94,YES,YES
+467,48,male,urban,25,3,branded liquor,negative,negative,YES,110/70,no,no,,,,,9.6,32,4,88,,,8000,60,25,0.6,0.1,0.01,1.5,5,3.2,2.4,4,2,2,0:00,111,104,76,YES,YES
+468,62,male,rural,28,2,country liquor,negative,negative,YES,130/80,no,no,,,,,10.5,39,4.1,80,,,4300,64,12,10,6,,1.5,6.6,3.6,3,5,3,2,,98,126,76,YES,YES
+469,51,female,rural,26,2,both,negative,negative,YES,126/86,no,no,,,,,11,30,3.2,82,,,7000,70,25,12,1,1,1.7,2,0.8,1.2,8,2,6,,102,86,76,YES,YES
+470,48,male,rural,28,2,both,negative,negative,NO,112/70,no,no,,,,,12.6,39,3.1,115,,,7000,70.6,23.6,4.4,1.8,0,1.58,2,0.8,1.2,8,4,4,0:00,100,80,72,YES,YES
+471,62,female,rural,30,1,both,negative,negative,NO,98/60,no,no,,,,,12.6,30,4.1,120,,,6000,70.6,23.6,4.6,1.6,0,1.3,5,3,2,5,1.2,3.8,,121,154,158,YES,YES
+472,39,male,rural,28,1,branded liquor,negative,negative,YES,102/60,no,no,,,,,13.6,38,3.9,102,,,8200,72,12,6,4,2,1.1,4.6,2.3,2.3,4.6,1.8,2.8,,196,126,98,YES,YES
+473,48,female,rural,30,1,both,negative,negative,YES,116/80,no,no,,,,,11.8,32,2.9,116,28,30,7100,72,10,8,6,0,0.98,5.1,3.1,2,6.1,1.8,4.3,,191,42,36,YES,YES
+474,42,male,rural,22,2,country liquor,negative,negative,YES,98/70,no,no,,,,,13.7,39,4.1,80,30,31,4300,64,12,10,6,,1.09,6.6,3.4,3.2,5,2,3,,98,126,76,YES,YES
+475,56,female,rural,30,2,both,negative,negative,NO,116/80,no,no,,,,,10.6,32,3.8,90,31,34,8500,70,25,0.6,0.4,0,1.9,5.6,3.2,2.4,4,2,2,0:00,118,126,216,YES,NO
+476,55,female,rural,20,2,country liquor,Positive,Positive,YES,70/60,yes,yes,,,,,11,34,3.8,120,,,8000,45,20,10,0.5,0,2.2,4,2.5,1.5,5,2.5,2.5,0:00,152,172,180,YES,YES
+477,52,male,rural,30,2,country liquor,negative,negative,YES,90/60,no,yes,,,,,9.5,30,4,84,,,7000,65,20,0.6,0.1,0.01,1.2,5.6,3.2,2.4,4,2,2,,111,104,74,YES,YES
+478,78,female,rural,40,4,country liquor,negative,negative,YES,80/60,yes,no,,,,,8.3,40,3.5,120,,,8500,75,25,5.6,0.1,0,1.8,5.2,3.2,2,6,3.2,2.8,,160,75,82,YES,YES
+479,42,male,rural,18,2,country liquor,negative,negative,YES,130/90,no,no,,,,,11,39,3.8,86,,,7200,76,12,9,4,4,0.98,8.4,4,4.4,5.6,1.6,4,,98,32,23,YES,YES
+480,55,male,rural,22,2,both,negative,negative,NO,114/70,no,yes,,,,,12,41,4,82,,,6200,72,14,8,2,0,1.1,7.1,4.1,3,6.1,1.6,4.4,,106,66,41,YES,YES
+481,35,female,rural,16,2,country liquor,negative,negative,NO,116/80,no,no,188,168,108,37,12,19,1.8,126,,,1800,64,14,12,8,2,0.65,6.4,4.2,2.2,7.1,2,5.1,,76,59,48,YES,YES
+482,62,male,rural,30,2,country liquor,negative,negative,NO,110/70,no,no,256,156,105,25,9.2,23,2.1,118,,,1200,74,12,12,1,1,0.52,7.6,3.6,4,4,0.9,3.1,,184,112,97,YES,YES
+483,38,female,rural,16,1,country liquor,negative,negative,NO,116/70,no,no,,,,,10.2,35,5.5,86,,,6000,70,25,4,0.5,0.5,1.1,3,2,1,5,3,2,,96,90,60,YES,YES
+484,56,male,rural,22,2,branded liquor,negative,negative,NO,118/70,no,no,,,,,7.2,38,4,84,,,7000,76,12,9,2,1,1.2,8.4,4,4.4,4,1.5,2.5,,102,94,86,YES,YES
+485,38,male,rural,24,2,country liquor,negative,negative,NO,120/70,no,no,,,,,10.2,34,5,82,,,6000,75,20,4,0.8,0.2,2,3,2,1,4,2,2,,100,94,106,YES,YES
+486,50,male,rural,22,2,both,negative,negative,NO,98/60,no,no,,,,,8.4,33,4,96,,,7000,80,18,1.5,0.5,,1.9,4,2.2,1.8,5,2,3,,100,96,94,YES,YES
+487,48,male,urban,25,3,branded liquor,negative,negative,YES,110/70,no,no,200,184,85,30,7.2,32,4,88,,,8000,60,25,0.6,0.1,0.01,1.5,5,3.2,2.4,4,2,2,0:00,111,104,76,YES,YES
+488,62,male,rural,28,2,country liquor,negative,negative,YES,130/80,no,no,,,,,8.8,39,4.1,80,,,4300,64,12,10,6,,1.5,6.6,3.6,3,5,3,2,,98,126,76,YES,YES
+489,51,female,rural,26,2,both,negative,negative,YES,126/86,no,no,,,,,8,30,3.2,82,,,7000,70,25,12,1,1,1.7,2,0.8,1.2,8,2,6,,102,86,76,YES,YES
+490,48,male,rural,28,2,both,negative,negative,YES,112/70,no,no,,,,,7,39,3.1,115,,,7000,70.6,23.6,4.4,1.8,0,1.58,2,0.8,1.2,8,4,4,0:00,100,80,72,YES,YES
+491,62,female,rural,30,1,both,negative,negative,YES,98/60,no,no,,,,,9,30,4.1,120,,,6000,70.6,23.6,4.6,1.6,0,1.3,5,3,2,5,1.2,3.8,,121,154,158,YES,YES
+492,39,male,rural,28,1,branded liquor,negative,negative,YES,102/60,no,no,,,,,9,38,3.9,102,,,8200,72,12,6,4,2,1.1,4.6,2.3,2.3,4.6,1.8,2.8,,196,126,98,YES,YES
+493,48,female,rural,30,1,both,negative,negative,YES,116/80,no,no,,,,,8.8,32,2.9,116,,,7100,72,10,8,6,0,0.98,5.1,3.1,2,6.1,1.8,4.3,,191,42,36,YES,YES
+494,52,female,rural,22,2,country liquor,negative,negative,YES,98/70,no,no,256,156,105,25,9.9,39,4.1,80,,,4300,64,12,10,6,,1.09,6.6,3.4,3.2,5,2,3,,98,126,76,YES,YES
+495,56,female,rural,30,2,both,negative,negative,NO,116/80,no,no,200,184,85,30,8.2,32,3.8,90,,,8500,70,25,0.6,0.4,0,1.9,5.6,3.2,2.4,4,2,2,0:00,118,126,216,YES,YES
+496,55,female,urban,20,2,country liquor,Positive,Positive,NO,70/60,yes,yes,,,,,10,34,3.8,120,32,32.5,8000,45,20,10,0.5,0,2.2,4,2.5,1.5,5,2.5,2.5,1:01,152,172,180,YES,YES
+497,52,male,urban,30,2,country liquor,negative,negative,YES,90/60,no,yes,,,,,11,30,4,84,31,34,7000,65,20,0.6,0.1,0.01,1.2,5.6,3.2,2.4,4,2,2,1:01,111,104,74,YES,YES
+498,78,female,rural,40,4,country liquor,negative,negative,YES,80/60,yes,no,,,,,4,40,3.5,120,32,36,8500,75,25,5.6,0.1,0,1.8,5.2,3.2,2,6,3.2,2.8,01:00.9,160,75,82,YES,NO
+499,42,male,rural,18,2,country liquor,negative,negative,YES,130/90,no,no,,,,,5.9,39,3.8,86,27,29,7200,76,12,9,4,4,0.98,8.4,4,4.4,5.6,1.6,4,01:03.5,98,32,23,YES,YES
+500,55,male,urban,22,2,both,negative,negative,NO,114/70,no,yes,,,,,12,41,4,82,29,28,6200,72,14,8,2,0,1.1,7.1,4.1,3,6.1,1.6,4.4,1:03,106,66,41,YES,YES
+501,35,female,urban,16,2,country liquor,negative,negative,NO,116/80,no,no,,,,,10,19,1.8,126,26,24,1800,64,14,12,8,2,0.65,6.4,4.2,2.2,7.1,2,5.1,1:03,76,59,48,YES,YES
+502,62,male,rural,30,2,country liquor,negative,negative,NO,110/70,no,no,,,,,10,23,2.1,118,28,30,1200,74,12,12,1,1,0.52,7.6,3.6,4,4,0.9,3.1,1:03,184,112,97,YES,YES
+503,38,female,urban,16,1,country liquor,negative,negative,NO,116/70,no,no,,,,,11.9,35,5.5,86,32,33,6000,70,25,4,0.5,0.5,1.1,3,2,1,5,3,2,1.5:1,96,90,60,YES,YES
+504,56,male,rural,22,2,branded liquor,negative,negative,NO,118/70,no,no,,,,,10,38,4,84,29,27,7000,76,12,9,2,1,1.2,8.4,4,4.4,4,1.5,2.5,0.6:1,102,94,86,YES,YES
+505,38,male,urban,24,2,country liquor,negative,negative,NO,120/70,no,no,,,,,9,34,5,82,32,31,6000,75,20,4,0.8,0.2,2,3,2,1,4,2,2,1:01,100,94,106,YES,YES
+506,46,male,rural,22,2,both,negative,negative,NO,98/60,no,no,,,,,9,33,4,96,30,33,7000,80,18,1.5,0.5,,1.9,4,2.2,1.8,5,2,3,0.6:1,100,96,94,YES,YES
+507,48,male,rural,25,3,branded liquor,negative,negative,NO,110/70,no,no,,,,,11,32,4,88,31,34,8000,60,25,0.6,0.1,0.01,1.5,5,3.2,2.4,4,2,2,1:01,111,104,76,YES,YES
+508,62,male,urban,28,2,country liquor,negative,negative,NO,130/80,no,no,,,,,9.9,39,4.1,80,30,31,4300,64,12,10,6,,1.5,6.6,3.6,3,5,3,2,1.5:1,98,126,76,YES,YES
+509,51,female,rural,26,2,both,negative,negative,NO,126/86,no,no,,,,,9.1,30,3.2,82,38,32,7000,70,25,12,1,1,1.7,2,0.8,1.2,8,2,6,1:03,102,86,76,YES,YES
+510,48,male,rural,28,2,both,negative,negative,NO,112/70,no,no,,,,,8.8,39,3.1,115,41,36,7000,70.6,23.6,4.4,1.8,0,1.58,2,0.8,1.2,8,4,4,1:01,100,80,72,YES,YES
+511,62,female,rural,30,1,both,negative,negative,NO,98/60,no,no,,,,,9.1,30,4.1,120,41,36,6000,70.6,23.6,4.6,1.6,0,1.3,5,3,2,5,1.2,3.8,,121,154,158,YES,YES
+512,39,male,urban,28,1,branded liquor,negative,negative,YES,102/60,no,no,,,,,12,38,3.9,102,28,30,8200,72,12,6,4,2,1.1,4.6,2.3,2.3,4.6,1.8,2.8,,196,126,98,YES,YES
+513,48,female,urban,30,1,both,negative,negative,YES,116/80,no,no,,,,,11,32,2.9,116,28,30,7100,72,10,8,6,0,0.98,5.1,3.1,2,6.1,1.8,4.3,1:02,191,42,36,YES,YES
+514,42,male,urban,22,2,country liquor,negative,negative,YES,98/70,no,no,,,,,10.2,39,4.1,80,30,31,4300,64,12,10,6,,1.09,6.6,3.4,3.2,5,2,3,,98,126,76,YES,YES
+515,56,female,rural,30,2,both,negative,negative,NO,116/80,no,no,,,,,8,32,3.8,90,31,34,8500,70,25,0.6,0.4,0,1.9,5.6,3.2,2.4,4,2,2,1:01,118,126,216,YES,YES
+516,58,female,urban,20,2,country liquor,Positive,Positive,NO,70/60,yes,yes,,,,,12.9,34,3.8,120,32,32.5,8000,45,20,10,0.5,0,2.2,4,2.5,1.5,5,2.5,2.5,1:01,152,172,180,YES,YES
+517,52,male,urban,30,4,country liquor,negative,negative,YES,90/60,no,yes,,,,,10.9,30,4,84,31,34,7000,65,20,0.6,0.1,0.01,1.2,5.6,3.2,2.4,4,2,2,1:01,111,104,74,YES,YES
+518,78,female,rural,40,4,branded liquor,negative,negative,YES,80/60,yes,no,,,,,12,40,3.5,120,32,36,8500,75,25,5.6,0.1,0,1.8,5.2,3.2,2,6,3.2,2.8,,160,75,82,YES,YES
+519,42,male,rural,18,2,country liquor,Positive,Positive,YES,130/90,no,no,,,,,9.8,39,3.8,86,27,29,7200,76,12,9,4,4,0.98,8.4,4,4.4,5.6,1.6,4,,98,32,23,YES,YES
+520,55,male,urban,22,2,both,negative,negative,NO,110/70,yes,yes,,,,,11.3,41,4,82,29,28,6200,72,14,8,2,0,1.1,7.1,4.1,3,6.1,1.6,4.4,1:03,106,66,41,YES,YES
+521,35,female,urban,16,2,country liquor,negative,negative,NO,116/80,no,yes,,,,,10.9,19,1.8,126,26,24,1800,64,14,12,8,2,0.65,6.4,4.2,2.2,7.1,2,5.1,1:03,76,59,48,YES,YES
+522,59,male,rural,30,2,country liquor,negative,negative,NO,110/70,no,no,,,,,11.9,23,2.1,118,28,30,1200,74,12,12,1,1,0.52,7.6,3.6,4,4,0.9,3.1,1:03,184,112,97,YES,YES
+523,38,female,urban,10,2,branded liquor,negative,negative,NO,108/72,no,no,,,,,9.8,35,5.5,86,32,33,6000,70,25,4,0.5,0.5,1.1,3,2,1,5,3,2,,96,90,60,YES,YES
+524,56,male,rural,22,4,branded liquor,negative,negative,NO,118/70,no,no,,,,,11.9,38,4,84,29,27,7000,76,12,9,2,1,1.2,8.4,4,4.4,4,1.5,2.5,0.6:1,102,94,86,YES,YES
+525,38,male,urban,24,2,both,negative,negative,NO,120/70,no,no,,,,,9.2,34,5,82,32,31,6000,75,20,4,0.8,0.2,2,3,2,1,4,2,2,1:01,100,94,106,YES,YES
+526,46,male,rural,22,2,both,Positive,Positive,NO,98/60,no,no,,,,,9.69,33,4,96,30,33,7000,80,18,1.5,0.5,,1.9,4,2.2,1.8,5,2,3,0.6:1,100,96,94,YES,YES
+527,48,male,rural,25,3,branded liquor,negative,negative,NO,110/70,no,no,,,,,9.7,32,4,88,31,34,8000,60,25,0.6,0.1,0.01,1.5,5,3.2,2.4,4,2,2,1:01,111,104,76,YES,YES
+528,62,male,urban,28,2,country liquor,negative,negative,NO,130/80,yes,no,,,,,12.9,39,4.1,80,30,31,4300,64,12,10,6,,1.5,6.6,3.6,3,5,3,2,1.5:1,98,126,76,YES,YES
+529,51,female,rural,26,2,both,negative,negative,NO,126/86,no,yes,,,,,10.2,30,3.2,82,38,32,7000,70,25,12,1,1,1.7,2,0.8,1.2,8,2,6,1:03,102,86,76,YES,YES
+530,48,male,rural,28,2,both,negative,negative,NO,112/70,no,no,,,,,8,39,3.1,115,41,36,7000,70.6,23.6,4.4,1.8,0,1.58,2,0.8,1.2,8,4,4,1:01,100,80,72,YES,YES
+531,62,female,rural,30,1,both,negative,negative,NO,98/60,no,no,,,,,8,24,4.1,120,41,36,6000,70.6,23.6,4.6,1.6,0,1.3,5,3,2,5,1.2,3.8,,121,154,158,YES,YES
+532,39,male,urban,28,1,branded liquor,negative,negative,YES,102/60,no,no,,,,,9.29,38,3.8,102,28,30,8200,72,12,6,4,2,1.1,4.6,2.3,2.3,4.6,1.8,2.8,,196,126,98,YES,YES
+533,48,female,urban,30,1,both,negative,negative,YES,116/80,no,no,,,,,8.2,32,2.9,88,28,30,7100,72,10,8,6,0,0.98,5.1,3.1,2,6.1,1.8,4.3,1:02,191,42,36,YES,YES
+534,58,male,urban,22,2,country liquor,negative,negative,YES,98/70,no,no,,,,,9.2,39,4.1,80,30,31,4300,64,12,10,6,,1.09,6.6,3.4,3.2,5,2,3,01:01.5,98,126,76,YES,YES
+535,56,female,rural,30,2,both,negative,negative,NO,116/80,no,no,,,,,8.79,32,3.8,90,31,34,8500,70,25,0.6,0.4,0,1.9,5.6,3.2,2.4,4,2,2,1:01,118,126,216,YES,YES
+536,55,female,urban,20,2,branded liquor,Positive,Positive,NO,70/60,yes,yes,,,,,14.9,34,3.8,120,32,32.5,8000,45,20,10,0.5,0,2.2,4,2.5,1.5,5,2.5,2.5,1:01,152,172,180,YES,YES
+537,52,male,urban,30,2,country liquor,negative,negative,YES,90/60,no,yes,,,,,15.9,30,4,84,31,34,7000,65,20,0.6,0.1,0.01,1.2,5.6,3.2,2.4,4,2,2,1:01,111,104,74,YES,NO
+538,78,female,rural,40,4,country liquor,negative,negative,YES,80/60,yes,no,,,,,15,40,3.5,120,32,36,8500,75,25,5.6,0.1,0,1.8,5.2,3.2,2,6,3.2,2.8,01:00.9,160,75,82,YES,YES
+539,42,male,rural,18,2,country liquor,negative,negative,YES,130/90,no,no,,,,,15,39,3.8,86,27,29,7200,76,12,9,4,4,0.98,8.4,4,4.4,5.6,1.6,4,01:03.5,98,32,23,YES,YES
+540,55,male,urban,22,2,both,negative,negative,NO,114/70,no,yes,,,,,13,41,4,82,29,28,6200,72,14,8,2,0,1.1,7.1,4.1,3,6.1,1.6,4.4,1:03,106,66,41,YES,YES
+541,37,female,urban,16,2,country liquor,negative,negative,NO,116/80,no,no,,,,,10.7,19,1.8,126,26,24,1800,64,14,12,8,2,0.65,6.4,4.2,2.2,7.1,2,5.1,1:03,76,59,48,YES,YES
+542,64,male,rural,30,2,country liquor,negative,negative,NO,110/70,no,no,,,,,11.3,23,2.1,118,28,30,1200,74,12,12,1,1,0.52,7.6,3.6,4,4,0.9,3.1,1:03,184,112,97,YES,YES
+543,38,female,urban,16,1,country liquor,negative,negative,NO,116/70,no,no,,,,,9.8,35,5.5,86,32,33,6000,70,25,4,0.5,0.5,1.1,3,2,1,5,3,2,1.5:1,96,90,60,YES,YES
+544,56,male,rural,20,2,branded liquor,negative,negative,NO,118/70,no,no,,,,,11.8,38,4,84,29,27,7000,76,12,9,2,1,1.2,8.4,4,4.4,4,1.5,2.5,0.6:1,102,94,86,YES,YES
+545,38,male,urban,24,3,both,negative,negative,NO,120/70,no,no,,,,,8,34,5,82,32,31,6000,75,20,4,0.8,0.2,2,3,2,1,4,2,2,1:01,100,94,106,YES,YES
+546,46,male,rural,20,2,both,negative,negative,NO,98/60,no,no,,,,,12,33,4,96,30,33,7000,80,18,1.5,0.5,,1.9,4,2.2,1.8,5,2,3,0.6:1,100,96,94,YES,YES
+547,48,male,rural,25,3,branded liquor,Positive,Positive,NO,110/70,no,no,,,,,8.8,32,4,88,31,34,8000,60,25,0.6,0.1,0.01,1.5,5,3.2,2.4,4,2,2,1:01,111,104,76,YES,YES
+548,62,male,urban,28,2,country liquor,negative,negative,NO,110/80,no,no,,,,,10.2,39,4.1,80,30,31,4300,64,12,10,6,,1.5,6.6,3.6,3,5,3,2,1.5:1,98,126,76,YES,YES
+549,51,female,rural,26,2,both,negative,negative,NO,126/86,yes,no,,,,,9.8,30,3.2,82,38,32,7000,70,25,12,1,1,1.7,2,0.8,1.2,8,2,6,1:03,102,86,76,YES,YES
+550,48,male,rural,28,2,both,negative,negative,NO,112/70,no,yes,,,,,10.12,39,3.1,115,41,36,7000,70.6,23.6,4.4,1.8,0,1.58,2,0.8,1.2,8,4,4,1:01,100,80,72,YES,YES
+551,62,female,rural,30,1,both,negative,negative,NO,98/60,no,no,,,,,9.8,30,4.1,120,41,36,6000,70.6,23.6,4.6,1.6,0,1.3,5,3,2,5,1.2,3.8,,121,154,158,YES,YES
+552,39,male,urban,28,1,branded liquor,negative,negative,YES,102/60,no,no,,,,,8.5,38,4,102,28,30,8200,72,12,6,4,2,1.1,4.6,2.3,2.3,4.6,1.8,2.8,,196,126,98,YES,YES
+553,48,female,urban,30,1,both,negative,negative,YES,116/80,no,no,,,,,9.9,32,2.9,115,28,30,7100,72,10,8,6,0,0.98,5.1,3.1,2,6.1,1.8,4.3,1:02,191,42,36,YES,YES
+554,42,male,,22,2,country liquor,negative,negative,YES,98/70,no,no,,,,,9.7,39,4.1,80,30,31,4600,64,12,10,6,,1.09,6.6,3.4,3.2,5,2,3,,98,126,76,YES,YES
+555,56,female,,30,2,both,negative,negative,NO,116/80,no,no,,,,,9.8,32,3.8,90,31,34,8500,70,20,0.6,0.4,0,1.9,5.6,3.2,2.4,4,2,2,1:01,118,126,216,YES,YES
+556,55,female,,20,2,country liquor,Positive,Positive,NO,70/60,yes,yes,,,,,10.4,34,3.8,120,32,32.5,7900,46,20,10,0.5,0,2.2,4,2.5,1.5,5,2.5,2.5,1:01,152,172,180,YES,YES
+557,52,male,,30,2,country liquor,negative,negative,YES,90/60,no,yes,,,,,10.9,30,4,84,31,34,7000,65,20,1,0.1,0.01,1.2,5.6,3.2,2.4,4,2,2,1:01,111,104,74,YES,YES
+558,78,female,,40,4,country liquor,negative,negative,YES,80/60,yes,no,,,,,8.6,40,3.5,120,32,36,8500,75,25,5.6,1,0,1.8,5.2,3.2,2,6,3.2,2.8,,160,75,82,YES,YES
+559,42,male,,18,2,country liquor,negative,negative,YES,130/90,no,no,,,,,9.7,39,3.8,86,27,29,7200,76,12,9,4,4,1,8.4,4,4.4,5.6,1.6,4,,98,32,23,YES,YES
+560,55,male,,22,2,both,negative,negative,NO,114/70,no,yes,,,,,11.8,41,4,82,29,28,6200,72,14,8,2,0,1.1,7.1,4.1,3,6.1,1.6,4.4,1:03,106,66,41,YES,YES
+561,35,female,,16,2,country liquor,negative,negative,NO,116/80,no,no,,,,,9.8,19,1.8,126,26,24,1800,64,14,12,8,2,0.65,6.2,4.2,2.2,7.1,2,5.1,1:03,76,59,48,YES,YES
+562,62,male,,30,2,country liquor,negative,negative,NO,110/70,no,no,,,,,10.6,23,2.1,118,28,30,1200,74,12,12,1,1,0.52,7.6,3.6,4,4,0.9,3.1,1:03,184,112,97,YES,YES
+563,40,female,,16,1,country liquor,negative,negative,NO,116/70,no,no,,,,,9.6,35,5.5,86,32,33,6000,70,25,4,0.5,0.5,1.1,3,2,1,5,3,2,1.5:1,96,90,60,YES,YES
+564,56,male,,20,2,branded liquor,negative,negative,NO,118/70,no,no,,,,,10.5,38,4,84,29,27,7000,76,12,9,2,1,1.2,8.4,4,4.4,4,1.5,2.5,0.6:1,102,94,86,YES,YES
+565,38,male,,24,3,country liquor,negative,negative,NO,120/70,no,no,,,,,11,34,5,82,32,31,6000,75,20,4,0.8,0.2,2,3,2,1,4,2,2,1:01,100,94,106,YES,YES
+566,46,male,,22,2, branded liquor,negative,negative,NO,98/60,no,no,,,,,12.6,33,4,96,30,33,7000,80,18,1.5,0.5,,1.9,4,2.2,1.8,5,2,3,0.6:1,100,96,94,YES,YES
+567,48,male,,25,3,branded liquor,Positive,Positive,NO,110/70,no,no,,,,,12.6,32,4,88,31,34,8000,60,25,0.6,0.1,0.01,1.5,5,3.2,2.4,4,2,2,1:01,111,104,76,YES,YES
+568,62,male,,28,2,country liquor,negative,negative,YES,130/80,no,no,,,,,13.6,39,4.1,80,30,31,4300,64,12,10,6,,1.5,6.6,3.6,3,5,3,2,1.5:1,98,126,76,YES,YES
+569,51,female,,26,2,both,negative,negative,NO,120/80,no,no,,,,,11.8,30,3.2,82,38,32,7000,70,25,12,1,1,1.7,2,0.8,1.2,8,2,6,1:03,102,86,76,YES,YES
+570,48,male,,28,2,both,negative,negative,NO,112/70,yes,no,,,,,13.7,39,3.1,115,41,36,7000,70.6,23.6,4.4,1.8,0,1.58,2,0.8,1.2,8,4,4,1:01,100,80,72,YES,YES
+571,62,female,,30,1,both,negative,negative,NO,98/60,no,husband,,,,,10.6,30,4.1,120,41,36,6000,70.6,23.6,4.6,1.6,0,1.3,5,3,2,5,1.2,3.8,,121,154,158,YES,YES
+572,39,male,,28,1,branded liquor,negative,negative,YES,102/60,no,no,,,,,11,38,3.9,102,28,30,8200,72,12,6,4,2,1.1,4.6,2.3,2.3,4.6,1.8,2.8,,196,126,98,YES,YES
+573,48,female,,30,1,both,negative,negative,YES,116/80,no,no,,,,,9.5,30,2.9,116,28,30,7100,72,10,8,6,0,0.98,5.1,3.1,2,6.1,1.8,4.3,1:02,191,42,36,YES,YES
+574,42,male,,22,2,country liquor,negative,negative,YES,98/70,no,no,,,,,8.3,39,4.1,80,29,31,4300,64,12,10,6,,1.09,6.6,3.4,3.2,5,2,3,,98,126,76,YES,YES
+575,56,female,,30,2,both,negative,negative,NO,116/80,no,no,,,,,11,32,3.8,90,31,34,9000,70,25,0.6,0.4,0,1.9,5.6,3.2,2.4,4,2,2,1:01,118,126,216,YES,YES
+576,53,female,rural,20,2,country liquor,negative,negative,NO,70/60,yes,yes,,,,,12,34,3.8,120,32,32.5,8000,45,20,10,0.5,0,2.2,4,2.5,1.5,5,2.5,2.5,1:01,152,172,180,YES,YES
+577,50,male,rural,30,2,country liquor,negative,negative,YES,90/60,no,yes,,,,,12,30,4,84,31,34,7000,65,20,0.6,0.1,0.01,1.2,5.6,3.2,2.4,4,2,2,1:01,111,104,74,YES,NO
+578,80,female,urban,40,4,country liquor,negative,negative,YES,80/60,yes,no,,,,,9.2,40,3.5,120,32,36,8500,75,25,5.6,0.1,0,1.8,5.2,3.2,2,6,3.2,2.8,,160,75,82,YES,YES
+579,44,male,rural,18,2,country liquor,negative,negative,YES,130/90,no,no,,,,,10.2,39,3.8,86,27,29,7200,76,12,9,4,4,0.98,8.4,4,4.4,5.6,1.6,4,,98,32,23,YES,YES
+580,56,male,urban,22,2,both,negative,negative,NO,114/70,no,yes,,,,,7.2,41,4,82,29,28,6200,72,14,8,2,0,1.1,7.1,4.1,3,6.1,1.6,4.4,1:03,106,66,41,YES,YES
+581,36,female,urban,16,2,country liquor,negative,negative,NO,116/80,no,no,,,,,10.2,19,1.8,126,26,24,1800,64,14,12,8,2,0.65,6.4,4.2,2.2,7.1,2,5.1,1:03,76,59,48,YES,YES
+582,62,male,,30,2,country liquor,negative,negative,NO,110/70,no,no,,,,,8.4,23,2.1,118,28,30,1200,74,12,12,1,1,0.52,7.6,3.6,4,4,0.9,3.1,1:03,184,112,97,YES,YES
+583,38,female,,16,1,country liquor,negative,negative,NO,116/70,no,no,,,,,7.2,35,5.5,86,32,33,6000,70,25,4,0.5,0.5,1.1,3,2,1,5,3,2,1.5:1,96,90,60,YES,YES
+584,56,male,,22,2,both,negative,negative,NO,118/70,no,no,,,,,8.8,38,4,84,29,27,7000,76,12,9,2,1,1.2,8.4,4,4.4,4,1.5,2.5,0.6:1,102,94,86,YES,YES
+585,38,male,,24,2,country liquor,Positive,Positive,NO,120/70,no,no,,,,,8,34,5,82,32,31,6000,75,20,4,0.8,0.2,2,3,2,1,4,2,2,1:01,100,94,106,YES,YES
+586,46,male,,22,2,both,negative,negative,YES,110/70,no,no,,,,,7,33,4,96,30,33,7000,80,18,1.5,0.5,,1.9,4,2.2,1.8,5,2,3,0.6:1,100,96,94,YES,YES
+587,48,male,,25,3,branded liquor,negative,negative,NO,110/70,no,yes,200,156,79,36,9,32,4,88,31,34,8000,60,25,0.6,0.1,0.01,1.5,5,3.2,2.4,4,2,2,1:01,111,104,76,YES,YES
+588,62,male,,28,2,country liquor,negative,negative,NO,130/80,no,no,198,140,79,32,9,39,4.1,80,30,31,4300,64,12,10,6,,1.5,6.6,3.6,3,5,3,2,1.5:1,98,126,76,YES,YES
+589,51,female,,26,2,both,negative,negative,NO,126/86,no,no,198,130LDL,HDL,,8.8,30,3.2,82,38,32,7000,70,25,12,1,1,1.7,2,0.8,1.2,8,2,6,1:03,102,86,76,YES,YES
+590,48,male,,28,2,both,negative,negative,NO,112/70,no,no,,,,,9.9,39,3.1,115,41,36,7000,70.6,23.6,4.4,1.8,0,1.58,2,0.8,1.2,8,4,4,1:01,100,80,72,YES,YES
+591,62,female,,30,1,both,negative,negative,NO,98/60,no,no,,,,,8.2,32,4.1,120,41,36,6000,70.6,23.6,4.6,1.6,0,1.3,5,3,2,5,1.2,3.8,,121,154,158,YES,YES
+592,39,male,,28,1,branded liquor,negative,negative,YES,102/60,no,yes,,,,,10,38,4,102,28,30,8200,72,12,6,4,2,1.1,4.6,2.3,2.3,4.6,1.8,2.8,,196,126,98,YES,YES
+593,48,female,,30,1,both,negative,negative,YES,116/80,no,no,,,,,11,32,2.9,110,28,30,7100,72,10,8,6,0,0.98,5.1,3.1,2,6.1,1.8,4.3,1:02,191,42,36,YES,YES
+594,42,male,,22,2,country liquor,negative,negative,YES,98/70,no,no,,,,,4,39,4.1,80,30,31,5000,64,12,10,6,,1.09,6.6,3.4,3.2,5,2,3,,98,126,76,YES,YES
+595,56,female,,30,2,both,negative,negative,NO,116/80,no,no,,,,,5.9,32,3.8,90,31,34,8500,70,12,0.6,0.4,0,1.9,5.6,3.2,2.4,4,2,2,1:01,118,126,216,YES,YES
+596,70,male,,40,1,both,Positive,Positive,NO,118/70,no,no,,,,,12,38,3.92,86,28,26,7100,74,8,6,2,0,1,4.8,2.2,2.6,5.1,1.6,3.5,1:02,134,56,24,YES,NO
+597,70,male,urban,40,1,both,Positive,Positive,YES,118/70,no,no,,,,,10,38,3.92,86,,,7100,74,8,6,2,0,1,4.8,2.2,2.6,5.1,1.6,3.5,1:02,134,56,24,YES,YES
+598,70,male,rural,40,1,both,Positive,Positive,NO,118/70,no,no,,,,,10,38,3.92,86,28,26,7100,74,8,6,2,0,1,4.8,2.2,2.6,5.1,1.6,3.5,1:02,134,56,24,YES,YES
+599,70,male,rural,40,1,both,Positive,Positive,NO,118/70,no,no,,,,,11.9,38,3.92,86,28,26,7100,74,8,6,2,0,1,4.8,2.2,2.6,5.1,1.6,3.5,1:02,134,56,24,YES,YES
+600,70,male,rural,40,1,both,Positive,Positive,NO,118/70,no,no,,,,,10,38,3.92,86,,,7100,74,8,6,2,0,1,4.8,2.2,2.6,5.1,1.6,3.5,1:02,134,56,24,YES,YES
+601,70,male,rural,40,1,both,Positive,Positive,NO,118/70,no,no,,,,,9,38,3.92,86,28,26,7100,74,8,6,2,0,1,4.8,2.2,2.6,5.1,1.6,3.5,1:02,134,56,24,YES,YES
+602,70,male,rural,45,1,both,Positive,Positive,NO,118/70,no,no,,,,,9,38,3.92,86,28,26,7100,74,8,6,2,0,1,4.8,2.2,2.6,5.1,1.6,3.5,1:02,134,56,24,YES,YES
+603,70,male,,40,1,both,Positive,Positive,NO,118/70,no,no,,,,,12,38,3.92,86,28,26,7100,70,8,6,2,0,1,4.8,2.2,2.6,5.1,1.6,3.5,1:02,134,56,24,YES,YES
+604,70,male,,40,1,both,Positive,Positive,NO,118/70,no,no,,,,,9.9,38,3.92,86,28,28,7100,74,8,6,2,0,1,4.8,2.2,2.6,5.1,1.6,3.5,1:02,134,56,24,YES,YES
+605,70,male,,40,1,both,Positive,Positive,NO,118/70,no,no,,,,,9.1,38,3.92,86,28,26,7100,68,8,6,2,0,1,4.8,2.2,2.6,5.1,1.6,3.5,1:02,134,56,24,YES,NO
+606,50,male,urban,15,2,country liquor,negative,negative,YES,120/80,yes,no,160,180,200,40,8.8,24,,88,,,8000,65,30,3,2,0,1.4,10.9,6.9,4.9,7,3,4,0.75,110,60,86,YES,NO
+607,51,male,urban,15,2,country liquor,negative,negative,YES,120/80,yes,no,160,180,200,40,9.1,24,,88,,,8000,65,30,3,2,0,1.4,10.9,6.9,4.9,7,3,4,0.75,110,60,86,YES,YES
+608,50,male,urban,15,2,country liquor,negative,negative,NO,120/80,yes,no,160,180,200,40,12,24,,88,,,8000,65,30,3,2,0,1.4,10.9,6.9,4.9,7,3,4,0.75,110,60,86,YES,YES
+609,50,male,urban,15,2,country liquor,negative,negative,YES,120/80,yes,no,160,180,200,40,11,24,,88,,,8000,65,30,3,2,0,1.4,10.9,6.9,4.9,7,3,4,0.75,110,60,86,YES,YES
+610,50,male,urban,15,2,country liquor,negative,negative,YES,120/80,no,no,160,180,200,40,10.2,24,,88,,,8000,65,30,3,2,0,1.4,10.9,6.9,4.9,7,3,4,0.75,110,60,86,YES,YES
+611,50,male,urban,15,2,country liquor,negative,negative,YES,120/80,yes,no,160,180,200,40,8,24,,88,,,8000,65,30,3,2,0,1.4,10.9,6.9,4.9,7,3,4,0.75,110,60,86,YES,YES
+612,50,male,urban,15,2,country liquor,negative,negative,YES,120/80,yes,no,150,180,220,40,12.9,24,,88,,,8000,65,30,3,2,0,1.4,10.9,6.9,4.9,7,3,4,0.75,110,60,86,YES,YES
+613,50,male,urban,15,2,country liquor,negative,negative,YES,120/80,yes,no,160,180,200,40,10.9,24,,88,,,8000,65,30,3,1,0,1.4,10.9,6.9,4.9,7,3,4,0.75,110,60,86,YES,YES
+614,50,male,urban,15,2,country liquor,negative,negative,YES,120/80,yes,no,160,180,200,40,12,24,,88,,,8000,65,30,3,2,0,1.4,10.9,6.9,4.9,7,3,4,0.75,110,60,86,YES,YES
+615,50,male,urban,15,2,country liquor,negative,negative,YES,120/80,yes,no,160,180,200,40,9.8,24,,88,,,8000,65,30,3,2,0,1.4,10.9,6.9,4.9,7,3,4,0.75,110,60,86,YES,YES
+616,45,male,,10,2,branded liquor,negative,negative,NO,108/72,no,no,,,,,11.3,32,3.4,90,30,33,7000,75,20,3,1,1,1.7,1.4,0.8,0.6,4,2,2,1:01,112,100,60,YES,NO
+617,42,male,,20,4,branded liquor,negative,negative,NO,110/70,no,no,,,,,10.9,20,3,82,30,33,6200,60,30,5,3,2,1.2,4.2,3.2,4,3,1,2,1:02,112,74,40,YES,NO
+618,42,male,,15,2,branded liquor,Positive,Positive,NO,112/70,no,no,,,,,11.9,30,3,92,30,33,7000,60,30,3,2,1,1.1,4.2,3,1.2,4,3,1,3:01,110,70,40,YES,NO
+619,60,male,,30,3,both,negative,negative,NO,112/70,no,no,,,,,10.1,30,3,104,30,32,7200,68,27,1,2,1,2.8,4.2,1.2,3,4,2,2,1:01,104,102,72,YES,NO
+620,42,female,,12,4,country liquor,negative,negative,NO,110/70,no,no,,,,,11.9,20,1.8,112,30,30,7000,68,27,3,1,1,1.2,6.2,3,3,4,1.1,3,1:03,98,74,42,YES,NO
+621,50,male,,25,2,branded liquor,Positive,Positive,YES,100/60,no,no,,,,,9.2,26,2.4,104,30,33,6000,70,25,3,1,1,1.02,5.8,2.3,2.5,3,1.2,2.8,2:03,180,200,106,YES,NO
+622,42,male,,22,3,both,negative,negative,NO,110/70,no,no,,,,,9.69,20,2,110,30,33,7000,70,25,3,1,1,1,6,3,3,3,1.2,1.8,2:03,184,72,40,YES,NO
+623,62,male,,30,3,branded liquor,negative,negative,YES,98/72,yes,no,,,,,9.7,30,2.8,112,30,33,7200,70,20,0,1,1,1.8,4.8,1.2,3.6,3,2,1,2:01,114,70,72,YES,NO
+624,54,female,urban,10,2,branded liquor,negative,negative,NO,108/75,no,no,220,180,104,52,12.9,32,3.4,92,30,33,7000,75,20,3,1,1,1.7,1.4,0.8,0.6,4,2,2,0:00,112,100,60,YES,NO
+625,45,male,rural,20,4,branded liquor,negative,negative,NO,110/70,no,no,188,140,96,34,10.2,20,3,82,30,33,6200,60,30,5,3,2,1.2,4.2,3.2,4,3,1,2,12:00,112,74,40,YES,NO
+626,42,male,rural,15,2,branded liquor,Positive,Positive,NO,112/70,no,no,,,,,8,30,3,92,30,33,7000,60,30,3,2,1,1.1,4.2,3,1.2,4,3,1,0:00,110,70,40,YES,YES
+627,61,male,rural,30,3,both,negative,negative,NO,112/70,no,no,,,,,8,30,3,104,30,32,7200,68,27,1,2,1,2.8,4.2,1.2,3,4,2,2,0:00,104,102,72,YES,YES
+628,43,female,rural,12,4,country liquor,negative,negative,NO,110/70,no,no,260,146,129,26,9.29,20,1.8,112,30,30,7000,68,27,3,1,1,1.2,6.2,3,3,4,1.1,3,,98,74,42,YES,YES
+629,52,female,,25,2,branded liquor,Positive,Positive,YES,100/60,no,no,,,,,8.2,26,2.4,104,,,6000,70,25,3,1,1,1.02,5.8,2.3,2.5,3,1.2,2.8,,180,200,106,YES,YES
+630,42,male,urban,22,3,both,negative,negative,NO,110/70,no,no,,,,,9,20,2,110,,,7000,70,25,3,1,1,1,6,3,3,3,1.2,1.8,,184,72,40,YES,YES
+631,62,male,urban,30,3,branded liquor,negative,negative,YES,98/72,yes,no,176,160,108,36,8.79,30,2.8,112,,,7200,70,20,0,1,1,1.8,4.8,1.2,3.6,3,2,1,0:00,114,70,72,YES,YES
+632,45,male,rural,10,2,branded liquor,negative,negative,NO,108/72,no,no,200,184,85,30,14.9,32,3.4,90,30,33,7000,75,20,3,1,1,1.7,1.4,0.8,0.6,4,2,2,0:00,112,100,60,YES,YES
+633,42,male,rural,20,4,branded liquor,negative,negative,NO,110/70,no,no,,,,,15.9,20,3,82,30,33,6200,60,30,5,3,2,1.2,4.2,3.2,4,3,1,2,12:00,112,74,40,YES,YES
+634,42,male,urban,15,2,branded liquor,Positive,Positive,NO,112/70,no,no,200,184,85,30,15,30,3,92,30,33,7000,60,30,3,2,1,1.1,4.2,3,1.2,4,3,1,0:00,110,70,40,YES,YES
+635,60,male,urban,30,3,both,negative,negative,NO,112/70,no,no,,,,,15,30,3,104,30,32,7200,68,27,1,2,1,2.8,4.2,1.2,3,4,2,2,,104,102,72,YES,YES
+636,42,female,urban,12,4,country liquor,negative,negative,NO,110/70,no,no,,,,,13,20,1.8,112,30,30,7000,68,27,3,1,1,1.2,6.2,3,3,4,1.1,3,,98,74,42,YES,YES
+637,50,male,urban,25,2,branded liquor,Positive,Positive,YES,100/60,no,no,,,,,10.7,26,2.4,104,30,33,6000,70,25,3,1,1,1.02,5.8,2.3,2.5,3,1.2,2.8,,180,200,106,YES,YES
+638,42,male,urban,22,3,both,negative,negative,NO,110/70,no,no,,,,,11.3,20,2,110,30,33,7000,70,25,3,1,1,1,6,3,3,3,1.2,1.8,,184,72,40,YES,YES
+639,62,male,urban,30,3,branded liquor,negative,negative,YES,98/72,yes,no,176,160,108,36,9.8,30,2.8,112,30,33,7200,70,20,0,1,1,1.8,4.8,1.2,3.6,3,2,1,0:00,114,70,72,YES,YES
+640,45,male,urban,10,2,branded liquor,negative,negative,NO,108/72,no,no,200,184,85,30,11.8,32,3.4,90,30,33,7000,75,20,3,1,1,1.7,1.4,0.8,0.6,4,2,2,0:00,112,100,60,YES,YES
+641,42,male,urban,20,4,branded liquor,negative,negative,NO,110/70,no,no,,,,,8,20,3,82,30,33,6200,60,30,5,3,2,1.2,4.2,3.2,4,3,1,2,12:00,112,74,40,YES,YES
+642,42,male,urban,15,2,branded liquor,Positive,Positive,NO,112/70,no,no,,,,,11,30,3,92,,,7000,60,30,3,2,1,1.1,4.2,3,1.2,4,3,1,0:00,110,70,40,YES,YES
+643,60,male,rural,30,3,both,negative,negative,NO,112/70,no,no,,,,,8.8,30,3,104,,,7200,68,27,1,2,1,2.8,4.2,1.2,3,4,2,2,0:00,104,102,72,YES,YES
+644,42,female,rural,12,4,country liquor,negative,negative,NO,110/70,no,no,256,156,105,25,10.2,20,1.8,112,,,7000,68,27,3,1,1,1.2,6.2,3,3,4,1.1,3,,98,74,42,YES,YES
+645,50,male,rural,25,2,branded liquor,Positive,Positive,YES,100/60,yes,no,,,,,9.8,26,2.4,104,,,6000,70,25,3,1,1,1.02,5.8,2.3,2.5,3,1.2,2.8,,180,200,106,YES,YES
+646,46,male,rural,22,3,both,negative,negative,NO,110/70,no,no,,,,,10.12,20,2,110,,,7000,70,25,3,1,1,1,6,3,3,3,1.2,1.8,,184,72,40,YES,YES
+647,62,male,rural,30,3,branded liquor,negative,negative,YES,98/72,yes,no,,,,,9.8,30,2.8,112,,,7200,70,20,0,1,1,1.8,4.8,1.2,3.6,3,2,1,12:00,114,70,72,YES,YES
+648,45,male,rural,10,2,branded liquor,negative,negative,NO,108/72,no,no,200,184,85,30,8.5,32,3.4,90,30,33,7000,75,20,3,1,1,1.7,1.4,0.8,0.6,4,2,2,0:00,112,100,60,YES,YES
+649,42,male,urban,20,4,branded liquor,negative,negative,NO,110/70,no,no,256,156,105,25,9.9,20,3,82,,,6200,60,30,5,3,2,1.2,4.2,3.2,4,3,1,2,,112,74,40,YES,YES
+650,42,male,urban,15,2,branded liquor,negative,negative,NO,112/70,no,no,,,,,9.7,30,3,92,,,7000,60,30,3,2,1,1.1,4.2,3,1.2,4,3,1,,110,70,40,YES,YES
+651,60,male,rural,30,3,both,negative,negative,NO,112/70,no,no,,,,,9.8,30,3,104,,,7200,68,27,1,2,1,2.8,4.2,1.2,3,4,2,2,,104,102,72,YES,YES
+652,42,female,rural,12,4,country liquor,negative,negative,NO,110/70,no,no,,,,,10.4,20,1.8,112,,,7000,68,27,3,1,1,1.2,6.2,3,3,4,1.1,3,,98,74,42,YES,YES
+653,50,male,rural,25,2,branded liquor,Positive,Positive,YES,100/60,no,no,256,156,105,25,10.9,26,2.4,104,,,6000,70,25,3,1,1,1.02,5.8,2.3,2.5,3,1.2,2.8,,180,200,106,YES,YES
+654,42,male,rural,22,3,both,negative,negative,YES,110/70,no,no,256,156,105,25,8.6,20,2,110,,,7000,70,25,3,1,1,1,6,3,3,3,1.2,1.8,,184,72,40,YES,YES
+655,62,male,rural,30,3,branded liquor,negative,negative,YES,98/72,yes,no,256,156,105,25,9.7,30,2.8,112,,,7200,70,20,0,1,1,1.8,4.8,1.2,3.6,3,2,1,,114,70,72,YES,YES
+656,45,male,urban,10,2,branded liquor,negative,negative,NO,108/72,no,no,,,,,11.8,32,3.4,90,30,33,7000,75,20,3,1,1,1.7,1.4,0.8,0.6,4,2,2,1:01,112,100,60,YES,YES
+657,42,male,urban,20,4,branded liquor,negative,negative,NO,110/70,no,no,,,,,9.8,20,3,82,30,33,6200,60,30,5,3,2,1.2,4.2,3.2,4,3,1,2,1:02,112,74,40,YES,YES
+658,42,male,rural,15,2,branded liquor,Positive,Positive,NO,112/70,no,no,,,,,10.6,30,3,92,30,33,7000,60,30,3,2,1,1.1,4.2,3,1.2,4,3,1,3:01,110,70,40,YES,YES
+659,60,male,rural,30,3,both,negative,negative,NO,112/70,no,no,,,,,9.6,30,3,104,30,32,7200,68,27,1,2,1,2.8,4.2,1.2,3,4,2,2,1:01,104,102,72,YES,YES
+660,42,female,urban,12,4,country liquor,negative,negative,NO,110/70,no,no,,,,,10.5,20,1.8,112,30,30,7000,68,27,3,1,1,1.2,6.2,3,3,4,1.1,3,1:03,98,74,42,YES,YES
+661,50,male,urban,25,2,branded liquor,Positive,Positive,YES,100/60,no,no,,,,,11,26,2.4,104,30,33,6000,70,25,3,1,1,1.02,5.8,2.3,2.5,3,1.2,2.8,2:03,180,200,106,YES,YES
+662,42,male,rural,22,3,both,negative,negative,NO,110/70,no,no,,,,,12.6,20,2,110,30,33,7000,70,25,3,1,1,1,6,3,3,3,1.2,1.8,2:03,184,72,40,YES,NO
+663,62,male,rural,30,3,branded liquor,negative,negative,YES,98/72,yes,no,,,,,12.6,30,2.8,112,30,33,7200,70,20,0,1,1,1.8,4.8,1.2,3.6,3,2,1,2:01,114,70,72,YES,YES
+664,50,male,urban,10,2,branded liquor,negative,negative,NO,108/72,no,no,,,,,13.6,32,3.4,90,30,33,7000,75,20,3,1,1,1.7,1.4,0.8,0.6,4,2,2,1:01,112,100,60,YES,YES
+665,42,male,rural,20,4,branded liquor,Positive,Positive,NO,110/70,no,no,,,,,12,20,3,82,30,33,6200,60,30,5,3,2,1.2,4.2,3.2,4,3,1,2,1:02,112,74,40,YES,YES
+666,42,male,rural,15,2,branded liquor,Positive,Positive,YES,112/70,no,no,,,,,13.7,30,3,92,30,33,7000,60,30,3,2,1,1.1,4.2,3,1.2,4,3,1,3:01,110,70,40,YES,YES
+667,55,male,rural,30,3,both,negative,negative,NO,112/70,no,no,,,,,10.6,30,3,104,30,32,7200,68,27,1,2,1,2.8,4.2,1.2,3,4,2,2,1:01,104,102,72,YES,YES
+668,42,female,urban,10,4,country liquor,negative,negative,NO,110/70,no,no,,,,,11,20,1.8,112,30,30,7000,68,27,3,1,1,1.2,6.2,3,3,4,1.1,3,1:03,98,74,42,YES,YES
+669,50,male,urban,25,2,country liquor,Positive,Positive,YES,100/60,no,no,,,,,9.5,26,2.4,104,30,33,6000,70,25,3,1,1,1.02,5.8,2.3,2.5,3,1.2,2.8,2:03,180,200,106,YES,YES
+670,42,male,rural,22,3,both,Positive,Positive,NO,110/70,no,no,,,,,8.3,20,2,110,30,33,7000,70,25,3,1,1,1,6,3,3,3,1.2,1.8,2:03,184,72,40,YES,YES
+671,62,male,rural,30,3,branded liquor,negative,negative,YES,110/70,yes,no,,,,,11,30,2.8,112,30,33,7200,70,20,0,1,1,1.8,4.8,1.2,3.6,3,2,1,2:01,114,70,72,YES,YES
+672,45,male,rural,10,2,branded liquor,negative,negative,NO,108/72,no,no,,,,,12,32,3.4,90,30,33,7000,75,20,3,1,0,1.7,1.4,0.8,0.6,4,2,2,1:01,112,100,60,YES,YES
+673,42,male,rural,20,4,branded liquor,negative,negative,NO,110/70,no,no,,,,,12,20,3,82,30,33,6400,60,30,5,3,2,1.2,4.2,3.2,4,3,1,2,1:02,112,74,40,YES,YES
+674,42,male,rural,15,2,branded liquor,Positive,Positive,NO,112/70,no,no,,,,,9.2,30,3,96,30,33,7000,60,30,3,2,1,1.1,4.2,3,1.2,4,3,1,3:01,110,70,40,YES,YES
+675,60,male,rural,30,3,both,negative,negative,NO,112/70,no,no,,,,,10.2,30,2.8,104,30,32,7200,68,27,1,2,1,2.8,4.2,1.2,3,4,2,2,1:01,104,102,72,YES,YES
+676,42,female,urban,12,4,country liquor,negative,negative,NO,110/70,no,yes,,,,,7.2,20,1.8,112,30,30,7000,68,27,3,1,1,1.2,6.2,3,3,4,1.1,3,1:03,98,74,42,YES,NO
+677,50,male,urban,25,2,branded liquor,Positive,Positive,YES,100/60,no,no,,,,,10.2,26,2.4,104,30,33,6000,70,25,3,1,1,1.02,5.8,2.3,2.5,3,1.2,2.8,2:03,180,200,106,YES,YES
+678,42,male,rural,22,3,both,negative,negative,NO,110/70,no,no,,,,,8.4,20,2,110,30,33,7000,70,25,3,1,1,1,6,3,3,3,1.2,1.8,2:03,184,72,40,YES,YES
+679,62,male,rural,30,3,branded liquor,Positive,Positive,YES,98/72,yes,no,,,,,7.2,30,2.8,112,30,33,7200,70,20,0,1,1,1.8,4.8,1.2,3.6,3,2,1,2:01,114,70,72,YES,YES
+680,45,male,,12,2,branded liquor,negative,negative,NO,108/72,no,no,,,,,8.8,32,3.4,90,30,33,7000,75,20,3,1,1,1.7,1.4,0.8,0.6,4,2,2,1:01,112,100,60,YES,YES
+681,42,male,,20,3,branded liquor,negative,negative,NO,110/70,no,no,,,,,8,20,3,82,30,33,6200,60,30,5,3,2,1.2,4.2,3.2,4,3,1,2,1:02,112,74,40,YES,YES
+682,42,male,,15,2,country liquor,Positive,Positive,NO,112/70,no,no,,,,,7,30,3,92,30,33,7000,60,30,3,2,1,1.1,4.2,3,1.2,4,3,1,3:01,110,70,40,YES,YES
+683,60,male,,30,3,both,negative,negative,YES,112/70,no,no,,,,,9,30,3,104,30,32,7200,68,27,1,2,1,2.8,4.2,1.2,3,4,2,2,1:01,104,102,72,YES,YES
+684,42,female,,12,4,country liquor,negative,negative,NO,120/70,no,husband,,,,,9,20,1.8,112,30,30,7000,68,27,3,1,1,1.2,6.2,3,3,4,1.1,3,1:03,98,74,42,YES,YES
+685,50,male,,25,2,branded liquor,Positive,Positive,YES,100/60,no,no,,,,,8.8,26,2.1,104,30,33,6000,70,25,3,1,1,1.02,5.8,2.3,2.5,3,1.2,2.8,2:03,180,200,106,YES,YES
+686,42,male,,22,3,both,negative,negative,NO,110/70,no,no,,,,,9.9,20,2,95,30,33,7000,70,25,3,1,1,1,6,3,3,3,1.2,1.8,2:03,184,72,40,YES,YES
+687,62,male,,30,3,branded liquor,negative,negative,YES,98/72,yes,no,,,,,8.2,30,2.8,112,28,33,7200,70,20,0,1,1,1.8,4.8,1.2,3.6,3,2,1,2:01,114,70,72,YES,YES
+688,45,male,,10,2,branded liquor,negative,negative,NO,108/72,no,no,,,,,10,32,3.4,87,30,33,7000,75,20,3,1,1,1.7,1.4,0.8,0.6,4,2,2,1:01,112,100,60,YES,YES
+689,42,male,,20,4,branded liquor,negative,negative,NO,110/70,no,no,,,,,11,20,3,82,30,33,6200,60,34,5,3,2,1.2,4.2,3.2,4,3,1,2,1:02,112,74,40,YES,YES
+690,42,male,,15,2,branded liquor,Positive,Positive,NO,112/70,no,no,,,,,4,30,3,92,30,33,7000,60,30,6,2,1,1.1,4.2,3,1.2,4,3,1,3:01,110,70,40,YES,YES
+691,60,male,,30,3,both,negative,negative,NO,112/70,no,no,,,,,5.9,30,3,104,30,32,7200,68,27,1,1,1,2.8,4.2,1.2,3,4,2,2,1:01,104,102,72,YES,YES
+692,42,male,,12,4,country liquor,negative,negative,NO,110/70,no,no,,,,,12,20,1.8,112,30,30,7000,68,27,3,1,1,1.2,6.2,3,3,4,1.1,3,1:03,98,74,42,YES,YES
+693,50,male,,25,1,both,Positive,Positive,YES,100/60,no,no,198,156,79,32,10,26,2.4,104,30,33,6000,70,25,3,1,1,1.02,5.8,2.3,2.5,3,1.2,2.8,2:03,180,200,106,YES,YES
+694,42,male,,22,3,both,Positive,Positive,YES,110/70,no,no,,,,,10,20,2,110,30,33,7000,70,25,3,1,1,1,6,3,3,3,1.2,1.8,2:03,184,72,40,YES,YES
+695,62,male,,30,3,branded liquor,negative,negative,YES,112/70,no,yes,,,,,11.9,30,2.8,112,30,33,7200,70,20,0,1,1,1.8,4.8,1.2,3.6,3,2,1,2:01,114,70,72,YES,YES
+696,57,male,rural,25,1,country liquor,negative,negative,YES,140/80,yes,no,202,177,91,81,10,29,,69,,,9201,71,27,1,1,0,1.42,6.9,4.2,2.7,6,1.8,2.5,0.72,156,67,58,YES,YES
+697,57,male,rural,25,1,country liquor,Positive,Positive,YES,140/80,yes,no,202,177,91,81,9,29,,69,,,9201,71,27,1,1,0,1.42,6.9,4.2,2.7,6,1.8,2.5,0.72,156,67,58,YES,YES
+698,57,male,rural,25,1,country liquor,negative,negative,YES,140/80,no,no,202,177,91,81,9,29,,69,,,9201,71,27,1,1,0,1.42,6.9,4.2,2.7,6,1.8,2.5,0.72,156,67,58,YES,YES
+699,57,female,rural,25,1,country liquor,negative,negative,YES,140/80,yes,no,202,177,91,81,11,29,,69,,,9201,71,27,1,1,0,1.42,6.9,4.2,2.7,6,1.8,2.5,0.72,156,67,58,YES,YES
+700,57,male,rural,25,1,country liquor,negative,negative,YES,140/80,yes,no,,,,,9.5,29,,69,,,9201,71,27,1,1,0,1.42,6.9,4.2,2.7,6,1.8,2.5,0.72,156,67,58,YES,NO
+701,57,male,,25,1,country liquor,negative,negative,YES,140/80,yes,no,202,177,91,81,9.1,29,,69,,,9201,71,27,1,1,0,1.42,6.9,4.2,2.7,6,1.8,2.5,0.72,156,67,58,YES,YES
+702,57,male,rural,25,1,country liquor,negative,negative,YES,140/80,yes,no,202,177,91,81,8.8,29,,69,,,9201,71,32,1,1,0,1.42,6.9,4.2,2.7,6,1.8,2.5,0.72,156,67,58,YES,YES
+703,57,male,rural,25,3,country liquor,negative,negative,YES,140/80,yes,no,202,177,91,81,9.1,29,,69,,,9201,71,27,1,1,0,1.42,6.9,4.2,2.7,6,1.8,2.5,0.72,156,67,58,YES,YES
+704,57,male,rural,25,1,country liquor,negative,negative,YES,140/80,yes,no,202,177,91,81,12,35,,69,,,9201,71,27,1,1,0,1.42,6.9,4.2,2.7,6,1.8,2.5,0.72,156,67,58,YES,YES
+705,46,male,rural,18,2,country liquor,negative,negative,YES,120/80,yes,no,200,184,85,30,11,36,3.5,89,,,8700,60,34,2,2,2,1.5,2,1.1,0.9,6,4,2,2:01,180,84,96,YES,YES
+706,46,male,rural,18,2,country liquor,Positive,Positive,YES,120/80,yes,no,200,184,85,30,10.2,36,3.5,89,,,8700,60,34,2,2,2,1.5,2,1.1,0.9,6,4,2,,180,84,96,YES,YES
+707,46,male,rural,18,2,country liquor,Positive,Positive,YES,120/80,no,no,200,184,85,30,8,36,3.5,89,,,8700,60,34,2,2,2,1.5,2,1.1,0.9,6,4,2,2:01,180,84,96,YES,YES
+708,46,male,rural,18,2,country liquor,negative,negative,YES,120/80,yes,no,200,184,85,30,12.9,36,3.5,89,,,8700,60,34,2,2,2,1.5,2,1.1,0.9,6,4,2,2:01,180,84,96,YES,YES
+709,46,male,rural,18,2,country liquor,negative,negative,YES,120/80,yes,no,,,,,10.9,36,3.5,89,,,8700,60,34,2,2,2,1.5,2,1.1,0.9,6,4,2,2:01,180,84,96,YES,YES
+710,46,male,,18,2,country liquor,negative,negative,YES,120/80,yes,no,200,184,85,30,12,36,3.5,89,,,8700,60,34,2,2,2,1.5,2,1.1,0.9,6,4,2,2:01,180,84,96,YES,YES
+711,46,male,rural,18,2,country liquor,negative,negative,YES,120/80,yes,no,200,184,85,30,9.8,36,3.5,89,,,8900,60,34,2,2,2,1.5,2,1.1,0.9,6,4,2,2:01,180,84,96,YES,YES
+712,46,male,rural,18,2,country liquor,Positive,Positive,YES,120/80,yes,no,200,184,85,30,11.3,36,3.5,89,,,8700,60,34,2,2,2,1.5,2,1.1,0.9,6,4,2,2:01,180,84,96,YES,YES
+713,46,male,rural,18,2,country liquor,negative,negative,YES,120/80,yes,no,200,180,85,30,10.9,36,3.5,89,,,8700,60,34,2,2,2,1.5,2,1.1,0.9,6,4,2,2:01,180,84,96,YES,YES
+714,58,male,urban,28,2,branded liquor,negative,negative,YES,130/80,yes,no,260,146,129,26,11.9,38,,96,,,6800,76,38,1,3,0,2.3,6.8,3.8,3,6.2,3.2,3,,148,68,24,YES,YES
+715,54,male,rural,18,2,country liquor,negative,negative,YES,130/70,yes,no,220,180,104,52,9.8,30,,92,,,7400,64,32,1,2,0,1.8,7.6,5.2,2.4,6.6,3.6,3,,129,66,38,YES,YES
+716,54,male,rural,20,2,country liquor,negative,negative,YES,140/80,yes,no,256,156,105,25,11.9,37,,93,,,7800,66,30,1,3,0,1.9,6.6,4.2,1.4,7.2,2.9,4.3,,148,76,48,YES,YES
+717,58,male,urban,28,2,branded liquor,negative,negative,NO,130/80,yes,no,260,146,129,26,9.2,38,,96,,,6800,76,38,1,3,0,2.3,6.8,3.8,3,6.2,3.2,3,,148,68,24,YES,YES
+718,50,male,rural,18,2,country liquor,Positive,Positive,NO,130/70,yes,no,220,180,104,52,9.69,30,,92,,,7400,64,32,1,2,0,1.8,7.6,5.2,2.4,6.6,3.6,3,,129,66,38,YES,YES
+719,54,male,rural,20,2,country liquor,negative,negative,YES,140/80,yes,no,256,156,105,25,9.7,37,,93,,,7800,66,30,1,3,0,1.9,6.6,4.2,1.4,7.2,2.9,4.3,,148,76,48,YES,YES
+720,58,male,urban,28,2,branded liquor,negative,negative,YES,130/80,yes,no,260,146,129,26,12.9,38,,96,,,6800,76,38,1,3,0,2.3,6.8,3.8,3,6.2,3.2,3,,148,68,24,YES,YES
+721,54,male,rural,18,2,country liquor,negative,negative,YES,130/70,yes,no,,,,,11.2,30,,92,,,7400,64,32,1,2,0,1.8,7.6,5.2,2.4,6.6,3.6,3,,129,66,38,YES,YES
+722,54,male,rural,20,2,country liquor,negative,negative,YES,140/80,no,no,256,156,105,25,8,37,,93,,,7800,66,30,1,3,0,1.9,6.6,4.2,1.4,7.2,2.9,4.3,,148,76,48,YES,YES
+723,58,male,urban,28,2,branded liquor,negative,negative,NO,130/80,yes,no,260,146,129,26,8,38,,96,,,6800,76,38,1,3,0,2.3,6.8,3.8,3,6.2,3.2,3,,148,68,24,YES,YES
+724,54,female,rural,18,2,country liquor,negative,negative,YES,130/70,yes,no,220,180,104,52,9.29,30,,92,,,7400,64,32,1,2,0,1.8,7.6,5.2,2.4,6.6,3.6,3,,129,66,38,YES,YES
+725,54,male,rural,20,2,country liquor,negative,negative,YES,140/80,yes,no,256,156,105,25,8.2,37,,93,,,7800,66,30,1,3,0,1.9,6.6,4.2,1.4,7.2,2.9,4.3,,148,76,48,YES,YES
+726,58,male,urban,28,2,branded liquor,negative,negative,NO,130/80,no,no,260,146,129,26,9.2,38,,96,,,6800,76,38,1,3,0,2.3,6.8,3.8,3,6.2,3.2,3,,148,68,24,YES,YES
+727,54,male,rural,18,2,country liquor,negative,negative,NO,130/70,no,no,220,180,104,52,8.79,30,,92,,,7400,64,32,1,2,0,1.8,7.6,5.2,2.4,6.6,3.6,3,,129,66,38,YES,YES
+728,54,male,rural,20,2,country liquor,negative,negative,YES,140/80,no,no,256,156,105,25,14.9,37,,93,,,7800,66,30,1,3,0,1.9,6.6,4.2,1.4,7.2,2.9,4.3,,148,76,48,YES,YES
+729,58,male,rural,28,2,branded liquor,negative,negative,YES,130/80,yes,no,260,146,129,26,15.9,38,,96,,,6800,76,38,1,3,0,2.3,6.8,3.8,3,6.2,3.2,3,,148,68,24,YES,YES
+730,54,male,rural,18,2,country liquor,negative,negative,YES,130/70,yes,no,220,180,104,52,15,30,,92,,,7400,64,32,1,2,0,1.8,7.6,5.2,2.4,6.6,3.6,3,,129,66,38,YES,YES
+731,54,male,,20,2,country liquor,negative,negative,YES,140/80,yes,no,256,156,105,25,15,37,,93,,,7800,66,30,1,3,0,1.9,6.6,4.2,1.4,7.2,2.9,4.3,,148,76,48,YES,YES
+732,58,male,,28,2,branded liquor,negative,negative,YES,130/80,yes,yes,260,146,129,26,13,38,,96,,,6800,76,38,1,3,0,2.3,6.8,3.8,3,6.2,3.2,3,,148,68,24,YES,YES
+733,54,male,,18,2,country liquor,negative,negative,YES,130/70,yes,no,220,180,104,52,10.7,30,,92,,,7400,64,32,1,2,0,1.8,7.6,5.2,2.4,6.6,3.6,3,,129,66,38,YES,YES
+734,54,male,rural,20,2,country liquor,negative,negative,YES,140/80,yes,no,256,156,105,25,11.3,37,,98,,,7800,66,30,1,3,0,1.9,6.6,4.2,1.4,7.2,2.9,4.3,,148,76,48,YES,YES
+735,58,male,urban,28,2,branded liquor,negative,negative,YES,130/80,yes,no,260,146,129,26,9.8,38,,96,,,6800,76,38,1,3,0,2.3,6.8,3.8,3,6.2,3.2,3,,148,68,24,YES,YES
+736,54,male,rural,18,2,country liquor,negative,negative,YES,130/70,yes,yes,220,180,104,52,11.8,30,,92,,,7400,64,32,1,2,0,1.8,7.6,5.2,2.4,6.6,3.6,3,,129,66,38,YES,YES
+737,54,male,rural,20,2,country liquor,negative,negative,YES,140/80,yes,no,256,156,105,25,8,37,,93,,,7800,66,30,1,3,0,1.9,6.6,4.2,1.4,7.2,2.9,4.3,,148,76,48,YES,YES
+738,58,female,urban,28,2,branded liquor,negative,negative,YES,130/80,yes,husband,260,146,129,26,12,38,,96,,,6800,76,38,1,3,0,2.3,6.8,3.8,3,6.2,3.2,3,,148,68,24,YES,NO
+739,54,male,rural,18,2,country liquor,negative,negative,YES,130/70,yes,no,220,180,104,52,8.8,30,,92,,,7400,64,32,1,2,0,1.8,7.6,5.2,2.4,6.6,3.6,3,,129,66,38,YES,YES
+740,54,male,rural,20,2,country liquor,negative,negative,YES,140/80,yes,yes,256,156,105,25,10.6,37,,93,,,7800,66,30,1,3,0,1.9,6.6,4.2,1.4,7.2,2.9,4.3,,148,76,48,YES,YES
+741,57,male,urban,14,2,country liquor,negative,negative,YES,140/80,yes,no,209,192,104,32,9.8,36,,89,,,6700,64,32,1,2,0,1.67,5.6,4.1,3.7,6.2,2.8,3.1,,117,56,48,YES,YES
+742,58,female,rural,25,1,country liquor,negative,negative,YES,110/70,yes,no,194,166,49,27,10.12,26,,74,,,6800,70,26,1,2,1,1.1,6.9,3.9,3,6.2,2.8,3,,163,67,59,YES,YES
+743,47,transgender,urban,20,2,country liquor,negative,negative,YES,136/82,yes,no,211,195,98,36,9.8,33,,82,,,9800,70,25,2,3,0,1.92,4.6,2.4,2.2,6.5,3.2,3.6,,156,64,36,YES,YES
+744,32,female,urban,14,2,branded liquor,negative,negative,YES,140/90,yes,no,224,200,96,30,8.5,36,,89,,,8200,64,32,1,2,0,1.83,5.8,4.2,1.2,5.8,3.2,2.6,1.5:1,119,54,46,YES,YES
+745,36,male,rural,14,2,country liquor,negative,negative,YES,140/90,yes,no,200,190,96,40,9.9,36,3.2,,,,6400,64,32,2,2,0,1.5,6.8,4.2,2.6,6.2,4,2.2,2:01,140,96,80,YES,YES
+746,55,male,urban,14,2,country liquor,negative,negative,YES,140/80,yes,no,209,192,104,32,9.7,36,,89,,,6700,64,32,1,2,0,1.67,5.6,4.1,3.7,6.2,2.8,3.1,,117,56,48,YES,YES
+747,58,female,rural,25,1,country liquor,negative,negative,YES,110/70,yes,no,194,166,49,27,9.8,26,,74,,,6800,70,26,1,2,1,1.1,6.9,3.9,3,6.2,2.8,3,,163,67,59,YES,YES
+748,47,female,urban,20,2,country liquor,negative,negative,YES,136/82,yes,no,211,195,98,36,10.4,33,,82,,,9800,70,25,2,3,0,1.92,4.6,2.4,2.2,6.5,3.2,3.6,,156,64,36,YES,YES
+749,42,female,urban,14,2,branded liquor,Positive,Positive,YES,140/90,yes,no,224,200,96,30,10.9,36,,89,,,8200,64,32,1,2,0,1.83,5.8,4.2,1.2,5.8,3.2,2.6,,119,54,46,YES,YES
+750,36,male,rural,14,2,country liquor,negative,negative,YES,140/90,yes,no,200,190,96,40,8.6,36,3.2,,,,6400,64,32,2,2,0,1.5,6.8,4.2,2.6,6.2,4,2.2,,140,96,80,YES,YES
+751,57,male,urban,14,2,country liquor,negative,negative,NO,140/80,yes,no,209,192,104,32,9.7,36,,89,,,6700,64,32,1,2,0,1.67,5.6,4.1,3.7,6.2,2.8,3.1,,117,56,48,YES,YES
+752,58,female,rural,25,1,country liquor,negative,negative,NO,110/70,yes,no,194,166,49,27,11.8,26,,74,,,6800,70,26,1,2,1,1.1,6.9,3.9,3,6.2,2.8,3,,163,67,59,YES,YES
+753,47,female,urban,20,2,country liquor,negative,negative,NO,136/82,yes,no,211,195,98,36,9.8,33,,82,,,9800,70,25,2,3,0,1.92,4.6,2.4,2.2,6.5,3.2,3.6,,156,64,36,YES,YES
+754,32,female,urban,14,2,branded liquor,negative,negative,YES,140/90,no,no,224,200,96,30,10.6,36,,89,,,8200,64,32,1,2,0,1.83,5.8,4.2,1.2,5.8,3.2,2.6,1.5:1,119,54,46,YES,YES
+755,36,male,rural,14,2,country liquor,negative,negative,YES,140/90,no,no,200,190,96,40,9.6,36,3.2,,,,6400,64,32,2,2,0,1.5,6.8,4.2,2.6,6.2,4,2.2,2:01,140,96,80,YES,YES
+756,57,male,urban,14,2,country liquor,Positive,Positive,YES,140/80,yes,no,209,192,104,32,10.5,36,,89,,,6700,64,32,1,2,0,1.67,5.6,4.1,3.7,6.2,2.8,3.1,,117,56,48,YES,YES
+757,58,female,rural,25,1,country liquor,negative,negative,YES,110/70,yes,no,194,166,49,27,11,26,,74,,,6800,70,26,1,2,1,1.1,6.9,3.9,3,6.2,2.8,3,,163,67,59,YES,YES
+758,47,male,urban,20,2,country liquor,negative,negative,NO,136/82,yes,no,211,195,98,36,12.6,33,,82,,,9800,70,25,2,3,0,1.92,4.6,2.4,2.2,6.5,3.2,3.6,,156,64,36,YES,YES
+759,32,female,urban,14,2,branded liquor,Positive,Positive,YES,140/90,yes,no,224,200,96,30,12.2,36,,89,,,8200,64,32,1,2,0,1.83,5.8,4.2,1.2,5.8,3.2,2.6,,119,54,46,YES,YES
+760,36,male,rural,14,2,country liquor,negative,negative,YES,140/90,yes,no,200,190,96,40,13.6,36,3.2,,,,6400,64,32,2,2,0,1.5,6.8,4.2,2.6,6.2,4,2.2,,140,96,80,YES,YES
+761,57,male,urban,14,2,country liquor,negative,negative,YES,140/80,no,no,,,,,11.8,36,,89,,,6700,64,32,1,2,0,1.67,5.6,4.1,3.7,6.2,2.8,3.1,,117,56,48,YES,YES
+762,58,female,rural,25,1,country liquor,negative,negative,YES,110/70,no,no,194,166,49,27,13.7,26,,74,,,6800,70,26,1,2,1,1.1,6.9,3.9,3,6.2,2.8,3,,163,67,59,YES,YES
+763,47,male,urban,20,2,country liquor,Positive,Positive,NO,136/82,no,no,211,195,98,36,10.6,33,,82,,,9800,70,25,2,3,0,1.92,4.6,2.4,2.2,6.5,3.2,3.6,,156,64,36,YES,YES
+764,32,female,urban,14,2,branded liquor,negative,negative,YES,140/90,yes,no,,,,,11,36,,89,,,8200,64,32,1,2,0,1.83,5.8,4.2,1.2,5.8,3.2,2.6,1.5:1,119,54,46,YES,YES
+765,36,female,rural,14,2,country liquor,negative,negative,YES,140/90,yes,no,200,190,96,40,9.5,36,3.2,,,,6400,64,32,2,2,0,1.5,6.8,4.2,2.6,6.2,4,2.2,2:01,140,96,80,YES,YES
+766,57,male,urban,14,2,country liquor,negative,negative,YES,140/80,yes,no,209,192,104,32,8.3,36,,89,,,6700,64,32,1,2,0,1.67,5.6,4.1,3.7,6.2,2.8,3.1,,117,56,48,YES,YES
+767,58,female,rural,25,1,country liquor,negative,negative,YES,110/70,yes,no,194,166,49,27,11,26,,74,,,6800,70,26,1,2,1,1.1,6.9,3.9,3,6.2,2.8,3,,163,67,59,YES,YES
+768,47,transgender,rural,20,2,country liquor,negative,negative,YES,136/82,yes,no,211,195,98,36,12,33,,82,,,9800,70,25,2,3,0,1.92,4.6,2.4,2.2,6.5,3.2,3.6,,156,64,36,YES,YES
+769,32,female,,14,2,branded liquor,negative,negative,YES,140/90,yes,no,224,200,96,30,12,36,,89,,,8200,64,32,1,2,0,1.83,5.8,4.2,1.2,5.8,3.2,2.6,1.5:1,119,54,46,YES,NO
+770,36,male,urban,14,2,country liquor,negative,negative,YES,140/90,yes,no,200,190,96,40,9.2,36,3.2,,,,6400,64,32,2,2,0,1.5,6.8,4.2,2.6,6.2,4,2.2,2:01,140,96,80,YES,YES
+771,50,male,,14,2,country liquor,negative,negative,YES,140/80,yes,no,209,192,104,32,10.2,36,,89,,,6700,64,32,1,2,0,1.67,5.6,4.1,3.7,6.2,2.8,3.1,,117,56,48,YES,YES
+772,62,female,rural,25,1,country liquor,negative,negative,YES,110/70,yes,no,194,166,49,27,7.2,26,,74,,,6800,70,26,1,2,1,1.1,6.9,3.9,3,6.2,2.8,3,,163,67,59,YES,YES
+773,47,transgender,urban,20,2,both,negative,negative,YES,136/82,yes,no,211,195,98,36,10.2,33,,82,,,9800,70,25,2,3,0,1.92,4.6,2.4,2.2,6.5,3.2,3.6,,156,64,36,YES,YES
+774,32,female,rural,14,2,branded liquor,negative,negative,YES,140/90,yes,no,224,200,96,30,8.4,36,,89,,,8200,68,32,1,2,0,1.83,5.8,4.2,1.2,5.8,3.2,2.6,1.5:1,119,54,46,YES,YES
+775,36,male,rural,14,2,country liquor,negative,negative,YES,140/90,yes,no,200,190,96,40,7.2,36,3.2,,,,6400,64,32,4,2,0,1.5,6.8,4.2,2.6,6.2,4,2.2,2:01,140,96,80,YES,YES
+776,57,male,urban,14,2,country liquor,negative,negative,YES,140/80,yes,no,209,192,104,32,9,36,,89,,,6700,64,32,1,2,0,1.67,6.2,4.1,3.7,6.2,2.8,3.1,,117,56,48,YES,YES
+777,58,female,rural,25,1,country liquor,negative,negative,YES,110/70,yes,no,194,166,49,27,8,26,,74,,,6800,70,26,1,2,1,1.2,6.9,3.9,3,6.2,2.8,3,,163,67,59,YES,YES
+778,47,transgender,urban,20,2,country liquor,negative,negative,YES,136/82,yes,no,211,195,98,36,7,33,,82,,,9800,70,22,2,3,0,1.92,4.6,2.4,2.2,6.5,3.2,3.6,,156,64,36,YES,YES
+779,32,female,urban,14,2,both,negative,negative,YES,140/90,yes,no,224,200,96,30,9,36,,89,,,8200,64,32,1,2,0,1.83,5.8,4.2,1.2,5.8,3.2,2.6,1.5:1,119,54,46,YES,YES
+780,36,male,rural,16,2,country liquor,negative,negative,YES,140/90,yes,no,200,190,96,40,9,36,3.2,,,,6400,64,32,2,2,0,1.5,6.8,4.2,2.6,6.2,4,2.2,2:01,140,96,80,YES,YES
+781,57,male,urban,14,2,country liquor,negative,negative,YES,140/80,yes,no,209,192,104,32,8.8,36,,89,,,6700,64,32,1,2,0,1.67,5.6,4.1,3.7,6.2,2.8,3.1,,117,56,48,YES,YES
+782,58,female,rural,25,1,country liquor,negative,negative,YES,110/70,yes,no,194,166,49,27,9.9,28,,76,,,6800,70,26,1,2,1,1.1,6.9,3.9,3,6.2,2.8,3,,163,67,59,YES,YES
+783,47,transgender,urban,20,2,country liquor,negative,negative,YES,136/82,yes,no,211,195,98,36,8.2,33,,82,,,9800,70,25,0,3,0,1.92,4.6,2.4,2.2,6.5,3.2,3.6,,156,64,36,YES,YES
+784,32,female,urban,14,2,branded liquor,negative,negative,YES,140/90,yes,no,224,200,96,30,10,36,,89,,,8200,64,32,1,2,0,1.83,5.8,4.2,1.2,5.8,3.2,2.6,1.5:1,119,54,46,YES,YES
+785,36,male,rural,14,2,country liquor,negative,negative,YES,140/90,yes,no,200,190,96,40,11,36,2,,,,6400,64,32,2,2,0,1.5,6.8,4.2,2.6,6.2,4,2.2,2:01,140,96,80,YES,YES
+786,63,male,urban,30,180,both,negative,negative,YES,140/90,yes,no,212,189,65,32,4,30,,76,,,9450,73,25,3,2,0,0.9,7.8,4.2,3.6,5.6,2.4,2.8,,178,110,78,YES,YES
+787,63,male,urban,30,180,both,negative,negative,YES,140/90,yes,no,212,189,65,32,5.9,30,,76,,,9450,73,25,3,2,0,0.9,7.8,4.2,3.6,5.6,2.4,2.8,,178,110,78,YES,YES
+788,63,male,urban,30,180,both,Positive,Positive,YES,140/90,no,no,212,189,65,32,12,30,,76,,,9450,73,25,3,2,0,0.9,7.8,4.2,3.6,5.6,2.4,2.8,,178,110,78,YES,YES
+789,63,male,urban,30,180,both,negative,negative,YES,140/90,no,no,,,,,10,30,,76,,,9450,73,25,3,2,0,0.9,7.8,4.2,3.6,5.6,2.4,2.8,,178,110,78,YES,YES
+790,63,male,urban,30,180,both,negative,negative,YES,140/90,yes,no,212,189,65,32,10,30,,76,,,9450,73,25,3,2,0,0.9,7.8,4.2,3.6,5.6,2.4,2.8,,178,110,78,YES,YES
+791,63,male,rural,30,2,branded liquor,negative,negative,NO,108/72,no,no,212,189,65,32,11.9,30,,76,,,9450,73,25,3,2,0,90000,7.8,4.2,3.6,5.6,2.4,2.8,,178,110,78,YES,YES
+792,63,male,urban,30,180,both,negative,negative,YES,140/90,yes,no,210,180,65,32,10,30,,76,,,9450,73,25,3,2,0,90000,7.8,4.2,3.6,5.6,2.4,2.8,,178,110,78,YES,YES
+793,63,male,urban,30,180,both,negative,negative,YES,140/90,yes,yes,212,189,65,32,9,30,,76,,,9450,73,25,3,2,0,90000,7.8,4.2,3.6,5.6,2.4,2.8,,178,110,78,YES,YES
+794,63,male,urban,30,3,both,negative,negative,YES,140/90,yes,no,212,189,65,32,9,30,,76,,,9450,73,25,3,2,0,90000,7.8,4.2,3.6,5.6,2.4,2.8,,178,110,78,YES,YES
+795,67,male,urban,25,180,branded liquor,Positive,Positive,YES,140/90,yes,no,212,189,65,32,11,30,,76,,,9450,73,25,3,2,0,90000,7.8,4.2,3.6,5.6,2.4,2.8,,178,110,78,YES,YES
+796,51,male,rural,25,2,country liquor,negative,negative,YES,144/92,yes,no,210,178,105,45,9.9,38,,102,,,9100,63,27,5,3,2,1.8,4.5,25,2,4.8,22,2.6,,145,64,43,YES,NO
+797,51,male,rural,25,2,country liquor,negative,negative,YES,144/92,yes,no,210,178,105,45,8.8,38,,102,,,9100,63,27,5,3,2,1.8,4.5,25,2,4.8,22,2.6,,145,64,43,YES,YES
+798,51,male,rural,25,2,country liquor,Positive,Positive,YES,144/92,no,no,210,178,105,45,8.8,38,,102,,,9100,63,27,5,3,2,1.8,4.5,25,2,4.8,22,2.6,,145,64,43,YES,YES
+799,51,male,rural,25,2,country liquor,negative,negative,YES,144/92,yes,no,210,178,105,45,9.1,38,,102,,,9100,63,27,5,3,2,1.8,4.5,25,2,4.8,22,2.6,,145,64,43,YES,YES
+800,51,male,rural,25,2,country liquor,negative,negative,YES,144/92,yes,no,210,178,105,45,12,38,,102,,,9100,63,27,5,3,2,1.8,4.5,25,2,4.8,22,2.6,,145,64,43,YES,YES
+801,51,male,rural,25,2,country liquor,negative,negative,YES,144/92,yes,no,210,178,105,45,11,38,,102,,,9100,63,27,5,3,2,1.8,4.5,25,2,4.8,22,2.6,,145,64,43,YES,YES
+802,51,male,rural,25,2,country liquor,negative,negative,YES,144/92,yes,no,210,178,105,45,10.2,38,,102,,,9100,63,27,5,3,2,1.8,4.5,25,2,4.8,22,2.6,,145,64,43,YES,YES
+803,51,male,rural,25,2,country liquor,negative,negative,YES,144/92,yes,no,210,178,105,45,8,35,,90,,,9100,63,27,5,3,2,1.8,4.5,25,2,4.8,22,2.6,,145,64,43,YES,YES
+804,51,male,rural,25,2,both,negative,negative,YES,144/92,yes,no,210,178,105,45,12.9,38,,102,,,9100,63,27,5,3,2,1.8,4.5,25,2,4.8,22,2.6,,145,64,43,YES,YES
+805,48,male,,20,2,branded liquor,Positive,Positive,NO,96/62,no,no,,,,,10.9,24,3,88,30,33,7000,60,34,4,1,1,1.2,4,2.5,1.5,5,2.5,2.5,1:01,124,110,70,YES,NO
+806,50,male,urban,20,2,branded liquor,Positive,Positive,YES,96/62,no,no,,,,,12,24,3,88,,,7000,60,34,4,1,1,1.2,4,2.5,1.5,5,2.5,2.5,,124,110,70,YES,YES
+807,48,male,urban,20,2,branded liquor,Positive,Positive,YES,96/62,no,no,180,180,110,35,9.8,24,3,88,,,7000,60,34,4,1,1,1.2,4,2.5,1.5,5,2.5,2.5,,124,110,70,YES,YES
+808,48,female,rural,20,2,branded liquor,Positive,Positive,NO,96/62,no,no,,,,,11.3,24,3,88,,,7000,60,34,4,1,1,1.2,4,2.5,1.5,5,2.5,2.5,,124,110,70,YES,YES
+809,48,male,rural,20,2,branded liquor,Positive,Positive,YES,96/62,no,no,,,,,10.9,24,3,88,,,7000,60,34,4,1,1,1.2,4,2.5,1.5,5,2.5,2.5,,124,110,70,YES,YES
+810,48,male,urban,20,2,branded liquor,Positive,Positive,NO,96/62,no,no,,,,,11.9,24,3,88,30,33,7000,60,34,4,1,1,1.2,4,2.5,1.5,5,2.5,2.5,1:01,124,110,70,YES,YES
+811,48,male,urban,22,2,branded liquor,Positive,Positive,NO,96/62,no,no,,,,,9.8,24,3,88,30,33,7000,60,34,4,1,1,1.2,4,2.5,1.5,5,2.5,2.5,1:01,124,110,70,YES,YES
+812,48,male,urban,23,2,branded liquor,Positive,Positive,NO,96/62,no,no,,,,,11.9,24,3,88,30,33,7000,60,34,4,1,1,1.2,4,2.5,1.5,5,2.5,2.5,1:01,124,110,70,YES,YES
+813,48,male,,20,2,branded liquor,Positive,Positive,NO,96/62,no,no,,,,,9.2,24,3,88,30,33,7000,60,32,4,1,1,1.2,4,2.5,1.5,5,2.5,2.5,1:01,124,110,70,YES,YES
+814,50,male,urban,20,2,branded liquor,Positive,Positive,NO,96/62,no,no,,,,,9.69,24,3,88,30,33,7000,60,34,4,1,1,1.2,4,2.5,1.5,5,2.5,2.5,1:01,124,110,70,YES,YES
+815,55,male,urban,30,2,country liquor,negative,negative,YES,142/84,yes,no,220,190,104,40,9.7,34,,84,,,9500,65,30,2,3,0,1.7,4.8,2.5,2.3,4.2,1.8,2.6,,150,61,46,YES,YES
+816,55,male,urban,30,2,country liquor,negative,negative,YES,142/84,yes,no,220,190,104,40,12.9,34,,84,,,9500,65,30,2,3,0,1.7,4.8,2.5,2.3,4.2,1.8,2.6,,150,61,46,YES,YES
+817,55,male,urban,30,2,country liquor,negative,negative,YES,142/84,yes,no,,,,,10.2,34,,84,,,9500,65,30,2,3,0,1.7,4.8,2.5,2.3,4.2,1.8,2.6,,150,61,46,YES,YES
+818,55,male,urban,30,2,country liquor,negative,negative,YES,142/84,yes,no,220,190,104,40,8,34,,84,,,9500,65,30,2,3,0,1.7,4.8,2.5,2.3,4.2,1.8,2.6,,150,61,46,YES,YES
+819,55,male,urban,30,2,country liquor,negative,negative,YES,142/84,yes,no,220,190,104,40,8,34,,84,,,9500,65,30,2,3,0,1.7,4.8,2.5,2.3,4.2,1.8,2.6,,150,61,46,YES,YES
+820,55,male,urban,30,2,country liquor,negative,negative,YES,142/84,yes,no,220,190,104,40,9.29,34,,84,,,9500,65,30,2,3,0,1.7,4.8,2.5,2.3,4.2,1.8,2.6,,150,61,46,YES,YES
+821,55,male,urban,30,2,country liquor,negative,negative,YES,142/84,yes,no,220,190,104,40,8.2,34,,84,,,9500,65,30,2,3,0,1.7,4.8,2.5,2.3,4.2,1.8,2.6,,150,61,46,YES,YES
+822,55,male,urban,30,2,country liquor,negative,negative,YES,142/84,yes,no,220,190,104,40,9.7,34,,84,,,9500,70,30,2,3,0,1.7,4.8,2.5,2.3,4.2,1.8,2.6,,150,61,46,YES,YES
+823,55,male,urban,30,2,country liquor,Positive,negative,YES,142/84,yes,no,220,190,104,40,8.79,34,,84,,,9500,65,30,2,3,0,1.7,4.8,2.5,2.3,4.2,1.8,2.6,,150,61,46,YES,YES
+824,55,female,rural,20,1,country liquor,negative,negative,YES,110/70,yes,no,198,156,79,32,14.9,32,,78,,,8900,70,25,0,4,1,1.28,6.8,3.8,3.6,6.4,1.5,,,140,66,44,YES,YES
+825,55,female,rural,20,1,country liquor,negative,negative,YES,110/70,yes,no,198,156,79,32,15.9,32,,78,,,8900,70,25,0,4,1,1.28,6.8,3.8,3.6,6.4,8.1,,,140,66,44,YES,YES
+826,55,female,rural,20,1,country liquor,Positive,Positive,YES,110/70,no,no,198,156,79,32,15,32,,78,,,8900,70,25,0,4,1,1.28,6.8,3.8,3.6,6.4,8.1,,,140,66,44,YES,YES
+827,55,female,rural,20,1,country liquor,negative,negative,YES,110/70,no,no,198,156,79,32,15,32,,78,,,8900,70,25,0,4,1,1.28,6.8,3.8,3.6,6.4,1.2,,,140,66,44,YES,YES
+828,55,female,rural,20,1,country liquor,negative,negative,YES,110/70,yes,no,,,,,13,32,,78,,,8900,70,25,0,4,1,1.28,6.8,3.8,3.6,6.4,8.1,,,140,66,44,YES,YES
+829,55,female,urban,20,1,country liquor,negative,negative,YES,110/70,yes,no,198,156,79,32,10.7,32,,78,,,8900,70,25,0,4,1,1.28,6.8,3.8,3.6,6.4,8.1,,,140,66,44,YES,YES
+830,55,female,urban,20,1,country liquor,negative,negative,YES,110/70,yes,no,198,156,79,32,11.3,32,,78,,,8900,70,25,0,2,1,1.28,6.8,3.8,3.6,6.4,8.1,,,140,66,44,YES,YES
+831,55,female,urban,20,1,country liquor,negative,negative,YES,110/70,yes,no,198,156,79,32,9.8,32,,78,,,8900,70,25,0,4,1,1.28,6.8,3.8,3.6,6.4,8.1,,,140,66,44,YES,YES
+832,55,female,rural,20,2,country liquor,negative,negative,YES,110/70,yes,no,198,156,79,32,11.8,32,,78,,,8900,70,25,0,4,1,1.28,6.8,3.8,3.6,6.4,8.1,,,140,66,44,YES,NO
+833,55,female,urban,20,1,country liquor,Positive,Positive,YES,110/70,yes,no,198,156,79,32,8,32,2,78,,,8900,70,25,0,4,1,1.28,6.8,3.8,3.6,6.4,8.1,,,140,66,44,YES,NO
+834,42,male,,10,3,branded liquor,negative,negative,NO,120/70,no,yes,,,,,12,30,2.2,90,30,33,6800,75,17,6,0.2,1,1.17,1.2,0.8,0.4,4,2.2,2,0:00,100,72,60,YES,NO
+835,36,male,rural,5,3,country liquor,negative,negative,NO,120/70,no,no,176,160,108,36,8.8,30,2.2,90,30,33,6800,75,20,6,1,0,1.17,6.8,2.8,0.4,4,2.2,2,0:00,100,72,60,YES,NO
+836,42,male,rural,10,3,branded liquor,negative,negative,NO,120/70,no,yes,,,,,10.2,30,2.2,90,30,33,6800,75,17,6,0.2,1,1.17,1.2,0.8,0.4,4,2.2,2,4:24,100,72,60,YES,NO
+837,42,male,urban,10,3,branded liquor,negative,negative,NO,120/70,no,yes,,,,,9.8,30,2.2,90,30,33,6800,75,17,6,0.2,1,1.17,1.2,0.8,0.4,4,2.2,2,5:24,100,72,60,YES,NO
+838,42,male,rural,10,3,branded liquor,negative,negative,NO,120/70,no,yes,256,156,105,25,10.12,30,2.2,90,30,33,6800,75,17,6,0.2,1,1.17,1.2,0.8,0.4,4,2.2,2,6:24,100,72,60,YES,NO
+839,42,male,urban,10,3,branded liquor,negative,negative,NO,120/70,no,yes,,,,,9.8,30,2.2,90,30,33,6800,75,17,6,0.2,1,1.17,1.2,0.8,0.4,4,2.2,2,1:01,100,72,60,YES,NO
+840,42,male,urban,12,3,branded liquor,negative,negative,NO,120/70,no,yes,,,,,8.5,30,2.2,90,30,33,6800,75,17,6,0.2,1,1.17,1.2,0.8,0.4,4,2.2,2,1:01,100,72,60,YES,NO
+841,42,male,rural,10,3,branded liquor,negative,negative,NO,120/70,no,yes,,,,,9.9,30,2.2,90,30,33,6800,75,17,6,2,1,1.17,1.2,0.8,0.4,4,2.2,2,1:01,100,72,60,YES,YES
+842,46,male,,10,3,branded liquor,negative,negative,NO,120/70,no,yes,,,,,9.7,30,2.2,90,30,33,6800,75,17,6,0.2,1,1.17,1.2,0.8,0.4,4,2.2,2,1:01,100,72,60,YES,YES
+843,42,male,,10,3,branded liquor,negative,negative,NO,120/70,no,yes,,,,,9.8,30,2.2,90,30,33,7200,75,17,6,0.2,1,1.17,1.2,0.8,0.4,4,2.2,2,1:01,100,72,60,YES,YES
+844,62,female,rural,10,1,country liquor,negative,negative,YES,120/91,yes,no,186,120,136,34,10.4,,,60,,,9210,65,30,2,3,0,1.22,10.9,7.9,2.9,5,1.5,3.5,0.42,110,64,89,YES,NO
+845,62,female,rural,10,1,country liquor,negative,negative,YES,120/91,yes,no,186,120,136,34,11,,,60,,,9210,65,30,2,3,0,1.22,10.9,7.9,2.9,5,1.5,3.5,0.42,110,64,89,YES,YES
+846,62,female,rural,10,1,country liquor,negative,negative,NO,120/91,yes,no,186,120,136,34,8.6,,,60,,,9210,65,30,2,3,0,1.22,10.9,7.9,2.9,5,1.5,3.5,0.42,110,64,89,YES,YES
+847,62,female,rural,10,1,country liquor,negative,negative,YES,120/91,yes,no,186,120,136,34,9.7,,,60,,,9210,65,30,2,3,0,1.22,10.9,7.9,2.9,5,1.5,3.5,0.42,110,64,89,YES,YES
+848,62,female,rural,10,1,country liquor,negative,negative,YES,120/91,yes,no,186,120,136,34,11.8,,,60,,,9210,65,30,2,3,0,1.22,10.9,7.9,2.9,5,1.5,3.5,0.42,110,64,89,YES,YES
+849,62,female,urban,10,1,country liquor,negative,negative,YES,120/91,yes,no,186,120,136,34,9.8,,,60,,,9210,65,30,2,3,0,1.22,10.9,7.9,2.9,5,1.5,3.5,0.42,110,64,89,YES,YES
+850,62,female,urban,10,1,country liquor,negative,negative,YES,120/91,yes,yes,186,120,136,34,10.6,,,60,,,9210,65,30,2,3,0,1.22,10.9,7.9,2.9,5,1.5,3.5,0.42,110,64,89,YES,YES
+851,62,female,rural,10,1,country liquor,negative,negative,YES,120/91,yes,no,186,120,136,34,9.6,,,60,,,9210,65,30,2,3,1,1.22,10.9,7.9,2.9,5,1.5,3.5,0.42,110,64,89,YES,YES
+852,62,female,rural,10,1,country liquor,negative,negative,YES,120/91,yes,no,186,120,136,34,10.5,,,60,,,9210,65,30,2,3,0,1.3,10.9,7.9,2.9,5,1.5,3.5,0.42,110,64,89,YES,YES
+853,62,female,rural,10,3,branded liquor,negative,negative,YES,120/91,yes,no,186,120,136,34,11,,,60,,,9210,65,30,2,3,0,1.22,10.9,7.9,2.9,5,1.5,3.5,0.42,110,64,89,YES,YES
+854,57,male,rural,25,3,both,negative,negative,YES,110/170,yes,no,176,160,108,36,12.6,40,,72,,,11810,62,33,3,1,0,1.2,5,3.7,,,2,4.5,0.44,157,88,56,YES,NO
+855,57,male,rural,25,3,both,negative,negative,YES,110/170,yes,no,176,160,108,36,12.6,40,,72,,,11810,62,33,3,1,0,1.2,5,3.7,2.9,,2,4.5,0.44,157,88,56,YES,YES
+856,57,female,rural,25,3,both,negative,negative,YES,110/170,yes,no,176,160,108,36,13.6,40,,72,,,11810,62,33,3,1,0,1.2,5,3.7,,,2,4.5,0.44,157,88,56,YES,YES
+857,57,male,rural,25,3,both,negative,negative,NO,110/170,no,no,176,160,108,36,11.8,40,,72,,,11810,62,33,3,1,0,1.2,5,3.7,,6.4,2,4.5,0.44,157,88,56,YES,YES
+858,57,male,rural,25,3,both,negative,negative,YES,110/170,no,no,176,160,108,36,13.7,40,,72,,,11810,62,33,3,1,0,1.2,5,3.7,,,2,4.5,0.44,157,88,56,YES,NO
+859,57,male,rural,25,3,both,negative,negative,YES,110/170,yes,no,176,160,108,36,10.6,40,,72,,,11810,62,33,3,1,0,1.2,5,3.7,,,2,4.5,0.44,157,88,56,YES,YES
+860,57,male,rural,25,3,both,negative,negative,YES,110/170,yes,no,176,160,108,36,11,40,,72,,,11810,62,33,3,1,0,1.2,5,3.7,,6.4,2,4.5,0.44,157,88,56,YES,YES
+861,57,male,rural,25,3,both,Positive,Positive,YES,110/170,yes,no,176,160,108,36,11,40,,72,,,11810,62,33,3,1,0,1.2,5,3.7,,,2,4.5,0.44,157,88,56,YES,YES
+862,57,male,rural,25,3,both,negative,negative,YES,110/170,yes,no,176,160,108,36,8.3,40,,72,,,11810,62,33,3,1,0,1.2,5,3.7,2.9,,2,4.5,0.44,157,88,56,YES,YES
+863,57,male,rural,25,3,both,negative,negative,YES,110/170,yes,no,176,160,108,36,11,40,,72,30,,11000,62,33,3,1,0,1.2,5,3.7,,,2,4.5,0.44,157,88,56,YES,YES
+864,58,male,urban,40,180,branded liquor,negative,negative,YES,150/94,yes,no,210,106,106,44,12,40,,100,,,8500,70,25,3,2,0,0.94,4.3,2.3,2,4.3,2,2.3,0.86,140,60,42,YES,YES
+865,58,male,urban,40,180,branded liquor,negative,negative,YES,150/94,yes,no,210,106,106,44,9.2,40,,100,,,8500,70,25,3,2,0,0.94,4.3,2.3,2,4.3,2,2.3,0.86,140,60,42,YES,NO
+866,60,male,urban,40,180,branded liquor,Positive,Positive,YES,150/94,no,no,,,,,10.2,40,,100,,,8500,70,25,3,2,0,0.94,4.3,2.3,2,4.3,2,2.3,0.86,140,60,42,YES,YES
+867,58,male,urban,40,180,branded liquor,negative,negative,YES,150/94,yes,no,210,106,106,44,7.2,40,,100,,,8500,70,25,3,2,0,0.94,4.3,2.3,2,4.3,2,2.3,0.86,140,60,42,YES,YES
+868,58,male,urban,40,180,branded liquor,negative,negative,YES,150/94,yes,no,210,106,106,44,10.2,40,,100,,,8500,70,25,3,2,0,0.94,4.3,2.3,2,4.3,2,2.3,0.86,140,60,42,YES,NO
+869,58,male,rural,40,180,branded liquor,negative,negative,YES,150/94,yes,no,210,106,106,44,8.4,40,,100,,,8500,70,25,3,2,0,0.94,4.3,2.3,2,4.3,2,2.3,0.86,140,60,42,YES,NO
+870,58,male,urban,40,180,branded liquor,negative,negative,YES,150/94,yes,yes,210,106,106,44,7.2,40,,100,,,8500,70,25,3,2,0,0.94,4.3,2.3,2,4.3,2,2.3,0.86,140,60,42,YES,NO
+871,58,male,urban,40,180,branded liquor,negative,negative,YES,150/94,yes,no,210,106,106,44,8.8,40,,100,,,8500,70,25,3,2,0,0.94,4.3,2.3,2,4.3,2,2.3,0.86,140,60,42,YES,NO
+872,58,male,urban,40,3,branded liquor,negative,negative,YES,150/94,yes,no,210,106,106,44,8,40,,100,,,8500,70,25,3,2,0,0.94,4.3,2.3,2,4.3,2,2.3,0.86,140,60,42,YES,NO
+873,38,male,rural,10,3,both,negative,negative,YES,140/100,yes,no,170,164,100,34,7,34,,70,,,12410,60,28,6,3,1,1.3,5.1,3.2,,,2.1,4.3,0.48,130,56,48,YES,YES
+874,38,male,rural,10,3,both,negative,negative,YES,140/100,yes,no,170,164,100,34,9,34,,70,,,12410,60,28,6,3,1,1.3,5.1,3.2,,6.1,2.1,4.3,0.48,130,56,48,YES,YES
+875,38,male,rural,10,3,both,Positive,Positive,YES,140/100,no,no,,,,,9,34,,70,,,12410,60,28,6,3,1,1.3,5.1,3.2,2,,2.1,4.3,0.48,130,56,48,YES,YES
+876,38,male,rural,10,3,both,negative,negative,YES,140/100,yes,no,170,164,100,34,8.8,34,,70,,,12410,60,28,6,3,1,1.3,5.1,3.2,,,2.1,4.3,0.48,130,56,48,YES,YES
+877,38,male,rural,10,3,both,negative,negative,YES,140/100,yes,no,170,164,100,34,9.9,34,,70,,,12410,60,28,6,3,1,1.3,5.1,3.2,,,2.1,4.3,0.48,130,56,48,YES,YES
+878,38,male,,10,3,both,negative,negative,YES,140/100,yes,no,170,164,100,34,8.2,34,,70,,,12410,60,28,6,3,1,1.3,5.1,3.2,,6.1,2.1,4.3,0.48,130,56,48,YES,YES
+879,38,male,urban,10,3,both,negative,negative,YES,150/90,yes,no,170,164,100,34,10,34,,70,,,12410,60,28,6,3,1,1.3,5.1,3.2,2,,2.1,4.3,0.48,130,56,48,YES,YES
+880,38,male,rural,10,3,both,negative,negative,YES,140/100,yes,no,170,164,100,34,11,34,,70,,,12000,60,28,6,3,1,1.3,5.1,3.2,,,2.1,4.3,0.48,130,56,48,YES,YES
+881,38,male,rural,10,3,both,negative,negative,YES,140/100,yes,no,170,164,100,34,4,34,,70,,,12410,60,28,6,3,1,1.3,5.1,3.2,,,2.1,4.3,0.48,130,56,48,YES,NO
+882,52,male,urban,17,2,both,negative,negative,YES,130/80,yes,no,205,190,80,27,5.9,30,,72,,,11504,73,25,2,3,0,1.38,6.8,3.8,3,6.1,3.2,2.7,1.18,135,66,37,YES,YES
+883,52,male,urban,17,2,both,negative,negative,YES,130/80,yes,no,205,190,80,27,12,30,,72,,,11504,73,25,2,3,0,1.38,6.8,3.8,3,6.1,3.2,2.7,1.18,135,66,37,YES,YES
+884,52,male,urban,17,2,both,Positive,Positive,YES,130/80,no,no,205,190,80,27,10,30,,72,,,11504,73,25,2,3,0,1.38,6.8,3.8,3,6.1,3.2,2.7,1.18,135,66,37,YES,YES
+885,52,male,urban,17,2,both,negative,negative,YES,130/80,no,no,205,190,80,27,10,30,,72,,,11504,73,25,2,3,0,1.38,6.8,3.8,3,6.1,3.2,2.7,1.18,135,66,37,YES,YES
+886,52,male,urban,17,2,both,negative,negative,YES,130/80,yes,no,205,190,80,27,11.9,30,,72,,,11504,73,25,2,3,0,1.38,6.8,3.8,3,6.1,3.2,2.7,1.18,135,66,37,YES,YES
+887,52,male,rural,17,2,both,negative,negative,YES,130/80,yes,no,205,190,80,27,10,30,,72,,,11504,73,25,2,3,0,1.38,6.8,3.8,3,6.1,3.2,2.7,1.18,135,66,37,YES,YES
+888,52,male,rural,17,2,both,negative,negative,YES,130/80,yes,no,205,190,80,27,9,34,,72,,,11504,73,25,2,3,0,1.38,6.8,3.8,3,6.1,3.2,2.7,1.18,135,66,37,YES,YES
+889,52,male,urban,17,2,both,negative,negative,YES,120/80,yes,no,205,190,80,27,9,30,,72,,,11504,73,25,2,3,0,1.38,6.8,3.8,3,6.1,3.2,2.7,1.18,135,66,37,YES,YES
+890,56,male,urban,19,2,both,negative,negative,YES,130/80,yes,no,205,190,80,27,10,30,,72,,,11504,73,25,2,3,0,1.38,6.8,3.8,3,6.1,3.2,2.7,1.18,135,66,37,YES,YES
+891,56,male,urban,16,2,country liquor,negative,negative,YES,130/80,yes,no,205,190,80,27,9.9,30,,72,,,11504,73,25,2,3,0,1.38,6.8,3.8,3,6.1,3.2,2.7,1.18,135,66,37,YES,YES
+892,43,male,urban,20,2,both,negative,negative,YES,130/90,yes,no,190,172,110,35,9.1,36,,68,,,9890,60,32,5,2,1,1.6,4.7,3.1,,,2.5,4.1,0.6,180,94,46,YES,NO
+893,43,male,urban,20,2,both,negative,negative,YES,130/90,yes,no,190,172,110,35,8.8,36,,68,,,9890,60,32,5,2,1,1.6,4.7,3.1,,,2.5,4.1,0.6,180,94,46,YES,YES
+894,43,male,urban,20,2,both,negative,negative,YES,130/90,yes,no,190,172,110,35,9.1,36,,68,,,9890,60,32,5,2,1,1.6,4.7,3.1,,6,2.5,4.1,0.6,180,94,46,YES,YES
+895,43,male,urban,20,2,both,negative,negative,NO,130/90,no,no,190,172,110,35,12,36,,68,,,9890,60,32,5,2,1,1.6,4.7,3.1,,3.4,2.5,4.1,0.6,180,94,46,YES,YES
+896,43,female,urban,20,2,both,negative,negative,NO,130/90,no,no,190,172,110,35,11,36,,68,,,9890,60,32,5,2,1,1.6,4.7,3.1,,,2.5,4.1,0.6,180,94,46,YES,YES
+897,43,male,urban,20,2,both,negative,negative,YES,130/90,yes,no,190,172,110,35,10.2,36,,68,,,9890,60,32,5,2,1,1.6,4.7,3.1,,3.4,2.5,4.1,0.6,180,94,46,YES,YES
+898,43,male,urban,20,2,both,negative,negative,YES,130/90,yes,yes,190,172,110,35,8,36,,68,,,9890,60,32,5,2,1,1.6,4.7,3.1,,,2.5,4.1,0.6,180,94,46,YES,YES
+899,43,male,urban,20,2,both,negative,negative,YES,130/90,yes,no,190,172,110,35,12.9,36,,68,,,9890,60,32,5,2,1,1.6,4.7,3.1,,,2.5,4.1,0.6,180,94,46,YES,YES
+900,43,male,urban,20,2,both,negative,negative,YES,130/90,yes,no,190,172,110,35,10.9,38,,68,,,9890,60,32,5,2,1,1.6,4.7,3.1,,3.4,2.5,4.1,0.6,180,94,46,YES,NO
+901,43,male,urban,20,2,both,negative,negative,YES,130/90,yes,no,190,172,110,35,12,36,,68,28,,9890,60,32,5,2,1,1.6,4.7,3.1,,,2.5,4.1,0.6,180,94,46,YES,YES
+902,55,male,rural,15,2,country liquor,negative,negative,YES,138/88,yes,no,220,150,120,30,9.8,44,,90,,,8000,65,30,3,1,1,1.2,7,4,3,6,3,4,0.75,150,55,33,YES,YES
+903,55,male,rural,15,2,country liquor,Positive,Positive,YES,138/88,yes,no,220,150,120,30,11.3,44,,90,,,8000,65,30,3,1,1,1.2,7,4,3,6,3,4,0.75,150,55,33,YES,YES
+904,55,male,rural,15,2,country liquor,negative,negative,YES,138/88,no,no,220,150,120,30,10.9,44,,90,,,8000,65,30,3,1,1,1.2,7,4,3,6,3,4,0.75,150,55,33,YES,YES
+905,55,male,rural,15,2,country liquor,Positive,Positive,YES,138/88,no,no,220,150,120,30,11.9,44,,90,,,8000,65,30,3,1,1,1.2,7,4,3,6,3,4,0.75,150,55,33,YES,YES
+906,59,male,rural,15,2,country liquor,negative,negative,NO,138/88,yes,no,220,150,120,30,9.8,44,,90,,,8000,65,30,3,1,1,1.2,7,4,3,6,3,4,0.75,150,55,33,YES,YES
+907,55,male,rural,15,2,country liquor,negative,negative,YES,138/88,yes,no,220,150,120,30,11.9,44,,90,,,8000,65,30,3,1,1,1.2,7,4,3,6,3,4,0.75,150,55,33,YES,YES
+908,55,male,rural,15,2,country liquor,negative,negative,YES,138/88,yes,no,220,150,120,30,9.2,44,,90,,,8000,65,30,3,1,0,1.2,7,4,3,6,3,4,0.75,150,55,33,YES,YES
+909,58,male,rural,15,2,country liquor,negative,negative,YES,138/88,yes,no,220,150,120,30,9.69,44,,90,,,8000,65,30,3,1,1,1.2,7,4,3,6,3,4,0.75,150,55,33,YES,YES
+910,55,male,rural,15,2,country liquor,Positive,negative,YES,138/88,yes,no,220,150,120,30,8,44,,90,,,8000,65,30,3,1,1,1.2,7,4,3,6,3,4,0.75,150,55,33,YES,YES
+911,44,male,rural,15,2,country liquor,negative,negative,YES,138/88,yes,no,220,150,120,30,12.9,44,,90,,,8000,65,30,3,1,1,1.2,7,4,3,6,3,4,0.75,150,55,33,YES,YES
+912,50,male,,20,3,both,negative,negative,NO,110/70,no,no,,,,,10.2,32,4,94,30,33,7500,65,35,1,1,1,1.5,4.2,1.2,3,4,3,1,3:01,120,110,70,NO,NO
+913,49,male,rural,15,3,both,negative,negative,YES,130/90,yes,no,180,170,110,30,8,36,,74,,,11200,62,32,3,2,1,1.6,8.7,7.9,6.6,3.4,,,,150,56,43,NO,YES
+914,52,male,rural,20,3,both,negative,negative,NO,110/70,no,yes,260,146,129,26,8,32,4,94,30,33,7500,65,35,1,1,1,1.5,4.2,1.2,3,4,3,1,3:01,120,110,70,NO,YES
+915,49,male,rural,15,3,both,negative,negative,YES,130/90,yes,no,180,170,110,30,9.29,36,,74,,,11200,62,32,3,2,1,1.6,8.7,7.9,6.6,3.4,,,,150,56,43,NO,YES
+916,50,male,rural,20,3,both,negative,negative,NO,110/70,no,no,,,,,8.2,32,4,94,30,33,7500,65,35,1,1,1,1.5,4.2,1.2,3,4,3,1,3:01,120,110,70,NO,YES
+917,49,male,rural,15,3,both,negative,negative,YES,130/90,yes,no,180,170,110,30,9.2,36,,74,,,11200,62,32,3,2,1,1.6,8.7,7.9,6.6,3.4,,,,150,56,43,NO,YES
+918,50,female,,20,3,both,negative,negative,NO,110/70,no,no,,,,,8.79,32,4,94,30,33,7500,65,35,1,1,1,1.5,4.2,1.2,3,4,3,1,3:01,120,110,70,NO,YES
+919,49,male,rural,15,3,both,negative,negative,YES,130/90,yes,no,180,170,110,30,14.9,36,,74,,,11200,62,32,3,2,1,1.6,8.7,7.9,6.6,3.4,,,,150,56,43,NO,YES
+920,50,male, ocun,20,3,both,negative,negative,NO,110/70,no,no,256,156,105,25,15.9,32,4,94,30,33,7500,65,35,1,1,1,1.5,4.2,1.2,3,4,3,1,3:01,120,110,70,NO,YES
+921,49,male,rural,15,3,both,negative,negative,YES,130/90,yes,no,180,170,110,30,15,36,,74,,,11200,62,32,3,2,1,1.6,8.7,7.9,6.6,3.4,,,,150,56,43,NO,YES
+922,50,male,rural,20,3,both,negative,negative,NO,110/70,no,no,,,,,15,32,4,94,30,33,7500,65,35,1,1,1,1.5,4.2,1.2,3,4,3,1,3:01,120,110,70,NO,YES
+923,49,male,urban,15,3,both,negative,negative,YES,130/90,yes,no,180,170,110,30,13,36,,74,,,11200,62,32,3,2,1,1.6,8.7,7.9,6.6,3.4,,,,150,56,43,NO,NO
+924,50,male,rural,20,3,country liquor,negative,negative,NO,110/70,no,no,,,,,10.7,32,4,94,30,33,7500,65,35,1,1,1,1.5,4.2,1.2,3,4,3,1,3:01,120,110,70,NO,YES
+925,49,male,rural,15,3,branded liquor,negative,negative,YES,130/90,yes,no,180,170,110,30,11.3,36,,74,,,11200,62,32,3,2,1,1.6,8.7,7.9,6.6,3.4,,,,150,56,43,NO,YES
+926,50,male,rural,20,3,both,negative,negative,NO,110/70,no,no,,,,,9.8,32,4,94,30,33,7500,65,30,1,1,1,1.5,4.2,1.2,3,4,3,1,3:01,120,110,70,NO,NO
+927,49,male,rural,15,3,both,negative,negative,YES,130/90,yes,no,180,170,110,30,11.8,36,,74,,,11200,62,32,4,2,1,1.6,8.7,7.9,6.6,3.4,,,,150,56,43,NO,YES
+928,50,male,,18,3,both,negative,negative,NO,110/70,no,no,,,,,8,32,4,94,30,33,7500,65,35,1,1,1,1.5,4.2,1.2,3,4,3,1,3:01,120,110,70,NO,YES
+929,49,male,rural,15,3,both,negative,negative,YES,120/90,yes,no,180,170,110,30,12,36,,74,,,11200,62,32,3,2,1,1.6,8.7,7.9,6.6,3.4,,,,150,56,43,NO,YES
+930,50,male,,20,3,both,negative,negative,NO,110/70,no,no,,,,,8.8,32,4,94,30,33,7500,72,35,1,1,1,1.5,4.2,1.2,3,4,3,1,3:01,120,110,70,NO,YES
+931,45,female ,rural,5,3,country liquor,Positive,Positive,NO,110/70,no,no,,,,,11.5,36,4.8,90,29,32,7000,60,20,2,2,1,1.75,0.5,1,2,5.9,4.2,2.5,1.68,110,110,70,NO,NO
+932,50,female ,rural,5,3,country liquor,Positive,Positive,NO,110/70,no,no,,,,,11.5,38,4.2,78,27,37,7000,60,19,4,2,1,2.3,0.7,1,2,6.9,4.5,2.5,1.8,120,110,70,NO,NO
+933,48,male,urban,10,4,branded liquor,negative,negative,NO,110/70,no,yes,,,,,12.5,38,5.7,92,35,36,7000,60,43,6,2,1,2.5,0.5,0.9,2,5.9,3.8,3,,70,110,70,NO,NO
+934,35,female ,urban,5,3,country liquor,Positive,Positive,NO,130/80,no,no,,,,,11.5,42,4.3,90,29,31,7000,60,28,5,2,1,1.8,o.4,1,2,7.4,4.2,2.8,1.68,90,110,70,NO,NO
+935,52,male,rural,8,3,country liquor,Positive,Positive,NO,110/70,no,no,,,,,13,36,4.8,94,34,31,7000,60,20,3,1,1,3,0.3,1,2,7.1,4.2,2.5,1.8,56,110,70,NO,NO
+936,54,male,rural,5,3,country liquor,negative,negative,NO,110/70,no,yes,,,,,11.5,38,4.7,85,29,34,7000,60,32,4,1,1,3.2,0.3,0.8,2,5.4,5.2,3.4,,86,110,70,NO,NO
+937,72,female ,urban,4,3,branded liquor,negative,negative,NO,120/80,no,no,,,,,12.3,42,5.2,84,29,36,7000,60,44,3,1,1,2.4,0.5,1,2,5.3,4.2,3.5,,110,110,70,NO,NO
+938,47,male,rural,7,3,country liquor,Positive,Positive,NO,110/70,no,no,,,,,11.5,48,4.8,90,35,37,7000,60,32,3,1,1,2.3,0.7,1,2,6.4,4.2,2.5,1.68,90,110,70,NO,NO
+939,54,female ,rural,9,3,country liquor,Positive,Positive,NO,110/70,no,yes,,,,,11.5,41,4.8,80,35,37,7000,60,30,3,1,1,1.8,0.6,1,2,5.9,4.2,2.5,1.8,110,110,70,NO,NO
+940,54,female ,urban,9,3,country liquor,Positive,Positive,NO,110/70,no,yes,,,,,11.5,41,4.8,80,35,37,7000,60,30,3,1,1,1.8,0.6,1,2,5.9,4.2,2.5,1.8,110,110,70,NO,NO
+941,45,female ,rural,5,3,country liquor,Positive,Positive,NO,110/70,no,no,,,,,11.5,36,4.8,90,29,32,7000,60,20,2,2,1,1.75,0.5,1,2,5.9,4.2,2.5,1.68,110,110,70,NO,NO
+942,50,female ,rural,5,3,country liquor,Positive,Positive,NO,110/70,no,no,,,,,11.5,38,4.2,78,27,37,7000,60,19,4,2,1,2.3,0.7,1,2,6.9,4.5,2.5,1.68,120,110,70,NO,NO
+943,48,male,urban,10,4,branded liquor,negative,negative,NO,110/70,no,yes,,,,,12.5,38,5.7,92,35,36,7000,60,43,6,2,1,2.5,0.5,0.9,2,5.9,3.8,3,,70,110,70,NO,NO
+944,35,male,urban,5,3,country liquor,Positive,Positive,NO,130/80,no,no,,,,,11.5,42,4.3,90,29,31,7000,60,28,5,2,1,1.8,o.4,1,2,7.4,4.2,2.8,1.68,90,110,70,NO,NO
+945,52,male,rural,8,3,country liquor,Positive,Positive,NO,110/70,no,no,,,,,13,36,4.8,94,34,31,7000,60,20,3,1,1,3,0.3,1,2,7.1,4.2,2.5,1.68,56,110,70,NO,NO
+946,54,female ,rural,5,3,country liquor,negative,negative,NO,110/70,no,yes,,,,,11.5,38,4.7,85,29,34,7000,60,32,4,1,1,3.2,0.3,0.8,2,5.4,5.2,3.4,,86,110,70,NO,NO
+947,72,female ,urban,4,3,branded liquor,negative,negative,NO,120/80,no,no,,,,,12.3,42,5.2,84,29,36,7000,60,44,3,1,1,2.4,0.5,1,2,5.3,4.2,3.5,,110,110,70,NO,NO
+948,47,male,urban,7,3,country liquor,Positive,Positive,NO,110/70,no,no,,,,,11.5,48,4.8,90,35,37,7000,60,32,3,1,1,2.3,0.7,1,2,6.4,4.2,2.5,1.68,90,110,70,NO,NO
+949,54,female ,rural,9,3,country liquor,Positive,Positive,NO,110/70,no,yes,,,,,11.5,41,4.8,80,35,37,7000,60,30,3,1,1,1.8,0.6,1,2,5.9,4.2,2.5,1.8,110,110,70,NO,NO
+950,52,male,rural,8,3,country liquor,Positive,Positive,NO,110/70,no,no,,,,,13,36,4.8,94,34,31,7000,60,20,3,1,1,3,0.3,1,2,7.1,4.2,2.5,1.8,56,110,70,NO,NO
